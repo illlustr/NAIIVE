@@ -9,7 +9,7 @@ enableGitInfo = true
 [module]
     [module.hugoVersion]
         extended = true
-        min = "0.100.0"
+        min = "v0.95.0"
     # uncomment line below for temporary local development of module
     # or when using a 'theme' as a git submodule
     # replacements = "github.com/colinwilson/lotusdocs -> lotusdocs"
