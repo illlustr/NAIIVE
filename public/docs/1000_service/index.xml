@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Services on NAIIVE</title>
+    <link>https://naiiveprojects.github.io/docs/1000_service/</link>
+    <description>Recent content in Services on NAIIVE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://naiiveprojects.github.io/docs/1000_service/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>General</title>
+      <link>https://naiiveprojects.github.io/docs/1000_service/1001_general/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naiiveprojects.github.io/docs/1000_service/1001_general/</guid>
+      <description>infowork in progress [WIP].Overview linkTechnology is no longer something expensive or difficult to reach. but unfortunately this often only applies to individuals or companies that operating in this field.
+Problem linkFor the rest of individuals or companies, technology is something foreign or unreachable, it cannot be denied that technology and automation is a very important thing in this era where everyting is moving very fast, not only to speed up / expand / efficiency event to stay afloat for these individuals or companies.</description>
+    </item>
+    
+    <item>
+      <title>Submit</title>
+      <link>https://naiiveprojects.github.io/docs/1000_service/1002_submit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naiiveprojects.github.io/docs/1000_service/1002_submit/</guid>
+      <description>infowork in progress.email : naiive@email.com / still.lkmn@hotmail.com</description>
+    </item>
+    
+  </channel>
+</rss>

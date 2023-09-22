@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NAIIVE</title>
+    <link>https://naiiveprojects.github.io/</link>
+    <description>Recent content on NAIIVE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://naiiveprojects.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>At Glance</title>
+      <link>https://naiiveprojects.github.io/docs/0001_at_glance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naiiveprojects.github.io/docs/0001_at_glance/</guid>
+      <description>infoThread work in progress [WIP].welcome to NAIIVE website, here you can explore variouse thing from Assets to Apps</description>
+    </item>
+    
+    <item>
+      <title>General</title>
+      <link>https://naiiveprojects.github.io/docs/1000_service/1001_general/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naiiveprojects.github.io/docs/1000_service/1001_general/</guid>
+      <description>infowork in progress [WIP].Overview linkTechnology is no longer something expensive or difficult to reach. but unfortunately this often only applies to individuals or companies that operating in this field.
+Problem linkFor the rest of individuals or companies, technology is something foreign or unreachable, it cannot be denied that technology and automation is a very important thing in this era where everyting is moving very fast, not only to speed up / expand / efficiency event to stay afloat for these individuals or companies.</description>
+    </item>
+    
+    <item>
+      <title>Submit</title>
+      <link>https://naiiveprojects.github.io/docs/1000_service/1002_submit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naiiveprojects.github.io/docs/1000_service/1002_submit/</guid>
+      <description>infowork in progress.email : naiive@email.com / still.lkmn@hotmail.com</description>
+    </item>
+    
+    <item>
+      <title>[ ID ] Sphere Draft</title>
+      <link>https://naiiveprojects.github.io/docs/1000_service/1100_software/1101_sphere_draft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naiiveprojects.github.io/docs/1000_service/1100_software/1101_sphere_draft/</guid>
+      <description>Aplikasi Virtual Tour identik dengan luxury / membingungkan dimana hanya sebagian perusahaan / individu yang dapat memanfaatkannya, kami menawarkan jasa pengembangan / pembuatan virtual tour baik dalam bentuk jasa maupun pembuatan software untuk berbagai platform, yang dapat bersaing baik dari segi harga, kualitas, support, juga fleksibilitas.
+di rekomendasikan untuk melihat layanan-layanan yang telah tersedia, berikut beberapa layanan dengan poin perbedaan dengan jasa yang kami tawarkan tanpa pengulangan poin yang di sampaikan :</description>
+    </item>
+    
+    <item>
+      <title>AISE</title>
+      <link>https://naiiveprojects.github.io/docs/2000_project/2001_aise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naiiveprojects.github.io/docs/2000_project/2001_aise/</guid>
+      <description>Artificial Image Sketch Editor linkinfowork in progress.AISE is free software that offers a lot of tools you can use to make arts.
+turn your words into amazing art, edit and changes your photos or sketches instantly using the latest AI technology!
+Feature link offline Gallery, sketch, &amp;amp; Editing. modify, share, or rate other people creation / generation. optimized &amp;amp; cached, to not waste your bandwidth repeatedly for the same thing!</description>
+    </item>
+    
+    <item>
+      <title>NAIIVE Website</title>
+      <link>https://naiiveprojects.github.io/docs/6000_document/6100_documentation/6101_naiive_website/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naiiveprojects.github.io/docs/6000_document/6100_documentation/6101_naiive_website/</guid>
+      <description>Thread link weight : int # thread weight for indexing title : string icon : string icon path. ref https://fonts.google.com/icons description : string lead : string date : date lastmod : date draft : bool images : array toc : bool Add Alerts linkPage alerts can be added to your markdown using the following shortcode:
+{{&amp;lt; alert text=&amp;#34;This is the default alert. It consists of a default theme colour and icon.</description>
+    </item>
+    
+    <item>
+      <title>About us</title>
+      <link>https://naiiveprojects.github.io/docs/9990_about_us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naiiveprojects.github.io/docs/9990_about_us/</guid>
+      <description>infoThread work in progress [WIP].NAIIVE is a decentralized Organization / Company operating in various fields.
+initialy NAIIVE was formed by opportunities where many talents were underappreciated / had no connections / had no choice which ultimately hampered or stopped these talents from improving or living with their talents.
+one of the problems for clients are that these talents don&amp;rsquo;t have a name yet / difficult to find / don&amp;rsquo;t have guarantees / or doubtful, which ultimately results in lost opportunities / deals.</description>
+    </item>
+    
+    <item>
+      <title>job</title>
+      <link>https://naiiveprojects.github.io/docs/9992_job/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naiiveprojects.github.io/docs/9992_job/</guid>
+      <description>send a email to naiive@email.com We’re excited to hear from you.</description>
+    </item>
+    
+    <item>
+      <title>Partnership</title>
+      <link>https://naiiveprojects.github.io/docs/9993_partnership/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naiiveprojects.github.io/docs/9993_partnership/</guid>
+      <description>email : naiive@email.com / still.lkmn@hotmail.com</description>
+    </item>
+    
+    <item>
+      <title>Changelog</title>
+      <link>https://naiiveprojects.github.io/docs/9999_changelog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naiiveprojects.github.io/docs/9999_changelog/</guid>
+      <description>092223 link init </description>
+    </item>
+    
+  </channel>
+</rss>
