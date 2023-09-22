@@ -1,0 +1,40 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+
+[module]
+    [[module.imports]]
+        path = "github.com/colinwilson/lotusdocs"
+        disable = false
+    [[module.imports]]
+        path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
+        disable = false
+
+[params.docs]
+    # Core Site Options
+    title = "NAIIVE"
+    prism = true
+    prismTheme = "twilight"
+    darkMode = true
+
+    sidebarIcons = true
+    titleIcon = true
+
+    # GitInfo
+    lastMod = true
+
+    intLinkTooltip = true
+
+[params.footer]
+    copyright = "NAIIVE 2023"
+    version = true
+
+[params.social]
+    github = "naiiveprojects"
+    rss = true
+
+[[menu.primary]]
+    name  = "Docs"
+    url = "/docs/"
+    identifier = "docs"
+    weight = 10
