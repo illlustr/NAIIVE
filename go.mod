@@ -1,6 +1,6 @@
 module NAIIVE
 
-go 1.21.1
+go 1.23
 
 require (
 	github.com/colinwilson/lotusdocs v0.0.0-20230919015602-a9717caaab14 // indirect
