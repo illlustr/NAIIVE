@@ -1,0 +1,51 @@
+# Hero
+hero:
+  enable: true
+  weight: 10
+
+  title: "NAIIVE"
+  subtitle: your partner to **integrate, adapt, utilize** latest technology.
+
+  image:
+    path: "../assets/images/naiive"
+    filename: "naiive_trans_accent.png"
+    alt: "NAIIVE Logo"
+
+  ctaButton:
+    icon: play_arrow
+    btnText: "Explore"
+    url: "/docs/"
+
+# Features Grid
+features:
+  enable: true
+  weight: 20
+
+  items:
+    - title: Arts
+      icon: looks
+      description: involves creative talent for technical or conceptual ideas.
+
+    - title: Apps
+      icon: deployed_code
+      description: Get or create your desired app, from simple to complex form.
+
+    - title: Games
+      icon: sports_esports
+      description: a structured form of play, for entertainment or used as an educational tool.
+
+    - title: Automations
+      icon: smart_toy
+      description: produce and deliver goods and services with minimal human intervention.
+
+    - title: Post
+      icon: post
+      description: documentations, tutorials, journals, & more.
+
+    - title: More
+      icon: add
+      description: "Stay updated on new releases, features, guides, and case studies."
+  
+# Image compare
+image_compare:
+  enable: false
