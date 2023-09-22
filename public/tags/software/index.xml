@@ -1,21 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Software on NAIIVE</title>
-    <link>https://naiiveprojects.github.io/tags/software/</link>
-    <description>Recent content in Software on NAIIVE</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://naiiveprojects.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>AISE</title>
-      <link>https://naiiveprojects.github.io/docs/2000_project/2001_aise/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://naiiveprojects.github.io/docs/2000_project/2001_aise/</guid>
-      <description>Artificial Image Sketch Editor linkinfowork in progress.AISE is free software that offers a lot of tools you can use to make arts.
-turn your words into amazing art, edit and changes your photos or sketches instantly using the latest AI technology!
-Feature link offline Gallery, sketch, &amp;amp; Editing. modify, share, or rate other people creation / generation. optimized &amp;amp; cached, to not waste your bandwidth repeatedly for the same thing!</description>
-    </item>
-    
-  </channel>
-</rss>
