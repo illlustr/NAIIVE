@@ -1,9 +1,11 @@
 +++
 weight = 1101
 title = "[ ID ] Sphere Draft"
-icon = "favorite"
+icon = "devices"
 description = "cross-platform modular virtual tour apps"
 +++
+
+{{< alert context="warning" text="this service only available in **Indonesia**, you can apply / request this service to be available in your country." />}}
 
 Aplikasi Virtual Tour identik dengan luxury / membingungkan dimana hanya sebagian perusahaan / individu yang dapat memanfaatkannya, kami menawarkan jasa **pengembangan / pembuatan virtual tour** baik dalam bentuk jasa maupun pembuatan software untuk berbagai platform, yang dapat bersaing baik dari segi harga, kualitas, support, juga fleksibilitas.
 

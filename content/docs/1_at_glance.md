@@ -8,7 +8,7 @@ toc = true
 
 ### Pages
 
-explore a wide range of of content created with ❤️, our goal is to create a clean, readable, & enjoyable page to read without hight cognitive load.
+explore a wide range of of content created with ❤️, our goal is to create a clean, readable, & enjoyable page to read without heavy cognitive load.
 
 <div class="row flex-xl-wrap pb-4">
 
@@ -60,4 +60,5 @@ to familiarize our visitors with documents / technical description that often wi
 
 ### Legend
 
+- `Regional Base content` Some Page will contain "[ ### ]" mark on the title, it indicate that this content only applicable / written in this region / country.
 - even though it's not a standard rule, in general we provide additional "s" on pages that have more thant one content.
