@@ -1,4 +1,4 @@
-on: pull_request
+on: [push]
 name: Deploy Hugo to Firebase
 jobs:
   build:
