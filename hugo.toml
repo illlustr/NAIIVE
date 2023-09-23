@@ -9,7 +9,7 @@ googleAnalytics = "G-TE8NM8F1RY"
 [module]
     [module.hugoVersion]
         extended = true
-        min = "v0.95.0"
+        min = "0.100"
     # uncomment line below for temporary local development of module
     # or when using a 'theme' as a git submodule
     # replacements = "github.com/colinwilson/lotusdocs -> lotusdocs"
