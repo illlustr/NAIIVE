@@ -9,4 +9,4 @@ jobs:
         submodules: true
     - uses: ryank90/action-hugo-firebase-deploy@master
       with:
-        firebase-token: ${{ secrets.firebase_token }}
+        firebase-token: ${{ secrets.FIREBASE_TOKEN }}
