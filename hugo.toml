@@ -84,31 +84,6 @@ googleAnalytics = "G-TE8NM8F1RY"
     maxResult           = 5      # default is 5
     searchSectionsIndex = []
 
-[params.feedback]
-    enabled = true # default / not set = false
-    emoticonTpl = true # optional
-    eventDest = ["google"] # optional
-    emoticonEventName = "Feedback" # optional
-    positiveEventName = "Positive Feedback" # optional
-    negativeEventName = "Negative Feedback" # optional
-    positiveFormTitle = "What did you like?" # optional
-    negativeFormTitle = "What went wrong?" # optional
-    successMsg = "Thank you for helping to improve this thread!" # optional
-    errorMsg = "Sorry! There was an error while attempting to submit your feedback!" # optional
-    positiveForm = [
-            ["Accurate", "Accurately describes the feature or option."],
-            ["Solved my problem", "Helped me resolve an issue."],
-            ["Easy to understand", "Easy to follow and comprehend."],
-            ["Something else"]
-    ]
-    negativeForm = [
-            ["Inaccurate", "Doesn't accurately describe the feature or option."],
-            ["Couldn't find what I was looking for", "Missing important information."],
-            ["Hard to understand", "Too complicated or unclear."],
-            ["Code sample errors", "One or more code samples are incorrect."],
-            ["Something else"]
-    ]
-
 [params.footer]
     copyright = "© 2023 NAIIVE"
     version = true
