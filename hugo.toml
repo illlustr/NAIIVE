@@ -4,7 +4,7 @@ languageCode = 'en-us'
 defaultContentLanguage = 'en'
 enableEmoji = true
 enableGitInfo = true
-
+googleAnalytics = "G-TE8NM8F1RY"
 
 [module]
     [module.hugoVersion]
@@ -23,7 +23,7 @@ enableGitInfo = true
 [markup]
     defaultMarkdownHandler = "goldmark"
     [markup.tableOfContents]
-      endLevel = 3
+      endLevel = 5
       startLevel = 1
 
     [markup.goldmark]
@@ -45,35 +45,69 @@ enableGitInfo = true
     prismTheme = "twilight"
     darkMode = true
 
-    repoURL         = "https://github.com/naiiveprojects/naiiveprojects.github.io"  # Git repository URL for your site [support for GitHub, GitLab, and BitBucket]
-    repoBranch      = "release"                           # Name of your Git repository branch
-    editPage        = true                                # enable 'Edit this page' feature - default false
-    lastMod         = true                                # enable 'Last modified' date on pages - default false
-    lastModRelative = true                                # format 'Last modified' time as relative - default true
+    repoURL = "https://github.com/naiiveprojects/naiiveprojects.github.io"  # Git repository URL for your site [support for GitHub, GitLab, and BitBucket]
+    repoBranch = "master" # Name of your Git repository branch
+    editPage = true # enable 'Edit this page' feature - default false
+    lastMod = true # enable 'Last modified' date on pages - default false
+    lastModRelative = true # format 'Last modified' time as relative - default true
 
     # ToC
-    toc             = true                                # enable table of contents? default is true
-    tocMobile       = false                                # enable table of contents in mobile view? default is true
-    scrollSpy       = true                                # enable scrollspy on ToC? default is true
+    toc = true # enable table of contents? default is true
+    tocMobile = false # enable table of contents in mobile view? default is true
+    scrollSpy = true # enable scrollspy on ToC? default is true
 
     # icons
-    sidebarIcons    = true                                # enable sidebar icons? default false
-    titleIcon       = true                                # enable front matter icon title prefix? default is false
+    sidebarIcons = true # enable sidebar icons? default false
+    titleIcon = true # enable front matter icon title prefix? default is false
 
     # content navigation
-    breadcrumbs     = true                                # default is true
-    navDesc         = true                                # include front matter descriptions in Prev/Next navigation cards
-    navDescTrunc    = 30                                  # Number of characters by which to truncate the Prev/Next descriptions
+    breadcrumbs = true # default is true
+    navDesc = true # include front matter descriptions in Prev/Next navigation cards
+    navDescTrunc = 30 # Number of characters by which to truncate the Prev/Next descriptions
 
-    listDescTrunc   = 100                                 # Number of characters by which to truncate the list card description
-    backToTop       = true                                # enable back-to-top button? default true
+    listDescTrunc = 100 # Number of characters by which to truncate the list card description
+    backToTop = true # enable back-to-top button? default true
 
     # front matter
-    descriptions    = true                                # enable front matter descriptions under content title?
+    descriptions = true # enable front matter descriptions under content title?
 
     # Link behaviour
-    intLinkTooltip  = true                                # Enable a tooltip for internal links that displays info about the destination? default false
-    # extLinkNewTab   = false   
+    intLinkTooltip = true # Enable a tooltip for internal links that displays info about the destination? default false
+    extLinkNewTab   = true   
+
+[params.flexsearch]
+    enabled             = true
+    tokenize            = "full" # default is "forward"
+    cache               = 100    # default is 100
+    optimize            = true   # default is true
+    minQueryChar        = 3      # default is 0 (disabled)
+    maxResult           = 5      # default is 5
+    searchSectionsIndex = []
+
+[params.feedback]
+    enabled = true # default / not set = false
+    emoticonTpl = true # optional
+    eventDest = ["google"] # optional
+    emoticonEventName = "Feedback" # optional
+    positiveEventName = "Positive Feedback" # optional
+    negativeEventName = "Negative Feedback" # optional
+    positiveFormTitle = "What did you like?" # optional
+    negativeFormTitle = "What went wrong?" # optional
+    successMsg = "Thank you for helping to improve this thread!" # optional
+    errorMsg = "Sorry! There was an error while attempting to submit your feedback!" # optional
+    positiveForm = [
+            ["Accurate", "Accurately describes the feature or option."],
+            ["Solved my problem", "Helped me resolve an issue."],
+            ["Easy to understand", "Easy to follow and comprehend."],
+            ["Something else"]
+    ]
+    negativeForm = [
+            ["Inaccurate", "Doesn't accurately describe the feature or option."],
+            ["Couldn't find what I was looking for", "Missing important information."],
+            ["Hard to understand", "Too complicated or unclear."],
+            ["Code sample errors", "One or more code samples are incorrect."],
+            ["Something else"]
+    ]
 
 [params.footer]
     copyright = "© 2023 NAIIVE"
