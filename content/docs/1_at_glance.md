@@ -6,10 +6,6 @@ description = "Creative, Technology, & Automation"
 toc = true
 +++
 
-### Design
-
-to familiarize our visitors with documents / technical description that often will found when adapting to technology, our website is deliberately designed to look like a docs / admin panel, it is also hoped that this design will make it easier for visitors to navigate this website, where all content can be reached very easily by using menu panel.
-
 ### Pages
 
 explore a wide range of of content created with ❤️, our goal is to create a clean, readable, & enjoyable page to read without hight cognitive load.
@@ -57,6 +53,10 @@ explore a wide range of of content created with ❤️, our goal is to create a 
     </div>
   </a>
 </div>
+
+### Design
+
+to familiarize our visitors with documents / technical description that often will found when adapting to technology, our website is deliberately designed to look like a docs / admin panel, it is also hoped that this design will make it easier for visitors to navigate this website, where all content can be reached very easily by using menu panel.
 
 ### Legend
 

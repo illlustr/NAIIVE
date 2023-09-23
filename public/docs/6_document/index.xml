@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on NAIIVE</title>
+    <link>https://naiiveprojects.github.io/docs/6_document/</link>
+    <description>Recent content in Docs on NAIIVE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://naiiveprojects.github.io/docs/6_document/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -58,13 +58,13 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"          
+            --baseURL "${{ steps.pages.outputs.base_url }}/" && firebase deploy         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./public
       - name: deploy firebasse
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/checkout@v1
         with:
           submodules: true
       - uses: ryank90/action-hugo-firebase-deploy@master
@@ -72,7 +72,6 @@ jobs:
           firebase-token: ${{ secrets.FIREBASE_TOKEN }}     
 
         
-
   # Deployment job
   deploy:
     environment:
