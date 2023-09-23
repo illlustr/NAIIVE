@@ -1,6 +1,6 @@
 +++
 weight = 4000
 title = "Resources"
-icon = "api"
+icon = "stream"
 description = "Raw, Audio, Texture, Model"
 +++
