@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://naiiveprojects.github.io/docs/1_at_glance/</guid>
-      <description>Pages linkexplore a wide range of of content created with ❤️, our goal is to create a clean, readable, &amp;amp; enjoyable page to read without hight cognitive load.
+      <description>Pages linkexplore a wide range of of content created with ❤️, our goal is to create a clean, readable, &amp;amp; enjoyable page to read without heavy cognitive load.
 workspacesService
 a service to develop, adapt, and manage technology you envision
 deployed_codeProjects
@@ -28,8 +28,8 @@ Design linkto familiarize our visitors with documents / technical description th
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://naiiveprojects.github.io/docs/1_service/1_general/</guid>
-      <description>info work in progress [WIP]. Overview linkTechnology is no longer something expensive or difficult to reach. but unfortunately this often only applies to individuals or companies that operating in this field.
-Problem linkFor the rest of individuals or companies, technology is something foreign or unreachable, it cannot be denied that technology and automation is a very important thing in this era where everyting is moving very fast, not only to speed up / expand / efficiency event to stay afloat for these individuals or companies.</description>
+      <description>Overview linkTechnology is no longer something expensive or difficult to reach. but unfortunately this often only applies to individuals or companies that operating in this field.
+Problem linkFor the rest of individuals or companies, technology is something foreign or unreachable, even tho it cannot be denied nowdays technology and automation is take very important role to not only speed up, expand, bring efficiency, event to stay afloat for these individuals or companies.</description>
     </item>
     
     <item>
@@ -47,7 +47,7 @@ Problem linkFor the rest of individuals or companies, technology is something fo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://naiiveprojects.github.io/docs/1_service/11_software/1_sphere_draft/</guid>
-      <description>Aplikasi Virtual Tour identik dengan luxury / membingungkan dimana hanya sebagian perusahaan / individu yang dapat memanfaatkannya, kami menawarkan jasa pengembangan / pembuatan virtual tour baik dalam bentuk jasa maupun pembuatan software untuk berbagai platform, yang dapat bersaing baik dari segi harga, kualitas, support, juga fleksibilitas.
+      <description>warning this service only available in Indonesia, you can apply / request this service to be available in your country. Aplikasi Virtual Tour identik dengan luxury / membingungkan dimana hanya sebagian perusahaan / individu yang dapat memanfaatkannya, kami menawarkan jasa pengembangan / pembuatan virtual tour baik dalam bentuk jasa maupun pembuatan software untuk berbagai platform, yang dapat bersaing baik dari segi harga, kualitas, support, juga fleksibilitas.
 di rekomendasikan untuk melihat layanan-layanan yang telah tersedia, berikut beberapa layanan dengan poin perbedaan dengan jasa yang kami tawarkan tanpa pengulangan poin yang di sampaikan :</description>
     </item>
     
@@ -57,9 +57,17 @@ di rekomendasikan untuk melihat layanan-layanan yang telah tersedia, berikut beb
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://naiiveprojects.github.io/docs/2_project/1_aise/</guid>
-      <description>Artificial Image Sketch Editor link info work in progress. AISE is free software that offers a lot of tools you can use to make arts.
-turn your words into amazing art, edit and changes your photos or sketches instantly using the latest AI technology!
-Feature link offline Gallery, sketch, &amp;amp; Editing. modify, share, or rate other people creation / generation. optimized &amp;amp; cached, to not waste your bandwidth repeatedly for the same thing!</description>
+      <description>warning this thread is mark as work in progress. General linkAISE is an software build in godot engine that provide user with various tools to create / modify images, it design for mobile application and initially was made for attempt to integrate the latest technology of artificial intelligent.
+Features link Artificial Intelligent Online Offline Use Stable Diffusion Served by AI Horde Models Text to Image Image to Image ControlNet Tiling &amp;amp; More LoRA by Civit AI Style Prompt injection using CheatSheet Discovery (Social) Reporting Tool Version Checking Translation Google Translate API Image Optimization Resmush API image editing sketch gallery Motivation linkAISE initially build for only limited amount of time (max 1 day), where the goal is to integrate latest technology of Artificial Intelligent as fast as possible for proof of concept and as a basic design practice for Mobile devices.</description>
+    </item>
+    
+    <item>
+      <title>Motive</title>
+      <link>https://naiiveprojects.github.io/docs/2_project/2_motive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naiiveprojects.github.io/docs/2_project/2_motive/</guid>
+      <description> warning this thread is mark as work in progress. </description>
     </item>
     
     <item>

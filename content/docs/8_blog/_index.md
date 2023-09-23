@@ -2,5 +2,5 @@
 weight = 8000
 title = "Blogs"
 icon = "post"
-description = "journal & informational subject"
+description = "News, Update, journal & informational subject"
 +++

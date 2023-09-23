@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on NAIIVE</title>
-    <link>https://naiiveprojects.github.io/docs/2_project/</link>
-    <description>Recent content in Projects on NAIIVE</description>
+    <title>Mobile on NAIIVE</title>
+    <link>https://naiiveprojects.github.io/tags/mobile/</link>
+    <description>Recent content in Mobile on NAIIVE</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://naiiveprojects.github.io/docs/2_project/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://naiiveprojects.github.io/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AISE</title>
       <link>https://naiiveprojects.github.io/docs/2_project/1_aise/</link>
@@ -14,15 +14,6 @@
       <guid>https://naiiveprojects.github.io/docs/2_project/1_aise/</guid>
       <description>warning this thread is mark as work in progress. General linkAISE is an software build in godot engine that provide user with various tools to create / modify images, it design for mobile application and initially was made for attempt to integrate the latest technology of artificial intelligent.
 Features link Artificial Intelligent Online Offline Use Stable Diffusion Served by AI Horde Models Text to Image Image to Image ControlNet Tiling &amp;amp; More LoRA by Civit AI Style Prompt injection using CheatSheet Discovery (Social) Reporting Tool Version Checking Translation Google Translate API Image Optimization Resmush API image editing sketch gallery Motivation linkAISE initially build for only limited amount of time (max 1 day), where the goal is to integrate latest technology of Artificial Intelligent as fast as possible for proof of concept and as a basic design practice for Mobile devices.</description>
-    </item>
-    
-    <item>
-      <title>Motive</title>
-      <link>https://naiiveprojects.github.io/docs/2_project/2_motive/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://naiiveprojects.github.io/docs/2_project/2_motive/</guid>
-      <description> warning this thread is mark as work in progress. </description>
     </item>
     
   </channel>
