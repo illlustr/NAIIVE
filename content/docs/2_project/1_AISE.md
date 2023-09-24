@@ -8,7 +8,7 @@ description: "Artificial Image Sketch Editor"
 
 ### General
 
-AISE is an software build in [godot engine](https://godotengine.org/) that provide user with various tools to create / modify images, it designed as mobile application and initially was made for attempt to integrate the latest technology of artificial intelligent.
+AISE is a software built using the [Godot Engine](https://godotengine.org/), offering users a suite of tools for image creation and modification. designed as a mobile application, its inception aimed to integrate cutting-edge artificial intelligence technology.
 
 {{< tabs tabTotal="4">}}
 
@@ -63,15 +63,15 @@ AISE is an software build in [godot engine](https://godotengine.org/) that provi
 
 #### Motivation
 
-AISE initially build for only limited amount of time (max 1 day), where the goal is to integrate latest technology of Artificial Intelligent as fast as possible for proof of concept and as a basic design practice for Mobile devices.
+AISE was initially constructed within a limited timeframe, with a maximum duration of one day. The primary objective was to swiftly incorporate state-of-the-art Artificial Intelligence technology for proof of concept and as a fundamental exercise in mobile device design.
 
-but as the development & more research been made, we decide to develop it to be fully usable tool for everyone to use.
+Subsequently, as development progressed and further research was conducted, the decision was made to expand its functionality into a fully functional tool accessible for everyone.
 
 ##### Problem
 
-while Artificial image generator is widely accessible for everyone, it cannot be denied that using this program is still expensive, where user require a powerful GPU or pay some amount of money to make it 'usable', even where if user may get it for free, often user need to pay with something else in return like watching ADs or Providing their data for unknown use.
+While Artificial Image Generators have become more accessible to the general public, it remains evident that using such programs can still be costly. Users typically need a powerful GPU or must invest financially to make the software truly "usable." Even when users can access it for free, there's often a trade-off, such as watching ads or providing their data for undisclosed purposes.
 
-it is understandable why developers require user to pay, watch ADs, or giving away their data since operating this Artificial Intelligent require huge amount of money not only to pay for bandwidth and electricity, even to providing infrastructure it self, not to mention the need to serve hundred if not million amount of request every days.
+This practice is understandable because developers incur significant expenses in operating Artificial Intelligence systems. These costs include not only bandwidth and electricity but also infrastructure maintenance. Moreover, serving hundreds of thousands, if not millions, of requests daily further compounds the financial challenges.
 
 {{< alert text="**Notice** - This section is still in progress." />}}
 

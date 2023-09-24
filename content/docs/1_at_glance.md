@@ -8,7 +8,9 @@ toc = true
 
 ### Pages
 
-explore a wide range of of content created with ❤️, our goal is to create a clean, readable, & enjoyable page to read without heavy cognitive load.
+Explore a wide range of content provided with a clean, readable, and enjoyable experience, all while minimizing cognitive load.
+
+Whether you're here to explore our software solutions, access invaluable resources, or tap into a wide range of services, you can rest assured that we've poured our hearts ❤️ into creating an environment that caters to your needs.
 
 <div class="row flex-xl-wrap pb-4">
 
@@ -56,9 +58,17 @@ explore a wide range of of content created with ❤️, our goal is to create a 
 
 ### Design
 
-to familiarize our visitors with documents / technical description that often will found when adapting to technology, our website is deliberately designed to look like a docs / admin panel, it is also hoped that this design will make it easier for visitors to navigate this website, where all content can be reached very easily by using menu panel.
+To acquaint our visitors with documents and technical descriptions commonly encountered during technology adaptation, our website has been intentionally designed to resemble a documentation or admin panel. Additionally, this design aims to enhance visitor navigation across all content on the website.
 
-### Legend
+#### Legend
 
-- `Regional Base content` Some Page will contain "[ ### ]" mark on the title, it indicate that this content only applicable / written in this region / country.
-- even though it's not a standard rule, in general we provide additional "s" on pages that have more thant one content.
+- `Regional Base content`: Some pages will feature a "[ ### ]" mark in the title, indicating that the content is specific to a particular region or country.
+- While not a strict rule, in general, we add an "s" to page titles that contain multiple pieces of content.
+
+<script src="https://utteranc.es/client.js"
+repo="https://github.com/naiiveprojects/naiiveprojects.github.io"
+issue-term="pathname"
+theme="github-dark"
+crossorigin="anonymous"
+async>
+</script>

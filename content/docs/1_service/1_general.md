@@ -10,19 +10,19 @@ toc = true
 
 ### Overview
 
-Technology is no longer something expensive or difficult to reach. but unfortunately this often only applies to individuals or companies that operating in this field.
+Technology is no longer an expensive or inaccessible resource. Unfortunately, this accessibility primarily benefits individuals or companies already established in the field.
 
 ### Problem
 
-For the rest of individuals or companies, technology is something foreign or unreachable, even tho it cannot be denied nowadays technology and automation is take very important role to not only speed up, expand, bring efficiency, event to stay afloat for these individuals or companies.
+For the majority of individuals or businesses, technology remains unfamiliar and out of reach. Yet, it's undeniable that technology and automation play a crucial role in accelerating growth, enhancing efficiency, and ensuring survival.
 
 ### Solution
 
-By utilizing the latest technology, we tries to bridge this gap by offering technology-related services.
+We aim to bridge this gap by offering technology-related services powered by cutting-edge solutions.
 
-By using our services, it is hoped that these individuals or companies do not need to hire a full time developer team to adapt to technology, this can be push even further by using our predefined build in `Software` category, where client only pay a fraction of development time.
+Through our services, we aspire to spare individuals and companies the need to hire a full-time development team for technology adaptation. This is further facilitated by our prebuilt software solutions, which significantly reduce development time and costs for clients.
 
-we provide cheaper & more reliable solution for customers compare to others service (ex: freelancer provider)
+In comparison to other service providers, such as freelancers, we provide a more cost-effective and dependable solution for our customers.
 
 <div class="row flex-xl-wrap pb-2">
 
@@ -56,10 +56,11 @@ we provide cheaper & more reliable solution for customers compare to others serv
 
 ### Vision
 
-- expanding and accelerating technology adaptation for everyone.
+- expand and accelerating technology adaptation for everyone.
+- technology not just a tool for a select few but a universal resource that drives innovation, efficiency, and progress.
 
 ### Mission
 
-- A straight forward solution to adapt & integrate technology.
-- Transparent & Neutral in every opinion, discursion, & projects.
-- familiarizing technology by providing clear explanation with a general idea / example.
+- Provide straightforward solutions for seamless technology adaptation and integration.
+- Uphold transparency and neutrality in all our opinions, discussions, and projects.
+- Foster familiarity with technology by offering clear explanations and practical examples.
