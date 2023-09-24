@@ -29,7 +29,7 @@ Design linkto familiarize our visitors with documents / technical description th
       
       <guid>https://naiiveprojects.github.io/docs/1_service/1_general/</guid>
       <description>Overview linkTechnology is no longer something expensive or difficult to reach. but unfortunately this often only applies to individuals or companies that operating in this field.
-Problem linkFor the rest of individuals or companies, technology is something foreign or unreachable, even tho it cannot be denied nowdays technology and automation is take very important role to not only speed up, expand, bring efficiency, event to stay afloat for these individuals or companies.</description>
+Problem linkFor the rest of individuals or companies, technology is something foreign or unreachable, even tho it cannot be denied nowadays technology and automation is take very important role to not only speed up, expand, bring efficiency, event to stay afloat for these individuals or companies.</description>
     </item>
     
     <item>
@@ -38,7 +38,7 @@ Problem linkFor the rest of individuals or companies, technology is something fo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://naiiveprojects.github.io/docs/1_service/2_request/</guid>
-      <description>info work in progress. email : naiive@email.com / still.lkmn@hotmail.com</description>
+      <description>email : naiive@email.com / still.lkmn@hotmail.com</description>
     </item>
     
     <item>
@@ -57,8 +57,8 @@ di rekomendasikan untuk melihat layanan-layanan yang telah tersedia, berikut beb
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://naiiveprojects.github.io/docs/2_project/1_aise/</guid>
-      <description>warning this thread is mark as work in progress. General linkAISE is an software build in godot engine that provide user with various tools to create / modify images, it design for mobile application and initially was made for attempt to integrate the latest technology of artificial intelligent.
-Features link Artificial Intelligent Online Offline Use Stable Diffusion Served by AI Horde Models Text to Image Image to Image ControlNet Tiling &amp;amp; More LoRA by Civit AI Style Prompt injection using CheatSheet Discovery (Social) Reporting Tool Version Checking Translation Google Translate API Image Optimization Resmush API image editing sketch gallery Motivation linkAISE initially build for only limited amount of time (max 1 day), where the goal is to integrate latest technology of Artificial Intelligent as fast as possible for proof of concept and as a basic design practice for Mobile devices.</description>
+      <description>General linkAISE is an software build in godot engine that provide user with various tools to create / modify images, it designed as mobile application and initially was made for attempt to integrate the latest technology of artificial intelligent.
+Resources AI features Online features Offline features url type description Itch.io page, HTML5 executable &amp;amp; more user friendly explanation Android installer as apk target platform IOS N/A target platform Windows portable as exe in zip for testing, main development operating system MacOS unknown as zip for testing, untested / reported Linux portable as x86_64 in zip for testing, untested / reported Use Stable Diffusion Served by AI Horde Models Text to Image Image to Image ControlNet Tiling &amp;amp; More LoRA by Civit AI Style Prompt injection using CheatSheet Discovery (Social) Reporting Tool Version Checking Text Translation Google Translate API Image Optimization Resmush API image editing sketch gallery Motivation linkAISE initially build for only limited amount of time (max 1 day), where the goal is to integrate latest technology of Artificial Intelligent as fast as possible for proof of concept and as a basic design practice for Mobile devices.</description>
     </item>
     
     <item>
@@ -67,7 +67,7 @@ Features link Artificial Intelligent Online Offline Use Stable Diffusion Served 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://naiiveprojects.github.io/docs/2_project/2_motive/</guid>
-      <description> warning this thread is mark as work in progress. </description>
+      <description> warning Caution - This page is in progress. </description>
     </item>
     
     <item>
@@ -81,12 +81,22 @@ Features link Artificial Intelligent Online Offline Use Stable Diffusion Served 
     </item>
     
     <item>
+      <title>nv.gd.core</title>
+      <link>https://naiiveprojects.github.io/docs/6_document/61_documentation/2_nv.gd.core/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naiiveprojects.github.io/docs/6_document/61_documentation/2_nv.gd.core/</guid>
+      <description>Brief linkNAIIVE.GODOT.Core is set of class, modules, &amp;amp; reusable objects we often use as starting point or to speed up development process
+warning Caution - This page is in progress. </description>
+    </item>
+    
+    <item>
       <title>About us</title>
       <link>https://naiiveprojects.github.io/docs/f90_about_us/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://naiiveprojects.github.io/docs/f90_about_us/</guid>
-      <description>info Thread work in progress [WIP]. NAIIVE is a decentralized Organization / Company operating in various fields.
+      <description>NAIIVE is a decentralized Organization / Company operating in various fields.
 initialy NAIIVE was formed by opportunities where many talents were underappreciated / had no connections / had no choice which ultimately hampered or stopped these talents from improving or living with their talents.
 one of the problems for clients are that these talents don&amp;rsquo;t have a name yet / difficult to find / don&amp;rsquo;t have guarantees / or doubtful, which ultimately results in lost opportunities / deals.</description>
     </item>

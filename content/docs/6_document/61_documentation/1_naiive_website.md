@@ -3,9 +3,7 @@ weight: 6101
 title: "NAIIVE Website"
 description: "Basic Documentation"
 icon: "article"
-draft: false
 tags: ["Documentations"]
----
 ---
 
 ### Thread
@@ -69,8 +67,8 @@ This ***paired shortcode*** alert contains a **markdown** list and header:
 and a sentence <em>styled</em> using <strong>HTML</strong> tags such as \<strong\> and \<em\>
 {{% /alert %}}
 
-[^2]: [Shortcodes with Markdown - gohugo.io](https://gohugo.io/content-management/shortcodes/#shortcodes-with-markdown)
-
 ### Info
 
 NAIIVE website is utilizing [Hugo](https://github.com/gohugoio/hugo) and [Lotus Docs](https://github.com/colinwilson/lotusdocs) as a theme
+
+[^2]: [Shortcodes with Markdown - gohugo.io](https://gohugo.io/content-management/shortcodes/#shortcodes-with-markdown)

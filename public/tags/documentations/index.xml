@@ -16,5 +16,15 @@
 {{&amp;lt; alert text=&amp;#34;This is the default alert. It consists of a default theme colour and icon.</description>
     </item>
     
+    <item>
+      <title>nv.gd.core</title>
+      <link>https://naiiveprojects.github.io/docs/6_document/61_documentation/2_nv.gd.core/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naiiveprojects.github.io/docs/6_document/61_documentation/2_nv.gd.core/</guid>
+      <description>Brief linkNAIIVE.GODOT.Core is set of class, modules, &amp;amp; reusable objects we often use as starting point or to speed up development process
+warning Caution - This page is in progress. </description>
+    </item>
+    
   </channel>
 </rss>

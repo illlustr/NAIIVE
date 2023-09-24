@@ -2,7 +2,7 @@
 weight: 2002
 title: "Motive"
 description: "Modular Social Network"
-icon: "precision_manufacturing"
+icon: "devices"
 ---
 
-{{< alert context="warning" text="this thread is mark as work in progress." />}}
+{{< alert context="warning" text="**Caution** - This page is in progress." />}}

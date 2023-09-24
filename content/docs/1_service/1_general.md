@@ -14,11 +14,15 @@ Technology is no longer something expensive or difficult to reach. but unfortuna
 
 ### Problem
 
-For the rest of individuals or companies, technology is something foreign or unreachable, even tho it cannot be denied nowdays technology and automation is take very important role to not only speed up, expand, bring efficiency, event to stay afloat for these individuals or companies.
+For the rest of individuals or companies, technology is something foreign or unreachable, even tho it cannot be denied nowadays technology and automation is take very important role to not only speed up, expand, bring efficiency, event to stay afloat for these individuals or companies.
 
 ### Solution
 
 By utilizing the latest technology, we tries to bridge this gap by offering technology-related services.
+
+By using our services, it is hoped that these individuals or companies do not need to hire a full time developer team to adapt to technology, this can be push even further by using our predefined build in `Software` category, where client only pay a fraction of development time.
+
+we provide cheaper & more reliable solution for customers compare to others service (ex: freelancer provider)
 
 <div class="row flex-xl-wrap pb-2">
 
@@ -50,10 +54,6 @@ By utilizing the latest technology, we tries to bridge this gap by offering tech
   </a>
 </div>
 
-By using our services, it is hoped that these individuals or companies do not need to hire a full time developer team to adapt to technology, this can be push even futher by using our predefined build in `Software` category, where client only pay a fraction of development time.
-
-we provide cheaper & more rerialbe solution for customers compare to othere service (ex: freelancer provider)
-
 ### Vision
 
 - expanding and accelerating technology adaptation for everyone.
@@ -61,5 +61,5 @@ we provide cheaper & more rerialbe solution for customers compare to othere serv
 ### Mission
 
 - A straight forward solution to adapt & integrate technology.
-- Transparent & Neutral in every opinion, discusion, & projects.
-- familiarizing technology by providing clear explaination with a general idea / example.
+- Transparent & Neutral in every opinion, discursion, & projects.
+- familiarizing technology by providing clear explanation with a general idea / example.

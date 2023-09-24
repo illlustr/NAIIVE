@@ -6,16 +6,28 @@ title: "AISE"
 description: "Artificial Image Sketch Editor"
 ---
 
-{{< alert context="warning" text="this thread is mark as work in progress." />}}
-
 ### General
 
-AISE is an software build in [godot engine](https://godotengine.org/) that provide user with various tools to create / modify images, it design for mobile application and initially was made for attempt to integrate the latest technology of artificial intelligent.
+AISE is an software build in [godot engine](https://godotengine.org/) that provide user with various tools to create / modify images, it designed as mobile application and initially was made for attempt to integrate the latest technology of artificial intelligent.
 
-#### Features
+{{< tabs tabTotal="4">}}
 
-{{< tabs tabTotal="3">}}
-{{% tab tabName="Artificial Intelligent" %}}
+{{% tab tabName="Resources" %}}
+
+{{< table "table-hover" >}}
+| url | type | description |
+|-----|------|-------------|
+| [Itch.io](https://naiive.itch.io/aise) | `page`, `HTML5` | executable & more user friendly explanation |
+| [Android](https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_android.apk) | `installer` as `apk` | target platform |
+| IOS | N/A | target platform |
+| [Windows](https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_windows.zip) | `portable` as `exe` in `zip` | for testing, main development operating system |
+| [MacOS](https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_mac.zip) | `unknown` as `zip` | for testing, untested / reported |
+| [Linux](https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_linux.zip) | `portable` as `x86_64` in `zip` | for testing, untested / reported |
+{{< /table >}}
+
+{{% /tab %}}
+
+{{% tab tabName="AI features" %}}
 
 - Use [Stable Diffusion](https://github.com/Stability-AI/StableDiffusion)
 - Served by [AI Horde](https://stablehorde.net/)
@@ -29,16 +41,16 @@ AISE is an software build in [godot engine](https://godotengine.org/) that provi
 - Style Prompt injection using [CheatSheet](https://github.com/SupaGruen/StableDiffusion-CheatSheet/tree/main/src)
 
 {{% /tab %}}
-{{% tab tabName="Online" %}}
+{{% tab tabName="Online features" %}}
 
 - Discovery (Social)
 - Reporting Tool
 - Version Checking
-- Translation [Google Translate API](https://cloud.google.com/translate/docs/reference/rest/)
+- Text Translation [Google Translate API](https://cloud.google.com/translate/docs/reference/rest/)
 - Image Optimization [Resmush API](https://resmush.it/)
 
 {{% /tab %}}
-{{% tab tabName="Offline" %}}
+{{% tab tabName="Offline features" %}}
 
 - image editing
 - sketch
@@ -53,35 +65,28 @@ AISE is an software build in [godot engine](https://godotengine.org/) that provi
 
 AISE initially build for only limited amount of time (max 1 day), where the goal is to integrate latest technology of Artificial Intelligent as fast as possible for proof of concept and as a basic design practice for Mobile devices.
 
-but as the development & more research been made, we decide to expand it to fully usable tool for everyone to use.
+but as the development & more research been made, we decide to develop it to be fully usable tool for everyone to use.
 
 ##### Problem
 
-Currently Artificial image generator is expensive, where the user require a powerful GPU or pay some amount of money to make it 'usable', not to mention where if user may get some of it for free, often user need to sacrifice something in return like watching ADs or Providing their data for unknown use.
+while Artificial image generator is widely accessible for everyone, it cannot be denied that using this program is still expensive, where user require a powerful GPU or pay some amount of money to make it 'usable', even where if user may get it for free, often user need to pay with something else in return like watching ADs or Providing their data for unknown use.
 
-it is understandable why developers require user to pay, watch ADs, or giving away their data since operating this Artificial Intelligent require huge amount of money where they need to serve hundred if not million amount of request
+it is understandable why developers require user to pay, watch ADs, or giving away their data since operating this Artificial Intelligent require huge amount of money not only to pay for bandwidth and electricity, even to providing infrastructure it self, not to mention the need to serve hundred if not million amount of request every days.
 
----
-
-#### Resources
-{{< table "table-hover" >}}
-| url | type | description |
-|-----|------|-------------|
-| [Itch.io](https://naiive.itch.io/aise) | `page`, `HTML5` | executable & more user friendly explanation |
-| [Android](https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_android.apk) | `installer` as `apk` | target platform |
-| IOS | N/A | target platform |
-| [Windows](https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_windows.zip) | `portable` as `exe` in `zip` | for testing, main development operating system |
-| [MacOS](https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_mac.zip) | `unknown` as `zip` | for testing, untested / reported |
-| [Linux](https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_linux.zip) | `portable` as `x86_64` in `zip` | for testing, untested / reported |
-{{< /table >}}
+{{< alert text="**Notice** - This section is still in progress." />}}
 
 ---
 
-### Additional
+AISE use [AI Horde](https://stablehorde.net/) a crowd sourced distributed cluster of Image generation workers and text generation workers. if you like consider joining the horde yourself!
 
-#### Modules
+---
+
+#### Additional
 
 from developing AISE we create & introduce some new and refined component & class we can share and utilize in the furute
+
+{{< tabs tabTotal="2">}}
+{{% tab tabName="Modules" %}}
 
 {{< table "table-hover" >}}
 | name | type | description |
@@ -92,9 +97,8 @@ from developing AISE we create & introduce some new and refined component & clas
 | `google_translate_api` | `HTTPRequest` | google tanslate APIs Wrapper, contain necessary helper. |
 {{< /table >}}
 
-#### Core
-
-we also update our Core framework to make it more universal
+{{% /tab %}}
+{{% tab tabName="Core" %}}
 
 {{< table "table-hover" >}}
 | name | description |
@@ -103,7 +107,5 @@ we also update our Core framework to make it more universal
 | `theme` | cleaned up, add shadow, consistency adjustment |
 {{< /table >}}
 
----
-
-AISE use AI Horde a crowd sourced distributed cluster of Image generation workers and text generation workers. if you like consider joining the horde yourself!
-
+{{% /tab %}}
+{{< /tabs >}}

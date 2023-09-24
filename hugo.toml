@@ -21,7 +21,6 @@ googleAnalytics = "G-TE8NM8F1RY"
         disable = false
 
 [markup]
-    defaultMarkdownHandler = "goldmark"
     [markup.tableOfContents]
       endLevel = 5
       startLevel = 1
@@ -38,13 +37,37 @@ googleAnalytics = "G-TE8NM8F1RY"
 
 [params]
 
+# Google Fonts
+#google_fonts = [
+#    ["Inter", "300, 400, 600, 700"],
+#    ["Fira Code", "500, 700"]
+#]
+
+#sans_serif_font = "Inter"     # Default is System font
+#secondary_font  = "Inter"     # Default is System font
+#mono_font       = "Fira Code" # Default is System font
+
+[params.footer]
+    copyright = "© 2023 NAIIVE"
+    version = true
+
+[params.social]
+    github = "naiiveprojects/"
+    #twitter = ""
+    #instagram = ""
+    #bitbucket = ""
+    rss = false
+
 [params.docs]
     # Core Site Options
     title = "NAIIVE"
+    #pathName = "docs" 
+    #themeColor = "blue" #blue (default), green, red, yellow, emerald, cardinal, magenta, cyan
+    darkMode = true
     prism = true
     prismTheme = "twilight"
-    darkMode = true
-
+    
+    # Gitinfo
     repoURL = "https://github.com/naiiveprojects/naiiveprojects.github.io"  # Git repository URL for your site [support for GitHub, GitLab, and BitBucket]
     repoBranch = "master" # Name of your Git repository branch
     editPage = true # enable 'Edit this page' feature - default false
@@ -77,20 +100,12 @@ googleAnalytics = "G-TE8NM8F1RY"
 
 [params.flexsearch]
     enabled             = true
-    tokenize            = "full" # default is "forward"
-    cache               = 100    # default is 100
-    optimize            = true   # default is true
-    minQueryChar        = 3      # default is 0 (disabled)
-    maxResult           = 5      # default is 5
-    searchSectionsIndex = []
-
-[params.footer]
-    copyright = "© 2023 NAIIVE"
-    version = true
-
-[params.social]
-    github = "naiiveprojects"
-    rss = true
+    #tokenize            = "full" # default is "forward"
+    #cache               = 100    # default is 100
+    #optimize            = true   # default is true
+    #minQueryChar        = 0      # default is 0 (disabled)
+    #maxResult           = 10      # default is 5
+    #searchSectionsIndex = []
 
 [[menu.primary]]
     name  = "Explore"
