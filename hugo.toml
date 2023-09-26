@@ -1,5 +1,6 @@
 baseURL = 'https://naiiveprojects.github.io'
 title = 'NAIIVE'
+description = 'developer, integrator, adaptor'
 languageCode = 'en-us'
 defaultContentLanguage = 'en'
 enableEmoji = true
@@ -12,13 +13,18 @@ googleAnalytics = "G-TE8NM8F1RY"
         min = "v0.95.0"
     # uncomment line below for temporary local development of module
     # or when using a 'theme' as a git submodule
-    # replacements = "github.com/colinwilson/lotusdocs -> lotusdocs"
+    replacements = "github.com/colinwilson/lotusdocs -> lotusdocs"
     [[module.imports]]
         path = "github.com/colinwilson/lotusdocs"
         disable = false
     [[module.imports]]
         path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
         disable = false
+
+[frontmatter]
+    date = ["date", "publishDate", "lastmod"]
+    publishDate = ["publishDate", "date"]
+    expiryDate = ["expiryDate"]
 
 [markup]
     [markup.tableOfContents]
@@ -56,7 +62,7 @@ googleAnalytics = "G-TE8NM8F1RY"
     #twitter = ""
     #instagram = ""
     #bitbucket = ""
-    rss = false
+    #rss = false
 
 [params.docs]
     # Core Site Options

@@ -10,6 +10,28 @@ description: "Artificial Image Sketch Editor"
 
 AISE is a software built using the [Godot Engine](https://godotengine.org/), offering users a suite of tools for image creation and modification. designed as a mobile application, its inception aimed to integrate cutting-edge artificial intelligence technology.
 
+#### Motivation
+
+AISE was initially constructed within a limited timeframe, with a maximum duration of one day. The primary objective was to swiftly incorporate state-of-the-art Artificial Intelligence technology for proof of concept and as a fundamental exercise in mobile device design.
+
+Subsequently, as development progressed and further research was conducted, the decision was made to expand its functionality into a fully functional tool accessible for everyone.
+
+##### Problem
+
+While Artificial Image Generators have become more accessible to the general public, it remains evident that using such programs can still be costly. Users typically need a powerful GPU or must invest financially to make the software truly "usable." Even when users can access it for free, there's often a trade-off, such as watching ads or providing their data for undisclosed purposes.
+
+This practice is understandable because developers incur significant expenses in operating Artificial Intelligence systems. These costs include not only bandwidth and electricity but also infrastructure maintenance. Moreover, serving hundreds of thousands, if not millions, of requests daily further compounds the financial challenges.
+
+{{< alert text="**Notice** - This section is still in progress." />}}
+
+---
+
+AISE use [AI Horde](https://stablehorde.net/) a crowd sourced distributed cluster of Image generation workers and text generation workers. if you like consider joining the horde yourself!
+
+---
+
+### Resources
+
 {{< tabs tabTotal="4">}}
 
 {{% tab tabName="Resources" %}}
@@ -61,29 +83,9 @@ AISE is a software built using the [Godot Engine](https://godotengine.org/), off
 
 ---
 
-#### Motivation
-
-AISE was initially constructed within a limited timeframe, with a maximum duration of one day. The primary objective was to swiftly incorporate state-of-the-art Artificial Intelligence technology for proof of concept and as a fundamental exercise in mobile device design.
-
-Subsequently, as development progressed and further research was conducted, the decision was made to expand its functionality into a fully functional tool accessible for everyone.
-
-##### Problem
-
-While Artificial Image Generators have become more accessible to the general public, it remains evident that using such programs can still be costly. Users typically need a powerful GPU or must invest financially to make the software truly "usable." Even when users can access it for free, there's often a trade-off, such as watching ads or providing their data for undisclosed purposes.
-
-This practice is understandable because developers incur significant expenses in operating Artificial Intelligence systems. These costs include not only bandwidth and electricity but also infrastructure maintenance. Moreover, serving hundreds of thousands, if not millions, of requests daily further compounds the financial challenges.
-
-{{< alert text="**Notice** - This section is still in progress." />}}
-
----
-
-AISE use [AI Horde](https://stablehorde.net/) a crowd sourced distributed cluster of Image generation workers and text generation workers. if you like consider joining the horde yourself!
-
----
-
 #### Additional
 
-from developing AISE we create & introduce some new and refined component & class we can share and utilize in the furute
+from developing AISE we create & introduce some new and refined component & class we can share and utilize in the future
 
 {{< tabs tabTotal="2">}}
 {{% tab tabName="Modules" %}}
@@ -91,10 +93,10 @@ from developing AISE we create & introduce some new and refined component & clas
 {{< table "table-hover" >}}
 | name | type | description |
 |------|------|-------------|
-| `stable_horde_api` | `resources` | stable horde APIs wrapper with helper class, it has `resume` method that will try to retrive the last known `task` |
+| `stable_horde_api` | `resources` | stable horde APIs wrapper with helper class, it has `resume` method that will try to retrieve the last known `task` |
 | `texture_showcase` | `.tscn` | iterate & animate part / position from atlas texture. |
-| `texture_dock` | `HTTPRequest` | optimize, download, cached image from internet in batch and assing it to the requested node. |
-| `google_translate_api` | `HTTPRequest` | google tanslate APIs Wrapper, contain necessary helper. |
+| `texture_dock` | `HTTPRequest` | optimize, download, cached image from internet in batch and assign it to the requested node. |
+| `google_translate_api` | `HTTPRequest` | google translate APIs Wrapper, contain necessary helper. |
 {{< /table >}}
 
 {{% /tab %}}

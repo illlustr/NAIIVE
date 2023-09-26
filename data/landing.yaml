@@ -4,7 +4,7 @@ hero:
   weight: 10
 
   title: "NAIIVE"
-  subtitle: your partner to **integrate, adapt, utilize** the latest iteration of technology.
+  subtitle: your partner on **developing, integrate, adapt, and leverage** technology.
 
   image:
     path: "../assets/images/naiive"
@@ -28,7 +28,7 @@ features:
 
     - title: Apps
       icon: deployed_code
-      description: Get or create your desired app, from simple to complex form.
+      description: Get the app you desire or request one, ranging from simple utilities to complex solutions.
 
     - title: Games
       icon: sports_esports
@@ -40,11 +40,11 @@ features:
 
     - title: Post
       icon: post
-      description: documentations, tutorials, journals, & more.
+      description: documentation, tutorials, journals, & more.
 
     - title: More
       icon: add
-      description: "Stay updated on new releases, features, guides, and case studies."
+      description: Stay informed about new releases, features, guides, and case studies.
   
 # Image compare
 image_compare:

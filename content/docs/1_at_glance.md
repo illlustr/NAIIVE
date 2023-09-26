@@ -1,16 +1,16 @@
-+++
-weight = 1
-title = "At Glance"
-icon = "circle"
-description = "Creative, Technology, & Automation"
-toc = true
-+++
+---
+weight: 1
+title: "At Glance"
+description: "Creative, Technology, & Automation"
+icon: "circle"
+date: "2023-09-23T10:15:30+07:00"
+lastmod: "2023-09-26T10:15:30+07:00"
+toc: true
+---
 
 ### Pages
 
-Explore a wide range of content provided with a clean, readable, and enjoyable experience, all while minimizing cognitive load.
-
-Whether you're here to explore our software solutions, access invaluable resources, or tap into a wide range of services, you can rest assured that we've poured our hearts ❤️ into creating an environment that caters to your needs.
+Explore a wide range of content provided with a clean, readable, and enjoyable experience, all while minimizing cognitive load. we're make sure that we've poured our hearts ❤️ into creating an environment that caters to your needs.
 
 <div class="row flex-xl-wrap pb-4">
 
@@ -22,7 +22,7 @@ Whether you're here to explore our software solutions, access invaluable resourc
       </span>
       <div class="card-body p-0 content">
         <p class="fs-5 fw-semibold card-title mb-1">Service</p>
-        <p class="para card-text mb-0">a service to develop, adapt, and manage technology you envision</p>
+        <p class="para card-text mb-0">develop, adapt, and manage technology you envision</p>
       </div>
     </div>
   </a>

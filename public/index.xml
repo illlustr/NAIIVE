@@ -5,17 +5,22 @@
     <link>https://naiiveprojects.github.io/</link>
     <description>Recent content on NAIIVE</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://naiiveprojects.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Sep 2023 10:12:15 +0700</lastBuildDate><atom:link href="https://naiiveprojects.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>At Glance</title>
       <link>https://naiiveprojects.github.io/docs/1_at_glance/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 23 Sep 2023 10:15:30 +0700</pubDate>
       
       <guid>https://naiiveprojects.github.io/docs/1_at_glance/</guid>
-      <description>Pages linkExplore a wide range of content provided with a clean, readable, and enjoyable experience, all while minimizing cognitive load.
-Whether you&amp;rsquo;re here to explore our software solutions, access invaluable resources, or tap into a wide range of services, you can rest assured that we&amp;rsquo;ve poured our hearts ❤️ into creating an environment that caters to your needs.
-workspacesService
-a service to develop, adapt, and manage technology you envision</description>
+      <description>Pages linkExplore a wide range of content provided with a clean, readable, and enjoyable experience, all while minimizing cognitive load. we&amp;rsquo;re make sure that we&amp;rsquo;ve poured our hearts ❤️ into creating an environment that caters to your needs.
+workspaces Service
+develop, adapt, and manage technology you envision
+deployed_code Projects
+Technical explanation &amp; executable
+stream Resources
+Open resource, for public / general use
+Design linkTo acquaint our visitors with documents and technical descriptions commonly encountered during technology adaptation, our website has been intentionally designed to resemble a documentation or admin panel.</description>
     </item>
     
     <item>
@@ -39,11 +44,11 @@ Solution linkWe aim to bridge this gap by offering technology-related services p
     </item>
     
     <item>
-      <title>[ ID ] Sphere Draft</title>
-      <link>https://naiiveprojects.github.io/docs/1_service/11_software/1_sphere_draft/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>[ ID ] Virtual Tour</title>
+      <link>https://naiiveprojects.github.io/docs/1_service/11_software/1_virtual_tour/</link>
+      <pubDate>Tue, 26 Sep 2023 10:12:15 +0700</pubDate>
       
-      <guid>https://naiiveprojects.github.io/docs/1_service/11_software/1_sphere_draft/</guid>
+      <guid>https://naiiveprojects.github.io/docs/1_service/11_software/1_virtual_tour/</guid>
       <description>warning this service only available in Indonesia, you can apply / request this service to be available in your country. Aplikasi Virtual Tour identik dengan luxury / membingungkan dimana hanya sebagian perusahaan / individu yang dapat memanfaatkannya, kami menawarkan jasa pengembangan / pembuatan virtual tour baik dalam bentuk jasa maupun pembuatan software untuk berbagai platform, yang dapat bersaing baik dari segi harga, kualitas, support, juga fleksibilitas.
 di rekomendasikan untuk melihat layanan-layanan yang telah tersedia, berikut beberapa layanan dengan poin perbedaan dengan jasa yang kami tawarkan tanpa pengulangan poin yang di sampaikan :</description>
     </item>
@@ -55,13 +60,13 @@ di rekomendasikan untuk melihat layanan-layanan yang telah tersedia, berikut beb
       
       <guid>https://naiiveprojects.github.io/docs/2_project/1_aise/</guid>
       <description>General linkAISE is a software built using the Godot Engine, offering users a suite of tools for image creation and modification. designed as a mobile application, its inception aimed to integrate cutting-edge artificial intelligence technology.
-Resources AI features Online features Offline features url type description Itch.io page, HTML5 executable &amp;amp; more user friendly explanation Android installer as apk target platform IOS N/A target platform Windows portable as exe in zip for testing, main development operating system MacOS unknown as zip for testing, untested / reported Linux portable as x86_64 in zip for testing, untested / reported Use Stable Diffusion Served by AI Horde Models Text to Image Image to Image ControlNet Tiling &amp;amp; More LoRA by Civit AI Style Prompt injection using CheatSheet Discovery (Social) Reporting Tool Version Checking Text Translation Google Translate API Image Optimization Resmush API image editing sketch gallery Motivation linkAISE was initially constructed within a limited timeframe, with a maximum duration of one day.</description>
+Motivation linkAISE was initially constructed within a limited timeframe, with a maximum duration of one day. The primary objective was to swiftly incorporate state-of-the-art Artificial Intelligence technology for proof of concept and as a fundamental exercise in mobile device design.</description>
     </item>
     
     <item>
       <title>Motive</title>
       <link>https://naiiveprojects.github.io/docs/2_project/2_motive/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 26 Sep 2023 10:08:06 +0700</pubDate>
       
       <guid>https://naiiveprojects.github.io/docs/2_project/2_motive/</guid>
       <description> warning Caution - This page is in progress. </description>
