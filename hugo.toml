@@ -1,7 +1,7 @@
 baseURL = 'https://naiiveprojects.github.io'
 title = 'NAIIVE'
 description = 'developer, integrator, adaptor'
-languageCode = 'en-us'
+languageCode = 'en-GB'
 defaultContentLanguage = 'en'
 enableEmoji = true
 enableGitInfo = true

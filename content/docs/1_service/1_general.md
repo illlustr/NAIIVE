@@ -41,7 +41,7 @@ In comparison to other service providers, such as freelancers, we provide a more
 </div>
 
 <div id="list-item" class="col-md-6 col-12 py-2">
-  <a class="text-decoration-none text-reset" href="../2_request/">
+  <a class="text-decoration-none text-reset" href="../11_software/">
     <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
       <span class="h1 icon-color">
         <i class="material-icons align-middle">devices</i>
