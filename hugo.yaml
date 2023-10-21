@@ -1,0 +1,118 @@
+# Hugo configuration file
+baseURL: "https://naiiveprojects.github.io/"
+title: NAIIVE
+googleAnalytics: G-XXXXXXXXXX
+
+enableRobotsTXT: true
+enableGitInfo: true
+enableEmoji: true
+# hasCJKLanguage: true
+
+outputs:
+  home: [HTML]
+  page: [HTML]
+  section: [HTML, RSS]
+
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    weight: 1
+    title: NAIIVE
+
+# import hextra as module
+module:
+  imports:
+  - path: github.com/imfing/hextra
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: true
+
+enableInlineShortcodes: true
+
+menu:
+  main:
+    - name: Services
+      pageRef: /services
+      weight: 1
+    - name: Projects
+      pageRef: /projects
+      weight: 2
+    - name: Blogs
+      pageRef: /blogs
+      weight: 3
+    - name: Info
+      pageRef: /info
+      weight: 4
+    - name: Search
+      weight: 10
+      params:
+        type: search
+
+  sidebar:
+    - name: —⨝—
+      params:
+        type: separator
+      weight: 1
+    - name: "Discussions ↗"
+      url: "https://github.com/orgs/naiiveprojects/discussions"
+      weight: 9
+
+params:
+  description: Adapt & leverage the latest technology.
+
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
+  navbar:
+    displayTitle: false
+    displayLogo: true
+    logo:
+      path: images/logo/dark.png
+      dark: images/logo/white.png
+      link: /
+      width: 40
+      height: 20
+    width: normal # full (100%), wide (90rem), normal (1280px)
+
+  page:
+    width: normal
+
+  footer:
+    displayCopyright: false
+    displayPoweredBy: false
+    width: normal
+
+  search:
+    enable: true
+
+  editURL:
+    enable: true
+    base: "https://github.com/naiiveprojects/naiiveprojects.github.io/main/content"
+  
+  comments:
+    enable: true
+    type: giscus
+
+    giscus:
+      repo: naiiveprojects/.github
+      repoId: R_kgDOKViEQg
+      category: General
+      categoryId: DIC_kwDOKViEQs4CaTd0
+      mapping: og:title
+      strict: 0
+      reactionsEnabled: 1
+      emitMetadata: 0
+      inputPosition: top
+      # lang: en
+      dataLoading: lazy
+      crossorigin: anonymous
