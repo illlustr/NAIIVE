@@ -1,0 +1,44 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NAIIVE – Automation</title><link>https://naiiveprojects.github.io/services/automation/</link><description>Recent content in Automation on NAIIVE</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://naiiveprojects.github.io/services/automation/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting Started</title><link>https://naiiveprojects.github.io/services/automation/getting_started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://naiiveprojects.github.io/services/automation/getting_started/</guid><description>
+&lt;p>we offer several levels of automation services, allowing you to select the path that best aligns with your specific needs.&lt;/p>
+&lt;div class="steps ml-4 mb-12 border-l border-gray-200 pl-6 dark:border-neutral-800 [counter-reset:step]">
+&lt;h3>Immediate&lt;span class="absolute -mt-20" id="immediate">&lt;/span>
+&lt;a href="#immediate" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>in &lt;a href="../../../projects/automation" >&lt;strong>Projects / Automation ↗&lt;/strong>&lt;/a> you can explore our existing suite of automation tools, These tools are readily available for immediate use.&lt;/p>
+&lt;h3>Predefined&lt;span class="absolute -mt-20" id="predefined">&lt;/span>
+&lt;a href="#predefined" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>in &lt;a href="../predefined" >&lt;strong>Predefined ↗&lt;/strong>&lt;/a> we&amp;rsquo;ve set up predefined automation projects that can minimize development costs, like a foundation it still can tailor solutions to your needs.&lt;/p>
+&lt;h3>Request&lt;span class="absolute -mt-20" id="request">&lt;/span>
+&lt;a href="#request" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>in &lt;a href="../request" >&lt;strong>Request ↗&lt;/strong>&lt;/a> we will assess your needs and develop tools specifically for you. This process requires detailed requirement weather by filing our form or engaging in direct interaction with our team.&lt;/p>
+&lt;p>We can automating a broad range of tasks from document to artistic works.&lt;/p>
+&lt;/div>
+&lt;div class="overflow-x-auto mt-6 flex rounded-lg border py-2 ltr:pr-4 rtl:pl-4 contrast-more:border-current contrast-more:dark:border-current border-blue-200 bg-blue-100 text-blue-900 dark:border-blue-200/30 dark:bg-blue-900/30 dark:text-blue-200">
+&lt;div class="select-none text-xl ltr:pl-3 ltr:pr-2 rtl:pr-3 rtl:pl-2" style='font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";'>ℹ️&lt;/div>
+&lt;div class="w-full min-w-0 leading-7">
+&lt;p class="mt-6 leading-7 first:mt-0">
+By choosing the appropriate level, you can achieve your goals efficiently.
+&lt;/p>
+&lt;/div>
+&lt;/div></description></item><item><title>Predefined</title><link>https://naiiveprojects.github.io/services/automation/predefined/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://naiiveprojects.github.io/services/automation/predefined/</guid><description>
+&lt;div class="overflow-x-auto mt-6 flex rounded-lg border py-2 ltr:pr-4 rtl:pl-4 contrast-more:border-current contrast-more:dark:border-current border-yellow-100 bg-yellow-50 text-yellow-900 dark:border-yellow-200/30 dark:bg-yellow-700/30 dark:text-yellow-200">
+&lt;div class="select-none text-xl ltr:pl-3 ltr:pr-2 rtl:pr-3 rtl:pl-2" style='font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";'>⚠️&lt;/div>
+&lt;div class="w-full min-w-0 leading-7">
+&lt;p class="mt-6 leading-7 first:mt-0">
+Coming Soon.
+&lt;/p>
+&lt;/div>
+&lt;/div></description></item><item><title>Request</title><link>https://naiiveprojects.github.io/services/automation/request/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://naiiveprojects.github.io/services/automation/request/</guid><description>
+&lt;div class="overflow-x-auto mt-6 flex rounded-lg border py-2 ltr:pr-4 rtl:pl-4 contrast-more:border-current contrast-more:dark:border-current border-blue-200 bg-blue-100 text-blue-900 dark:border-blue-200/30 dark:bg-blue-900/30 dark:text-blue-200">
+&lt;div class="select-none text-xl ltr:pl-3 ltr:pr-2 rtl:pr-3 rtl:pl-2" style='font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";'>ℹ️&lt;/div>
+&lt;div class="w-full min-w-0 leading-7">
+&lt;p class="mt-6 leading-7 first:mt-0">
+Article work in progress.
+&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div class="overflow-x-auto mt-6 flex rounded-lg border py-2 ltr:pr-4 rtl:pl-4 contrast-more:border-current contrast-more:dark:border-current border-yellow-100 bg-yellow-50 text-yellow-900 dark:border-yellow-200/30 dark:bg-yellow-700/30 dark:text-yellow-200">
+&lt;div class="select-none text-xl ltr:pl-3 ltr:pr-2 rtl:pr-3 rtl:pl-2" style='font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";'>⚠️&lt;/div>
+&lt;div class="w-full min-w-0 leading-7">
+&lt;p class="mt-6 leading-7 first:mt-0">
+Due to our current limitations, we will only accept the most feasible requests. For this reason, it is recommended that you engaging in direct interaction with our team first.
+&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;a href="mailto:naiive@email.com" >Email&lt;/a> | &lt;a href="https://github.com/orgs/naiiveprojects/discussions" target="_blank" rel="noopener">Discussion&lt;/a>&lt;/p></description></item></channel></rss>
