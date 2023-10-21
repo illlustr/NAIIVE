@@ -1,8 +1,7 @@
 ---
-title: Procedures
+title: Partnership
 type: docs
-prev: services/automation/request
-next: services/automation/request/qna
+prev: information/
 ---
 
 {{< callout type="info" >}}

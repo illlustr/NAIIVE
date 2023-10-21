@@ -1,6 +1,6 @@
 ---
-weight: 2
-title: prosedur
+weight: 3
+title: Prosedur
 type: docs
 prev: services/application/predefined/virtual_tour/features
 next: services/application/predefined/virtual_tour/qna

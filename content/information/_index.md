@@ -1,9 +1,12 @@
 ---
-title: Info
+weight: 4
+title: Information
 type: docs
 comments: false
+sidebar:
+  open: false
 ---
 
 {{< callout type="info" >}}
-  Work In Progress.
+  Article work in progress.
 {{< /callout >}}

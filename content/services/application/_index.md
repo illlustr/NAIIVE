@@ -3,12 +3,9 @@ weight: 3
 title: Application
 type: docs
 prev: services/
+next: services/application/getting_started
 sidebar:
   open: false
 ---
 
-{{< callout type="warning" >}}
-  Work In Progress.
-{{< /callout >}}
-
-email : <naiive@email.com>
+A type of software program that interacts directly with the end user to help perform specific tasks or functions.

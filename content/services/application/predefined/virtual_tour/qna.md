@@ -1,6 +1,6 @@
 ---
-weight: 3
-title: pertanyaan
+weight: 4
+title: Pertanyaan
 type: docs
 prev: services/application/predefined/virtual_tour/procedures
 ---
@@ -34,10 +34,9 @@ prev: services/application/predefined/virtual_tour/procedures
 
 - faktor apa yang membuat biaya layanan ini sangat murah di banding layanan lain?
   - kami tidak / belum mengutamakan keuntungan.
-  - untuk memfamiliarkan nama brand.
   - proyek di kerjakan oleh 1-3 multifungsi team / personal.
   - QA / QC / Testing bersifat internal.
     - client dapat merekrut thirdparty untuk membantu.
-  - pemercepatan modal usaha & faktor lainnya.
 
  [a] Biaya akan selalu di update menyesuaikan dengan tingkat kedewasaan teknologi yang kami kembangkan.
+ 

@@ -47,11 +47,11 @@ menu:
     - name: Projects
       pageRef: /projects
       weight: 2
-    - name: Blogs
-      pageRef: /blogs
+    - name: Blog
+      pageRef: /blog
       weight: 3
-    - name: Info
-      pageRef: /info
+    - name: Information
+      pageRef: /information
       weight: 4
     - name: Search
       weight: 10
@@ -100,7 +100,7 @@ params:
     base: "https://github.com/naiiveprojects/naiiveprojects.github.io/main/content"
   
   comments:
-    enable: true
+    enable: false
     type: giscus
 
     giscus:

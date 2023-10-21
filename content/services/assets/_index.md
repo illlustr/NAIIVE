@@ -8,7 +8,5 @@ sidebar:
 ---
 
 {{< callout type="warning" >}}
-  Work In Progress.
+  Coming Soon.
 {{< /callout >}}
-
-email : <naiive@email.com>

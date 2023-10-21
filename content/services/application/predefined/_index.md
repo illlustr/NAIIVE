@@ -1,13 +1,9 @@
 ---
 title: Predefined
 type: docs
-prev: services/application/
+prev: services/application/getting_started
 ---
 
-using our predefined Application can further reduce development time and costs of Application.
-
-{{< callout type="warning" >}}
-  Work In Progress.
-{{< /callout >}}
-
-email : <naiive@email.com>
+{{< cards >}}
+  {{< card link="./virtual_tour" title="Virtual Tour" icon="cube" subtitle="A panoramic view of an existing or conceptual place" >}}
+{{< /cards >}}

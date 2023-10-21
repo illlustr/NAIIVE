@@ -7,8 +7,14 @@ sidebar:
   open: false
 ---
 
-{{< callout type="warning" >}}
-  Work In Progress.
+ A type of software program that involves interaction with user to complete objectives or challenges, often with visual, rules, and audio elements. it has various genres and styles for entertainment, engagement, or education.
+
+{{< callout type="info" >}}
+  Article work in progress.
 {{< /callout >}}
 
-email : <naiive@email.com>
+{{< callout type="warning" >}}
+  Due to our current limitations, we will only accept the most feasible requests. For this reason, it is recommended that you engaging in direct interaction with our team first.
+{{< /callout >}}
+
+[Email](mailto:naiive@email.com) | [Discussion](https://github.com/orgs/naiiveprojects/discussions)

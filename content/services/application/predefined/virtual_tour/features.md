@@ -1,8 +1,8 @@
 ---
-weight: 1
-title: "fitur"
+weight: 2
+title: "Fitur"
 type: docs
-prev: services/application/predefined/virtual_tour
+prev: services/application/predefined/virtual_tour/demo
 next: services/application/predefined/virtual_tour/procedures
 ---
 

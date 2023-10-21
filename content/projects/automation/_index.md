@@ -1,6 +1,6 @@
 ---
-weight: 1
-title: Assets
+weight: 2
+title: Automation
 type: docs
 prev: projects/
 sidebar:

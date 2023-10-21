@@ -4,8 +4,8 @@ type: docs
 prev: services/automation/procedures
 ---
 
-{{< callout type="warning" >}}
-  Work In Progress.
+{{< callout type="info" >}}
+  Article work in progress.
 {{< /callout >}}
 
-email : <naiive@email.com>
+[Email](mailto:naiive@email.com) | [Discussion](https://github.com/orgs/naiiveprojects/discussions)

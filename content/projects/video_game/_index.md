@@ -1,6 +1,6 @@
 ---
-weight: 1
-title: Assets
+weight: 4
+title: Video Game
 type: docs
 prev: projects/
 sidebar:

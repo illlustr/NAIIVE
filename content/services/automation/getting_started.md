@@ -8,17 +8,17 @@ we offer several levels of automation services, allowing you to select the path 
 
 {{% steps %}}
 
-### Ready-Made Tools
+### Immediate
 
-in [**Ready-Made Tools ↗**](../../../project/automation) you can explore our existing suite of automation tools, These tools are readily available for immediate use.
+in [**Projects / Automation ↗**](../../../projects/automation) you can explore our existing suite of automation tools, These tools are readily available for immediate use.
 
-### Predefined Automation
+### Predefined
 
-in [**Predefined Automation ↗**](../predefined) we've set up predefined automation projects that can minimize development costs, like a fondation it still can tailor solutions to your needs.
+in [**Predefined ↗**](../predefined) we've set up predefined automation projects that can minimize development costs, like a foundation it still can tailor solutions to your needs.
 
 ### Request
 
-in [**Request ↗**](../request) we will assess your needs and develop tools specifically for you. This process requires detailed requrement wethere by filing our from or engaging in direct interaction with our team.
+in [**Request ↗**](../request) we will assess your needs and develop tools specifically for you. This process requires detailed requirement weather by filing our form or engaging in direct interaction with our team.
 
 We can automating a broad range of tasks from document to artistic works.
 

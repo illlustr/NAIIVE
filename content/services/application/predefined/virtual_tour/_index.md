@@ -1,8 +1,8 @@
 ---
-title: "Virtual Tour"
+title: Virtual Tour
 type: docs
 prev: services/application/predefined
-next: services/application/predefined/virtual_tour/features
+next: services/application/predefined/virtual_tour/demo
 ---
 
 {{< callout type="warning" >}}
