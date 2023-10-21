@@ -1,1 +1,9 @@
-# Auto Generated
+# Hugo output
+resources/
+.hugo_build.lock
+
+# Editor
+.vscode/
+
+# Directories
+.backup/
