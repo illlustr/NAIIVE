@@ -21,7 +21,3 @@ in [**Predefined ↗**](../predefined) we've set up predefined projects that can
 in [**Request ↗**](../request) we will assess your needs and develop application specifically for you. This process requires detailed requirement weather by filing our form or engaging in direct interaction with our team.
 
 {{% /steps %}}
-
-{{< callout type="info" >}}
-  By choosing the appropriate level, you can achieve your goals efficiently.
-{{< /callout >}}

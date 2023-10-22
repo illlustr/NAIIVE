@@ -7,6 +7,8 @@ sidebar:
   open: false
 ---
 
-{{< callout type="info" >}}
-  Article work in progress.
-{{< /callout >}}
+{{< cards >}}
+  {{< card link="./about" title="About" icon="identification" >}}
+  {{< card link="./jobs" title="Jobs" icon="briefcase" >}}
+  {{< card link="./partnership" title="Partnership" icon="user-group" >}}
+{{< /cards >}}
