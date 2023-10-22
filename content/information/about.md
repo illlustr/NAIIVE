@@ -1,12 +1,15 @@
 ---
-title: About
-type: docs
+title: 'About'
+
 prev: information/
+type: docs
 ---
 
 {{< callout type="info" >}}
   Article work in progress.
 {{< /callout >}}
+
+<!--more-->
 
 NAIIVE is a decentralized organization operating across various fields.
 

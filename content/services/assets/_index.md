@@ -7,6 +7,14 @@ sidebar:
   open: false
 ---
 
-{{< callout type="warning" >}}
-  Coming Soon.
-{{< /callout >}}
+<br>
+
+{{< hextra/hero-badge link="../../projects/assets/" >}}
+Get from projects ▶️
+{{< /hextra/hero-badge >}}
+
+<br>
+
+{{< cards >}}
+  {{< card subtitle="coming soon" title="(●'◡'●)" >}}
+{{< /cards >}}

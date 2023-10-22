@@ -1,7 +1,7 @@
 # Hugo configuration file
 baseURL: "https://naiiveprojects.github.io/"
 title: NAIIVE
-googleAnalytics: G-XXXXXXXXXX
+# googleAnalytics: G-XXXXXXXXXX
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -38,11 +38,11 @@ markup:
 
 menu:
   main:
-    - name: Services
-      pageRef: /services
-      weight: 1
     - name: Projects
       pageRef: /projects
+      weight: 1
+    - name: Services
+      pageRef: /services
       weight: 2
     - name: Blog
       pageRef: /blog
@@ -50,11 +50,7 @@ menu:
     - name: Information
       pageRef: /information
       weight: 4
-    - name: Search
-      weight: 10
-      params:
-        type: search
-
+  
   sidebar:
     - name: —⨝—
       params:

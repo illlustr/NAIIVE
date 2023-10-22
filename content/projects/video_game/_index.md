@@ -7,6 +7,18 @@ sidebar:
   open: false
 ---
 
-{{< callout type="warning" >}}
-  Coming Soon.
-{{< /callout >}}
+<br>
+
+{{< hextra/hero-badge link="../../services/video_game/" >}}
+Request from services ▶️
+{{< /hextra/hero-badge >}}
+
+{{< hextra/hero-badge link="https://github.com/naiiveprojects/" >}}
+Github ↗️
+{{< /hextra/hero-badge >}}
+
+<br>
+
+{{< cards >}}
+  {{< card subtitle="coming soon" title="(⓿_⓿)" >}}
+{{< /cards >}}
