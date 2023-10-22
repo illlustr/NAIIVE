@@ -1,7 +1,6 @@
 ---
 weight: 4
-type: blog
 title: Information
 ---
 
-
+<img src="/images/masterpiece_naiive_gray.png" alt="naive" width="200">

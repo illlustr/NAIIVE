@@ -66,10 +66,10 @@ Adapt & leverage the latest technology.
   {{< hextra/feature-card
     title="No Subscription"
     icon="x"
-    subtitle="Own your program, no hidden fees, no limits on your financial freedom."
+    subtitle="Own your program, no hidden fees, not limiting your financial freedom."
   >}}
   {{< hextra/feature-card
-      title="straightforward"
+      title="Straightforward"
       icon="light-bulb"
       subtitle="We ensure that all processes run and be understood quickly and easily."
   >}}

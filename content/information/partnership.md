@@ -1,6 +1,5 @@
 ---
 title: 'Partnership'
-
 prev: information/
 type: docs
 ---
