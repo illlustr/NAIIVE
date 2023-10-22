@@ -67,7 +67,7 @@ Article work in progress.
 &lt;/ul>
 &lt;/li>
 &lt;/ul></description></item><item><title>Prosedur</title><link>https://naiiveprojects.github.io/services/application/predefined/virtual_tour/procedures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://naiiveprojects.github.io/services/application/predefined/virtual_tour/procedures/</guid><description>
-&lt;p>kami bersifat fleksible dalam proses diskusi / pengembangan / pengelolaan, client tidak di haruskan mengikuti tahap-tahap selama ada kesepakatan, adapun tahap-tahap yang mungkin terjadi sebagai berikut :&lt;/p>
+&lt;p>kami bersifat fleksible dalam proses diskusi / pengembangan / pengelolaan, client tidak di haruskan mengikuti tahap-tahap selama memiliki kesepahaman, adapun tahap-tahap yang mungkin terjadi sebagai berikut :&lt;/p>
 &lt;ul>
 &lt;li>diskusi proyek melalui media yang tersedia&lt;/li>
 &lt;li>diskusi detail (D, C)
@@ -79,76 +79,67 @@ Article work in progress.
 &lt;li>tahap pertimbangan &amp;amp; perencanaan (D, C)&lt;/li>
 &lt;li>pengambilan sumber (D)
 &lt;ul>
-&lt;li>(additional) pembuatan gambar teknis (Floorplan) (D / C / T)&lt;/li>
-&lt;li>(additional) pengambilan gambar (D / C / T)&lt;/li>
+&lt;li>(additional) pembuatan gambar teknis (Floorplan) (D / C)&lt;/li>
+&lt;li>(additional) pengambilan gambar (D / C)&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>produksi (D)
 &lt;ul>
 &lt;li>pembuatan aplikasi (D)&lt;/li>
-&lt;li>Testing / QC / QA (D, C / T)&lt;/li>
-&lt;li>revisi / penyesuaian (D, C / T)&lt;/li>
+&lt;li>Testing / QC / QA (D, C)&lt;/li>
+&lt;li>revisi / penyesuaian (D, C)&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>rilis (D, C)&lt;/li>
 &lt;li>maintanence (D, C)&lt;/li>
 &lt;/ul>
-&lt;p>*pihak terlibat ( D : Developer | C : Client | T : ThirdParty )&lt;/p>
-&lt;p>&lt;a href="https://api.whatsapp.com/send?phone=&amp;#43;62881024815075" target="_blank" rel="noopener">Whatsapp&lt;/a> / &lt;a href="mailto:still.lkmn@gmail.com" >Email&lt;/a>&lt;/p></description></item><item><title>Pertanyaan</title><link>https://naiiveprojects.github.io/services/application/predefined/virtual_tour/qna/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://naiiveprojects.github.io/services/application/predefined/virtual_tour/qna/</guid><description>
+&lt;p>*pihak terlibat ( D : Developer | C : Client )&lt;/p>
+&lt;p>&lt;a href="mailto:naiive@email.com" >Email&lt;/a> | &lt;a href="https://github.com/orgs/naiiveprojects/discussions" target="_blank" rel="noopener">Discussion&lt;/a>&lt;/p></description></item><item><title>Pertanyaan</title><link>https://naiiveprojects.github.io/services/application/predefined/virtual_tour/qna/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://naiiveprojects.github.io/services/application/predefined/virtual_tour/qna/</guid><description>
 &lt;ul>
-&lt;li>
-&lt;p>apakah source code termasuk dalam paket pembelian?&lt;/p>
+&lt;li>apakah source code termasuk dalam paket pembelian?
 &lt;ul>
 &lt;li>ya, jika aplikasi menggunakan teknologi thidparty.&lt;/li>
 &lt;li>tidak, jika software menggunakan teknologi yang kami kembangkan, source code hanya akan di berikan pada kesepakatan tertentu.&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>
-&lt;p>berapa biaya pada suatu proyek dari awal hingga selesai?&lt;/p>
+&lt;li>berapa biaya pada suatu proyek dari awal hingga selesai?
 &lt;ul>
-&lt;li>biaya awal Rp.500.000 *[a], yang selanjutnya biaya proyek akan di sesuaikan dengan budget yang client ajukan dan diskusikan.&lt;/li>
+&lt;li>biaya proyek akan di sesuaikan dengan budget yang client ajukan dan diskusikan.&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>
-&lt;p>apakan penyesuainan / revisi membutuhkan biaya tambahan?&lt;/p>
+&lt;li>apakan penyesuainan / revisi membutuhkan biaya tambahan?
 &lt;ul>
 &lt;li>revisi maupun penyesuaian ringan gratis selama 1 tahun / 30 kali&lt;/li>
 &lt;li>revisi maupun penyesuaian lainnya akan menyesuaikan dengan budget yang client ajukan&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>
-&lt;p>apakah aplikasi akan tetap di support setelah poyek selesai?&lt;/p>
+&lt;li>apakah aplikasi akan tetap di support setelah poyek selesai?
 &lt;ul>
 &lt;li>bug fix dan improvement akan terus di berikan&lt;/li>
 &lt;li>modul-modul inti akan tetap di support selama memungkinkan&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>
-&lt;p>apakah aplikasi dapat di tambah / kurangi / modifikasi setelah kontrak / aplikasi selesai?&lt;/p>
+&lt;li>apakah aplikasi dapat di tambah / kurangi / modifikasi setelah kontrak / aplikasi selesai?
 &lt;ul>
 &lt;li>ya, client dapat meminta perubahan kapanpun setelah aplikasi selesai.&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>
-&lt;p>apakan biaya porting (adaptasi software untuk sistem operasi lain) akan sama dengan biaya awal pembuatan aplikasi?&lt;/p>
+&lt;li>apakan biaya porting (adaptasi software untuk sistem operasi lain) akan sama dengan biaya awal pembuatan aplikasi?
 &lt;ul>
 &lt;li>tidak, biaya akan menyesuaikan dengan seberapa banyak penyesuaian yang di perlukan, bergantung seberapa kompleks penyesuaiannya, porting dapat di berikan secara gratis.&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>
-&lt;p>platform apa saja yang di support oleh poyek ini?&lt;/p>
+&lt;li>platform apa saja yang di support oleh poyek ini?
 &lt;ul>
-&lt;li>Windows, MacOS, Linux, IOS, Android, Website&lt;/li>
+&lt;li>Windows, MacOS, Linux, IOS, Android, Website, Progressive Web App&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>
-&lt;p>apakah biaya sudah termasuk dengan biaya marketplace / hosting (ex : playstore, appstore, website, dll):&lt;/p>
+&lt;li>apakah biaya sudah termasuk dengan biaya marketplace / hosting (ex : playstore, appstore, website, dll):
 &lt;ul>
 &lt;li>tidak, kami memberikan project binary yang selanjutnya client dapat memasukkannya ke marketplace / website manapun, jika di perlukan kami akan membantu proses-prosesnya.&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>
-&lt;p>faktor apa yang membuat biaya layanan ini sangat murah di banding layanan lain?&lt;/p>
+&lt;li>faktor apa yang membedakan biaya layanan ini di banding layanan lain?
 &lt;ul>
 &lt;li>kami tidak / belum mengutamakan keuntungan.&lt;/li>
 &lt;li>proyek di kerjakan oleh 1-3 multifungsi team / personal.&lt;/li>
