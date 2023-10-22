@@ -3,6 +3,7 @@ baseURL: "https://naiiveprojects.github.io/"
 title: NAIIVE
 googleAnalytics: G-XXXXXXXXXX
 
+enableInlineShortcodes: true
 enableRobotsTXT: true
 enableGitInfo: true
 enableEmoji: true
@@ -30,14 +31,10 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-  highlight:
-    noClasses: false
 
   # enable hextra syntax highlight
   highlight:
     noClasses: true
-
-enableInlineShortcodes: true
 
 menu:
   main:
@@ -73,6 +70,11 @@ params:
   displayUpdatedDate: true
   dateFormat: "January 2, 2006"
 
+  theme:
+    # light | dark | system
+    default: dark
+    displayToggle: true
+
   navbar:
     displayTitle: false
     displayLogo: true
@@ -94,10 +96,14 @@ params:
 
   search:
     enable: true
+    type: flexsearch
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content
 
   editURL:
     enable: true
-    base: "https://github.com/naiiveprojects/naiiveprojects.github.io/main/content"
+    base: "https://github.com/naiiveprojects/naiiveprojects.github.io/master/content"
   
   comments:
     enable: false

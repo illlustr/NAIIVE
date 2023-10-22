@@ -3,21 +3,29 @@ title: NAIIVE
 layout: hextra-home
 ---
 
-<div class="mt-6 mb-6 .hero-center-title">
+<div class="mt-6 mb-6 .hero-center-title text-center">
 {{< hextra/hero-headline >}}
-Adapt & leverage&nbsp;<br class="sm:block hidden" />the latest technology.
+⌁
 {{< /hextra/hero-headline >}}
 </div>
 
-<div class="mb-12">
+<div class="mt-6 mb-6 .hero-center-title text-center">
+{{< hextra/hero-headline >}}
+Adapt & leverage the latest technology.
+{{< /hextra/hero-headline >}}
+</div>
+
+<div class="mb-12 text-center">
 {{< hextra/hero-subtitle >}}
-  Technology is constantly evolving, and so are we.&nbsp;<br class="sm:block hidden" />We ⨝ are here to help you adapt to new situations,&nbsp;<br class="sm:block hidden" />leverage new possibilities, and expand new frontiers.
+  We ⨝ help you adapt to new situations, leverage new possibilities, and expand new frontiers.
 {{< /hextra/hero-subtitle >}}
 </div>
 
-<div class="mb-6">
-{{< hextra/hero-button text="◉ Get Started" link="services" icon="chip" >}}
+<div class="mb-6 items-center">
+{{< hextra/hero-button text="⌍ Get Started ⌎" link="services" icon="chip" >}}
 </div>
+
+<br class="sm:block hidden" />
 
 <br class="sm:block hidden" />
 
