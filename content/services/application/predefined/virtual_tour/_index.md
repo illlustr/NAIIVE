@@ -9,9 +9,11 @@ next: services/application/predefined/virtual_tour/demo
   this service only available in **Indonesia**, you can apply / request this service to be available in your country.
 {{< /callout >}}
 
-Aplikasi Virtual Tour identik dengan luxury / membingungkan dimana hanya sebagian perusahaan / individu yang dapat memanfaatkannya, kami menawarkan jasa **pengembangan / pembuatan virtual tour** baik dalam bentuk jasa maupun pembuatan software untuk berbagai platform, yang dapat bersaing baik dari segi harga, kualitas, support, juga fleksibilitas.
+Virtual Tour identik dengan luxury / membingungkan dimana hanya sebagian perusahaan ataupun individu yang dapat memanfaatkannya.
 
-di rekomendasikan untuk melihat layanan-layanan yang telah tersedia, berikut beberapa layanan dengan poin perbedaan dengan jasa yang kami tawarkan tanpa pengulangan poin yang di sampaikan :
+kami menawarkan jasa **pengembangan virtual tour** baik dalam bentuk jasa maupun pembuatan software untuk berbagai platform yang dapat bersaing baik dari segi harga, kualitas, support, juga fleksibilitas.
+
+berikut beberapa layanan dengan poin perbedaan dengan jasa yang kami tawarkan tanpa pengulangan poin yang di sampaikan :
 
 - open-source Virtual Tour
   - kami menawarkan jasa pembuatan aplikasi baik menggunakan teknologi yang kami kembangkan maupun teknologi thirdparty.
@@ -22,5 +24,5 @@ di rekomendasikan untuk melihat layanan-layanan yang telah tersedia, berikut beb
   - tidak ada Server Down ataupun penonaktif-an layanan.
 - layanan lainnya : [Bing](https://www.bing.com/search?pglt=161&q=virtual+tour) | [Google](https://www.google.com/search?q=virtual+tour) | [Playstore](https://play.google.com/store/search?q=virtual%20tour&c=apps) | [Appstore](https://www.apple.com/us/search/virtual-tour?src=serp)
   - kami menawarkan layanan yang bersaing baik dari segi harga, kualitas, support, maupun fleksibilitas.
-- untuk hal-hal yang tidak tercantum maupun perbandingan lebih detail, silahkan hubungi [WA](https://api.whatsapp.com/send?phone=+62881024815075)
+- untuk hal-hal yang tidak tercantum maupun perbandingan lebih detail, silahkan hubungi [Email](mailto:naiive@email.com) | [Discussion](https://github.com/orgs/naiiveprojects/discussions)
   - kami akan merespon secara netral dan mencoba memberikan rekomendasi terbaik sesuai dengan kebutuhan client.

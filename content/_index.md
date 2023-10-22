@@ -22,10 +22,18 @@ Adapt & leverage the latest technology.
 </div>
 
 <div class="mb-6 items-center">
-{{< hextra/hero-button text="⌍ Get Started ⌎" link="services" icon="chip" >}}
+{{< hextra/hero-button text=" ⌍ Get Started ⌎ " link="projects" icon="chip" >}}
 </div>
 
-<br class="sm:block hidden" />
+{{< hextra/hero-badge link="../../services/" >}}
+  explore services 
+{{< /hextra/hero-badge >}}
+
+<div class="mt-6 mb-6 .hero-center-title text-center">
+{{< hextra/hero-headline >}}
+
+{{< /hextra/hero-headline >}}
+</div>
 
 <br class="sm:block hidden" />
 
@@ -33,12 +41,12 @@ Adapt & leverage the latest technology.
   {{< hextra/feature-card
     title="Assets"
     icon="sparkles"
-    subtitle="involves creative talent to help for technical, conceptual, and details for ideas."
+    subtitle="Involves creative talent to help for technical, conceptual, and details for ideas."
   >}}
   {{< hextra/feature-card
     title="Automation"
     icon="chip"
-    subtitle="produce and deliver goods and services with minimal human intervention."
+    subtitle="Streamline, optimize, and reduce repetitive or complex tasks."
   >}}
   {{< hextra/feature-card
     title="Application"
@@ -48,26 +56,39 @@ Adapt & leverage the latest technology.
   {{< hextra/feature-card
     title="Video Game"
     icon="puzzle"
-    subtitle="Get or request structured form of play, Whether for entertainment or used as an educational tool."
+    subtitle="Get or request structured gameplay, Whether for entertainment or used as an educational tool."
   >}}
   {{< hextra/feature-card
     title="Multi-platform"
     icon="badge-check"
-    subtitle="Augmented or Virtual Reality, Web, PWA, Windows, MacOS, Linux, Android, IOS, Console, you name it."
+    subtitle="Support AR/VR, Web, PWA, Desktop, Mobile, Console, and more."
   >}}
   {{< hextra/feature-card
-    title="Continuous Support"
-    icon="support"
-    subtitle="Whether small or large, short or long term, we guarantee support for the products we develop."
+    title="No Subscription"
+    icon="x"
+    subtitle="Own your program, no hidden fees, not limiting your financial freedom."
+  >}}
+  {{< hextra/feature-card
+      title="Straightforward"
+      icon="light-bulb"
+      subtitle="We ensure that all processes run and be understood quickly and easily."
   >}}
   {{< hextra/feature-card
     title="Transparent"
     icon="eye"
-    subtitle="easily track the project. what has been done, how long it took, details, even every discussions."
+    subtitle="Easily track project progress, including tasks completed, duration, detailed information, and discussions."
   >}}
   {{< hextra/feature-card
     title="Flexible"
     icon="adjustments"
-    subtitle="We have level of flexibility from start to completing the projects. adjustable for your needs."
+    subtitle="We offer a range of flexibility from project initiation to completion, making adjustments to meet your needs."
   >}}
 {{< /hextra/feature-grid >}}
+
+<br class="sm:block hidden" />
+
+<div class="mt-6 mb-6 .hero-center-title text-center">
+{{< hextra/hero-headline >}}
+⊘
+{{< /hextra/hero-headline >}}
+</div>

@@ -6,7 +6,7 @@ prev: services/application/predefined/virtual_tour/features
 next: services/application/predefined/virtual_tour/qna
 ---
 
-kami bersifat fleksible dalam proses diskusi / pengembangan / pengelolaan, client tidak di haruskan mengikuti tahap-tahap selama ada kesepakatan, adapun tahap-tahap yang mungkin terjadi sebagai berikut :
+kami bersifat fleksible dalam proses diskusi / pengembangan / pengelolaan, client tidak di haruskan mengikuti tahap-tahap selama memiliki kesepahaman, adapun tahap-tahap yang mungkin terjadi sebagai berikut :
 
 - diskusi proyek melalui media yang tersedia
 - diskusi detail (D, C)
@@ -14,15 +14,15 @@ kami bersifat fleksible dalam proses diskusi / pengembangan / pengelolaan, clien
   - (optional) design document (C)
 - tahap pertimbangan & perencanaan (D, C)
 - pengambilan sumber (D)
-  - (additional) pembuatan gambar teknis (Floorplan) (D / C / T)
-  - (additional) pengambilan gambar (D / C / T)
+  - (additional) pembuatan gambar teknis (Floorplan) (D / C)
+  - (additional) pengambilan gambar (D / C)
 - produksi (D)
   - pembuatan aplikasi (D)
-  - Testing / QC / QA (D, C / T)
-  - revisi / penyesuaian (D, C / T)
+  - Testing / QC / QA (D, C)
+  - revisi / penyesuaian (D, C)
 - rilis (D, C)
 - maintanence (D, C)
 
-*pihak terlibat ( D : Developer | C : Client | T : ThirdParty )
+*pihak terlibat ( D : Developer | C : Client )
 
-[Whatsapp](https://api.whatsapp.com/send?phone=+62881024815075) / [Email](mailto:still.lkmn@gmail.com)
+[Email](mailto:naiive@email.com) | [Discussion](https://github.com/orgs/naiiveprojects/discussions)

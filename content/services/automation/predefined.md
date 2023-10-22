@@ -5,6 +5,6 @@ prev: services/automation/getting_started
 next: services/automation/request
 ---
 
-{{< callout type="warning" >}}
-  Coming Soon.
-{{< /callout >}}
+{{< cards >}}
+  {{< card subtitle="coming soon" title="ᕦ(ò_óˇ)ᕤ" >}}
+{{< /cards >}}
