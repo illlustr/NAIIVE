@@ -22,7 +22,9 @@ languages:
     title: NAIIVE
 
 # import hextra as module
-theme: hextra
+module:
+  imports:
+  - path: github.com/imfing/hextra
 
 markup:
   # allow raw html
