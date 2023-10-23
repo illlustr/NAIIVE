@@ -23,7 +23,7 @@ prev: services/application/predefined/virtual_tour/procedures
 - platform apa saja yang di support oleh poyek ini?
   - Windows, MacOS, Linux, IOS, Android, Website, Progressive Web App
 - apakah biaya sudah termasuk dengan biaya marketplace / hosting (ex : playstore, appstore, website, dll):
-  - tidak, kami memberikan project binary yang selanjutnya client dapat memasukkannya ke marketplace / website manapun, jika di perlukan kami akan membantu proses-prosesnya.
+  - tidak, kami memberikan project executable yang selanjutnya client dapat memasukkannya ke marketplace / website manapun, jika di perlukan kami akan membantu proses-prosesnya.
 - faktor apa yang membedakan biaya layanan ini di banding layanan lain?
   - kami tidak / belum mengutamakan keuntungan.
   - proyek di kerjakan oleh 1-3 multifungsi team / personal.
