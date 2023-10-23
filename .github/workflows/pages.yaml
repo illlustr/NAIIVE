@@ -55,6 +55,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
+          git submodule update --init
           hugo \
             --gc \
             --minify \
