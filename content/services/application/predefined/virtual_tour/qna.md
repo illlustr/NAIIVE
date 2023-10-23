@@ -30,4 +30,18 @@ prev: services/application/predefined/virtual_tour/procedures
   - QA / QC / Testing bersifat internal.
     - client dapat merekrut thirdparty untuk membantu.
 
- [a] Biaya akan selalu di update menyesuaikan dengan tingkat kedewasaan teknologi yang kami kembangkan.
+<div style="text-align: center;"><br><br>
+
+{{< hextra/hero-badge link="mailto:naiive@email.com" >}}
+🔐 Private | **e-mail**
+{{< /hextra/hero-badge >}}
+
+{{< hextra/hero-badge link="https://github.com/orgs/naiiveprojects/discussions" >}}
+🌐 Public | **discussion**
+{{< /hextra/hero-badge >}}
+
+{{< hextra/hero-badge >}}
+🔑 ~~Secret | **message**~~
+{{< /hextra/hero-badge >}}
+
+</div>

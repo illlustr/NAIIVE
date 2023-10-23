@@ -22,6 +22,5 @@ Github ↗️
 {{< cards >}}
   {{< card link="https://github.com/naiiveprojects/gd.x" title="gd.x" icon="cube"  subtitle="game engine" >}}
   {{< card link="./aise" title="AISE" icon="photograph"  subtitle="image generator & manipulator" >}}
-  {{< card link="https://illl.itch.io/exe-cute" title="Exe-Cute" icon="terminal"  subtitle="Image optimization, executable editor & compressor, media player" >}}
-  {{< card link="" title="[WIP] Motive" icon="beaker"  subtitle="NAIIVE hub application" >}}
+  {{< card link="" title="Motive" icon="chat-alt-2"  subtitle="⚠️ **work in progress |** NAIIVE hub" >}}
 {{< /cards >}}

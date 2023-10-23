@@ -23,6 +23,18 @@ kami bersifat fleksible dalam proses diskusi / pengembangan / pengelolaan, clien
 - rilis (D, C)
 - maintanence (D, C)
 
-*pihak terlibat ( D : Developer | C : Client )
+<div style="text-align: center;"><br><br>
 
-[Email](mailto:naiive@email.com) | [Discussion](https://github.com/orgs/naiiveprojects/discussions)
+{{< hextra/hero-badge link="mailto:naiive@email.com" >}}
+🔐 Private | **e-mail**
+{{< /hextra/hero-badge >}}
+
+{{< hextra/hero-badge link="https://github.com/orgs/naiiveprojects/discussions" >}}
+🌐 Public | **discussion**
+{{< /hextra/hero-badge >}}
+
+{{< hextra/hero-badge >}}
+🔑 ~~Secret | **message**~~
+{{< /hextra/hero-badge >}}
+
+</div>

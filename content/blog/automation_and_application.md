@@ -5,9 +5,9 @@ comment = true
 excludeSearch = true
 +++
 
-Automation and application are related and it can be quite challenging to determine whether a project is automation or application, therefore we created a small standard that can be one of the considerations in determining whether a project is included in the automation or application category.
+Automation and application are related and it can be quite challenging to determine whether a project is automation or application.
 
-<!--more-->
+due to our commitment it is most likely that we are building interface on top of the automation service, therefore we created a small standard that can be one of the considerations in determining whether a project is included in the automation or application category.
 
 - **Automation**: Automation involves the use of technology, software, or machinery to perform tasks or processes with `minimal human intervention`. It aims to streamline and optimize repetitive or complex tasks by using predefined rules or algorithms.
 - **Application**: An application, is a software program or computer program designed to perform specific tasks or functions. its a `user-facing programs`.
