@@ -66,7 +66,30 @@ Article work in progress.
 &lt;li>client dapat mengajukan fitur spesifik apapun&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>Prosedur</title><link>https://naiiveprojects.github.io/services/application/predefined/virtual_tour/procedures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://naiiveprojects.github.io/services/application/predefined/virtual_tour/procedures/</guid><description>
+&lt;/ul>
+&lt;div style="text-align: center;">&lt;br>&lt;br>
+&lt;a
+href="mailto:naiive@email.com"
+class=" inline-flex items-center rounded-full gap-2 px-3 py-1 text-xs text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-neutral-800 dark:border-neutral-800 border hover:border-gray-400 dark:hover:text-gray-50 dark:hover:border-gray-600 transition-all ease-in duration-200"
+style="text-decoration: none;"
+>
+🔐 Private | &lt;strong>e-mail&lt;/strong>
+&lt;/a>
+&lt;a
+href="https://github.com/orgs/naiiveprojects/discussions"
+class=" inline-flex items-center rounded-full gap-2 px-3 py-1 text-xs text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-neutral-800 dark:border-neutral-800 border hover:border-gray-400 dark:hover:text-gray-50 dark:hover:border-gray-600 transition-all ease-in duration-200"
+target="_blank" rel="noreferrer"style="text-decoration: none;"
+>
+🌐 Public | &lt;strong>discussion&lt;/strong>
+&lt;/a>
+&lt;a
+href=""
+class=" inline-flex items-center rounded-full gap-2 px-3 py-1 text-xs text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-neutral-800 dark:border-neutral-800 border hover:border-gray-400 dark:hover:text-gray-50 dark:hover:border-gray-600 transition-all ease-in duration-200"
+style="text-decoration: none;"
+>
+🔑 &lt;del>Secret | &lt;strong>message&lt;/strong>&lt;/del>
+&lt;/a>
+&lt;/div></description></item><item><title>Prosedur</title><link>https://naiiveprojects.github.io/services/application/predefined/virtual_tour/procedures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://naiiveprojects.github.io/services/application/predefined/virtual_tour/procedures/</guid><description>
 &lt;p>kami bersifat fleksible dalam proses diskusi / pengembangan / pengelolaan, client tidak di haruskan mengikuti tahap-tahap selama memiliki kesepahaman, adapun tahap-tahap yang mungkin terjadi sebagai berikut :&lt;/p>
 &lt;ul>
 &lt;li>diskusi proyek melalui media yang tersedia&lt;/li>
@@ -93,8 +116,29 @@ Article work in progress.
 &lt;li>rilis (D, C)&lt;/li>
 &lt;li>maintanence (D, C)&lt;/li>
 &lt;/ul>
-&lt;p>*pihak terlibat ( D : Developer | C : Client )&lt;/p>
-&lt;p>&lt;a href="mailto:naiive@email.com" >Email&lt;/a> | &lt;a href="https://github.com/orgs/naiiveprojects/discussions" target="_blank" rel="noopener">Discussion&lt;/a>&lt;/p></description></item><item><title>Pertanyaan</title><link>https://naiiveprojects.github.io/services/application/predefined/virtual_tour/qna/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://naiiveprojects.github.io/services/application/predefined/virtual_tour/qna/</guid><description>
+&lt;div style="text-align: center;">&lt;br>&lt;br>
+&lt;a
+href="mailto:naiive@email.com"
+class=" inline-flex items-center rounded-full gap-2 px-3 py-1 text-xs text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-neutral-800 dark:border-neutral-800 border hover:border-gray-400 dark:hover:text-gray-50 dark:hover:border-gray-600 transition-all ease-in duration-200"
+style="text-decoration: none;"
+>
+🔐 Private | &lt;strong>e-mail&lt;/strong>
+&lt;/a>
+&lt;a
+href="https://github.com/orgs/naiiveprojects/discussions"
+class=" inline-flex items-center rounded-full gap-2 px-3 py-1 text-xs text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-neutral-800 dark:border-neutral-800 border hover:border-gray-400 dark:hover:text-gray-50 dark:hover:border-gray-600 transition-all ease-in duration-200"
+target="_blank" rel="noreferrer"style="text-decoration: none;"
+>
+🌐 Public | &lt;strong>discussion&lt;/strong>
+&lt;/a>
+&lt;a
+href=""
+class=" inline-flex items-center rounded-full gap-2 px-3 py-1 text-xs text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-neutral-800 dark:border-neutral-800 border hover:border-gray-400 dark:hover:text-gray-50 dark:hover:border-gray-600 transition-all ease-in duration-200"
+style="text-decoration: none;"
+>
+🔑 &lt;del>Secret | &lt;strong>message&lt;/strong>&lt;/del>
+&lt;/a>
+&lt;/div></description></item><item><title>Pertanyaan</title><link>https://naiiveprojects.github.io/services/application/predefined/virtual_tour/qna/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://naiiveprojects.github.io/services/application/predefined/virtual_tour/qna/</guid><description>
 &lt;ul>
 &lt;li>apakah source code termasuk dalam paket pembelian?
 &lt;ul>
@@ -136,7 +180,7 @@ Article work in progress.
 &lt;/li>
 &lt;li>apakah biaya sudah termasuk dengan biaya marketplace / hosting (ex : playstore, appstore, website, dll):
 &lt;ul>
-&lt;li>tidak, kami memberikan project binary yang selanjutnya client dapat memasukkannya ke marketplace / website manapun, jika di perlukan kami akan membantu proses-prosesnya.&lt;/li>
+&lt;li>tidak, kami memberikan project executable yang selanjutnya client dapat memasukkannya ke marketplace / website manapun, jika di perlukan kami akan membantu proses-prosesnya.&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>faktor apa yang membedakan biaya layanan ini di banding layanan lain?
@@ -151,4 +195,26 @@ Article work in progress.
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>[a] Biaya akan selalu di update menyesuaikan dengan tingkat kedewasaan teknologi yang kami kembangkan.&lt;/p></description></item></channel></rss>
+&lt;div style="text-align: center;">&lt;br>&lt;br>
+&lt;a
+href="mailto:naiive@email.com"
+class=" inline-flex items-center rounded-full gap-2 px-3 py-1 text-xs text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-neutral-800 dark:border-neutral-800 border hover:border-gray-400 dark:hover:text-gray-50 dark:hover:border-gray-600 transition-all ease-in duration-200"
+style="text-decoration: none;"
+>
+🔐 Private | &lt;strong>e-mail&lt;/strong>
+&lt;/a>
+&lt;a
+href="https://github.com/orgs/naiiveprojects/discussions"
+class=" inline-flex items-center rounded-full gap-2 px-3 py-1 text-xs text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-neutral-800 dark:border-neutral-800 border hover:border-gray-400 dark:hover:text-gray-50 dark:hover:border-gray-600 transition-all ease-in duration-200"
+target="_blank" rel="noreferrer"style="text-decoration: none;"
+>
+🌐 Public | &lt;strong>discussion&lt;/strong>
+&lt;/a>
+&lt;a
+href=""
+class=" inline-flex items-center rounded-full gap-2 px-3 py-1 text-xs text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-neutral-800 dark:border-neutral-800 border hover:border-gray-400 dark:hover:text-gray-50 dark:hover:border-gray-600 transition-all ease-in duration-200"
+style="text-decoration: none;"
+>
+🔑 &lt;del>Secret | &lt;strong>message&lt;/strong>&lt;/del>
+&lt;/a>
+&lt;/div></description></item></channel></rss>

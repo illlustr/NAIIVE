@@ -13,4 +13,18 @@ next: services/automation/request/procedures
   Due to our current limitations, we will only accept the most feasible requests. For this reason, it is recommended that you engaging in direct interaction with our team first.
 {{< /callout >}}
 
-[Email](mailto:naiive@email.com) | [Discussion](https://github.com/orgs/naiiveprojects/discussions)
+<div style="text-align: center;"><br><br>
+
+{{< hextra/hero-badge link="mailto:naiive@email.com" >}}
+🔐 Private | **e-mail**
+{{< /hextra/hero-badge >}}
+
+{{< hextra/hero-badge link="https://github.com/orgs/naiiveprojects/discussions" >}}
+🌐 Public | **discussion**
+{{< /hextra/hero-badge >}}
+
+{{< hextra/hero-badge >}}
+🔑 ~~Secret | **message**~~
+{{< /hextra/hero-badge >}}
+
+</div>
