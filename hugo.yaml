@@ -1,7 +1,7 @@
 # Hugo configuration file
 baseURL: "https://naiiveprojects.github.io/"
 title: NAIIVE
-# googleAnalytics: G-XXXXXXXXXX
+googleAnalytics: G-TE8NM8F1RY
 
 enableInlineShortcodes: true
 enableRobotsTXT: true

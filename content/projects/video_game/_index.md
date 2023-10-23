@@ -20,5 +20,5 @@ Github ↗️
 <br>
 
 {{< cards >}}
-  {{< card subtitle="coming soon" title="(⓿_⓿)" >}}
+  {{< card link="" title="Fiksi" icon="lightning-bolt"  subtitle="🟠 **On Hold |** Action RPG" >}}
 {{< /cards >}}

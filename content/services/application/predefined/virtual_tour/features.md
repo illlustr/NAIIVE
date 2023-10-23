@@ -48,15 +48,11 @@ next: services/application/predefined/virtual_tour/procedures
 <div style="text-align: center;"><br><br>
 
 {{< hextra/hero-badge link="mailto:naiive@email.com" >}}
-🔐 Private | **e-mail**
+**E-mail** | Private 🔐
 {{< /hextra/hero-badge >}}
 
 {{< hextra/hero-badge link="https://github.com/orgs/naiiveprojects/discussions" >}}
-🌐 Public | **discussion**
-{{< /hextra/hero-badge >}}
-
-{{< hextra/hero-badge >}}
-🔑 ~~Secret | **message**~~
+**Discussion** | Public 🌐
 {{< /hextra/hero-badge >}}
 
 </div>
