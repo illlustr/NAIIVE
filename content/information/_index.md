@@ -3,4 +3,10 @@ weight: 4
 title: Information
 ---
 
-<img src="/images/masterpiece_naiive_gray.png" alt="naive" width="200">
+<div class="mt-6 mb-6 .hero-center-title text-center"><br><br><br>
+{{< hextra/hero-headline >}}
+⨝
+
+Information
+{{< /hextra/hero-headline >}}
+</div>

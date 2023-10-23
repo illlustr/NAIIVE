@@ -20,5 +20,5 @@ Github ↗️
 <br>
 
 {{< cards >}}
-  {{< card subtitle="coming soon" title="(o゜▽゜)o☆" >}}
+  {{< card subtitle="coming soon" title="(⓿_⓿)" >}}
 {{< /cards >}}

@@ -1,17 +1,14 @@
 ---
-title: Request
+title: 'Sponsor'
+prev: information/
 type: docs
-prev: services/automation/predefined
-next: services/automation/request/procedures
 ---
 
 {{< callout type="info" >}}
   Article work in progress.
 {{< /callout >}}
 
-{{< callout type="warning" >}}
-  Due to our current limitations, we will only accept the most feasible requests. For this reason, it is recommended that you engaging in direct interaction with our team first.
-{{< /callout >}}
+<!--more-->
 
 <div style="text-align: center;"><br><br>
 

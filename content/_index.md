@@ -89,6 +89,6 @@ Adapt & leverage the latest technology.
 
 <div class="mt-6 mb-6 .hero-center-title text-center">
 {{< hextra/hero-headline >}}
-⊘
+⌀
 {{< /hextra/hero-headline >}}
 </div>

@@ -41,20 +41,13 @@ href="mailto:naiive@email.com"
 class=" inline-flex items-center rounded-full gap-2 px-3 py-1 text-xs text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-neutral-800 dark:border-neutral-800 border hover:border-gray-400 dark:hover:text-gray-50 dark:hover:border-gray-600 transition-all ease-in duration-200"
 style="text-decoration: none;"
 >
-🔐 Private | &lt;strong>e-mail&lt;/strong>
+&lt;strong>E-mail&lt;/strong> | Private 🔐
 &lt;/a>
 &lt;a
 href="https://github.com/orgs/naiiveprojects/discussions"
 class=" inline-flex items-center rounded-full gap-2 px-3 py-1 text-xs text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-neutral-800 dark:border-neutral-800 border hover:border-gray-400 dark:hover:text-gray-50 dark:hover:border-gray-600 transition-all ease-in duration-200"
 target="_blank" rel="noreferrer"style="text-decoration: none;"
 >
-🌐 Public | &lt;strong>discussion&lt;/strong>
-&lt;/a>
-&lt;a
-href=""
-class=" inline-flex items-center rounded-full gap-2 px-3 py-1 text-xs text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-neutral-800 dark:border-neutral-800 border hover:border-gray-400 dark:hover:text-gray-50 dark:hover:border-gray-600 transition-all ease-in duration-200"
-style="text-decoration: none;"
->
-🔑 &lt;del>Secret | &lt;strong>message&lt;/strong>&lt;/del>
+&lt;strong>Discussion&lt;/strong> | Public 🌐
 &lt;/a>
 &lt;/div></description></item></channel></rss>

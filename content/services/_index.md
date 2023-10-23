@@ -9,15 +9,11 @@ sidebar:
 
 Technology is no longer an expensive or inaccessible resource. Unfortunately, this accessibility primarily benefits individuals or companies already established in the field.
 
-## Problem
-
 For the majority of individuals or businesses, technology remains unfamiliar and out of reach. Yet, it’s undeniable that technology play a crucial role in accelerating growth, enhancing efficiency, and ensuring survival.
 
 ## Solution
 
 We aim to bridge this gap by offering technology-related services solutions.
-
-Through our services, we aspire to spare individuals or companies the need to hire a full-time development team for technology adaptation. This is further facilitated by our prebuilt solutions, which will significantly reduce development time and costs for clients.
 
 {{< cards >}}
   {{< card link="./assets" title="Assets" subtitle="digital resources" icon="sparkles" >}}
@@ -26,6 +22,8 @@ Through our services, we aspire to spare individuals or companies the need to hi
   {{< card link="./video_game" title="Video Game" subtitle="interactive media" icon="puzzle" >}}
 {{< /cards >}}
 
+Through our services, we aspire to spare individuals or companies the need to hire a full-time development team for technology adaptation. This is further facilitated by our prebuilt solutions, which will significantly reduce development time and costs for clients.
+
 In comparison to other service providers, we provide a more cost-effective and dependable solution.
 
 <br>
@@ -33,3 +31,5 @@ In comparison to other service providers, we provide a more cost-effective and d
 {{< hextra/hero-badge link="../../projects/" >}}
 Explore projects ▶️
 {{< /hextra/hero-badge >}}
+
+<br>

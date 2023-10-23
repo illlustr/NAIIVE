@@ -1,6 +1,5 @@
 ---
 title: 'About'
-
 prev: information/
 type: docs
 ---
