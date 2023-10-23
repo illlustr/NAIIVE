@@ -22,9 +22,7 @@ languages:
     title: NAIIVE
 
 # import hextra as module
-module:
-  imports:
-  - path: github.com/imfing/hextra
+theme: hextra
 
 markup:
   # allow raw html
@@ -99,7 +97,7 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/naiiveprojects/naiiveprojects.github.io/master/content"
+    base: "https://github.com/naiiveprojects/naiiveprojects.github.io/commits/master/content"
   
   comments:
     enable: false

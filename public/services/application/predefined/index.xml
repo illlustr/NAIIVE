@@ -2,9 +2,9 @@
 &lt;div class="overflow-x-auto mt-6 flex rounded-lg border py-2 ltr:pr-4 rtl:pl-4 contrast-more:border-current contrast-more:dark:border-current border-yellow-100 bg-yellow-50 text-yellow-900 dark:border-yellow-200/30 dark:bg-yellow-700/30 dark:text-yellow-200">
 &lt;div class="select-none text-xl ltr:pl-3 ltr:pr-2 rtl:pr-3 rtl:pl-2" style='font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";'>⚠️&lt;/div>
 &lt;div class="w-full min-w-0 leading-7">
-&lt;p class="mt-6 leading-7 first:mt-0">
+&lt;div class="mt-6 leading-7 first:mt-0">
 this service only available in &lt;strong>Indonesia&lt;/strong>, you can apply / request this service to be available in your country.
-&lt;/p>
+&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;p>Virtual Tour identik dengan luxury / membingungkan dimana hanya sebagian perusahaan ataupun individu yang dapat memanfaatkannya.&lt;/p>
