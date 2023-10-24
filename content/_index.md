@@ -26,7 +26,7 @@ Adapt & leverage the latest technology.
 </div>
 
 {{< hextra/hero-badge link="../../services/" >}}
-  explore services 
+explore services
 {{< /hextra/hero-badge >}}
 
 <div class="mt-6 mb-6 .hero-center-title text-center">
@@ -35,7 +35,7 @@ Adapt & leverage the latest technology.
 {{< /hextra/hero-headline >}}
 </div>
 
-<br class="sm:block hidden" />
+<br>
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
@@ -85,7 +85,7 @@ Adapt & leverage the latest technology.
   >}}
 {{< /hextra/feature-grid >}}
 
-<br class="sm:block hidden" />
+<br>
 
 <div class="mt-6 mb-6 .hero-center-title text-center">
 {{< hextra/hero-headline >}}

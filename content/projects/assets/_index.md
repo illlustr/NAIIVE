@@ -13,10 +13,6 @@ sidebar:
 Request from services ▶️
 {{< /hextra/hero-badge >}}
 
-{{< hextra/hero-badge link="https://github.com/naiiveprojects/" >}}
-Github ↗️
-{{< /hextra/hero-badge >}}
-
 <br>
 
 {{< cards >}}
