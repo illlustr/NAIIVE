@@ -13,12 +13,8 @@ sidebar:
 Request from services ▶️
 {{< /hextra/hero-badge >}}
 
-{{< hextra/hero-badge link="https://github.com/naiiveprojects/" >}}
-Github ↗️
-{{< /hextra/hero-badge >}}
-
 <br>
 
 {{< cards >}}
-  {{< card link="" title="Fiksi" icon="lightning-bolt"  subtitle="🟠 **On Hold |** Action RPG" >}}
+  {{< card link="" title="Fiksi" icon="lightning-bolt"  subtitle="⭕ **On Hold |** Action RPG" >}}
 {{< /cards >}}

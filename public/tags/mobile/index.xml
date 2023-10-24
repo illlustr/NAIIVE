@@ -1,4 +1,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NAIIVE – Mobile</title><link>https://naiiveprojects.github.io/tags/mobile/</link><description>Recent content in Mobile on NAIIVE</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://naiiveprojects.github.io/tags/mobile/index.xml" rel="self" type="application/rss+xml"/><item><title>AISE</title><link>https://naiiveprojects.github.io/projects/application/aise/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://naiiveprojects.github.io/projects/application/aise/</guid><description>
+&lt;div class="mt-4 flex w-max min-w-full border-b border-gray-200 pb-px dark:border-neutral-800">&lt;button
+class="tabs-toggle data-[state=selected]:border-primary-500 data-[state=selected]:text-primary-600 mr-2 rounded-t p-2 font-medium leading-5 transition-colors -mb-0.5 select-none border-b-2 border-transparent text-gray-600 hover:border-gray-200 hover:text-black dark:text-gray-200 dark:hover:border-neutral-800 dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-0"
+aria-selected="true"
+tabindex="0"
+data-state="selected"
+>Motive&lt;/button>&lt;button
+class="tabs-toggle data-[state=selected]:border-primary-500 data-[state=selected]:text-primary-600 mr-2 rounded-t p-2 font-medium leading-5 transition-colors -mb-0.5 select-none border-b-2 border-transparent text-gray-600 hover:border-gray-200 hover:text-black dark:text-gray-200 dark:hover:border-neutral-800 dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-1"
+>Features&lt;/button>&lt;button
+class="tabs-toggle data-[state=selected]:border-primary-500 data-[state=selected]:text-primary-600 mr-2 rounded-t p-2 font-medium leading-5 transition-colors -mb-0.5 select-none border-b-2 border-transparent text-gray-600 hover:border-gray-200 hover:text-black dark:text-gray-200 dark:hover:border-neutral-800 dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-2"
+>Status&lt;/button>&lt;button
+class="tabs-toggle data-[state=selected]:border-primary-500 data-[state=selected]:text-primary-600 mr-2 rounded-t p-2 font-medium leading-5 transition-colors -mb-0.5 select-none border-b-2 border-transparent text-gray-600 hover:border-gray-200 hover:text-black dark:text-gray-200 dark:hover:border-neutral-800 dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-3"
+>Result&lt;/button>&lt;/div>
+&lt;div>
+&lt;div
+class="tabs-panel rounded pt-6 hidden data-[state=selected]:block"
+id="tabs-panel-0"
+role="tabpanel"
+tabindex="0"
+data-state="selected"
+>
 &lt;p>AISE is a software built using &lt;a href="https://github.com/naiiveprojects/gd.x/" target="_blank" rel="noopener">gd.x&lt;/a>, offering users a suite of tools for image creation and modification. designed as a mobile application, its inception aimed to integrate cutting-edge artificial intelligence technology.&lt;/p>
 &lt;h2>Motivation&lt;span class="absolute -mt-20" id="motivation">&lt;/span>
 &lt;a href="#motivation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>AISE was initially constructed within a limited timeframe, with a maximum duration of one day. The primary objective was to swiftly incorporate state-of-the-art Artificial Intelligence technology for proof of concept and as a fundamental exercise in mobile device design.&lt;/p>
@@ -15,12 +47,12 @@ Article work in progress.
 &lt;/div>
 &lt;/div>
 &lt;p>AISE use &lt;a href="https://stablehorde.net/" target="_blank" rel="noopener">AI Horde&lt;/a> a crowd sourced distributed cluster of Image generation workers and text generation workers. if you like consider joining the horde yourself!&lt;/p>
-&lt;h2>Detail&lt;span class="absolute -mt-20" id="detail">&lt;/span>
-&lt;a href="#detail" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;details class="last-of-type:mb-0 rounded-lg bg-neutral-50 dark:bg-neutral-800 p-2 mt-4 group" >
-&lt;summary class="flex items-center cursor-pointer select-none list-none p-1 rounded transition-colors hover:bg-gray-100 dark:hover:bg-neutral-800 before:mr-1 before:inline-block before:transition-transform before:content-[''] dark:before:invert rtl:before:rotate-180 group-open:before:rotate-90">
-&lt;strong class="text-lg">Features&lt;/strong>
-&lt;/summary>
-&lt;div class="p-2 overflow-hidden">
+&lt;/div>
+&lt;div
+class="tabs-panel rounded pt-6 hidden data-[state=selected]:block"
+id="tabs-panel-1"
+role="tabpanel"
+>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/Stability-AI/StableDiffusion" target="_blank" rel="noopener">Stable Diffusion&lt;/a> Served by &lt;a href="https://stablehorde.net/" target="_blank" rel="noopener">AI Horde&lt;/a>
 &lt;ul>
@@ -44,61 +76,80 @@ Article work in progress.
 &lt;li>Image Optimization &lt;a href="https://resmush.it/" target="_blank" rel="noopener">Resmush API&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/div>
-&lt;/details>
-&lt;details class="last-of-type:mb-0 rounded-lg bg-neutral-50 dark:bg-neutral-800 p-2 mt-4 group" >
-&lt;summary class="flex items-center cursor-pointer select-none list-none p-1 rounded transition-colors hover:bg-gray-100 dark:hover:bg-neutral-800 before:mr-1 before:inline-block before:transition-transform before:content-[''] dark:before:invert rtl:before:rotate-180 group-open:before:rotate-90">
-&lt;strong class="text-lg">Resources&lt;/strong>
-&lt;/summary>
-&lt;div class="p-2 overflow-hidden">
+&lt;div
+class="tabs-panel rounded pt-6 hidden data-[state=selected]:block"
+id="tabs-panel-2"
+role="tabpanel"
+>
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>url&lt;/th>
+&lt;th>platform&lt;/th>
+&lt;th>status&lt;/th>
 &lt;th>type&lt;/th>
-&lt;th>description&lt;/th>
+&lt;th>resource&lt;/th>
+&lt;th>note&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>&lt;a href="https://naiive.itch.io/aise" target="_blank" rel="noopener">Itch.io&lt;/a>&lt;/td>
-&lt;td>&lt;code>page&lt;/code>, &lt;code>HTML5&lt;/code>&lt;/td>
-&lt;td>executable &amp;amp; more user friendly explanation&lt;/td>
+&lt;td>Itch.io&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;td>&lt;code>marketplace&lt;/code>&lt;/td>
+&lt;td>&lt;a href="https://naiive.itch.io/aise" target="_blank" rel="noopener">website&lt;/a>&lt;/td>
+&lt;td>-&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_android.apk" target="_blank" rel="noopener">Android&lt;/a>&lt;/td>
-&lt;td>&lt;code>installer&lt;/code> as &lt;code>apk&lt;/code>&lt;/td>
-&lt;td>target platform&lt;/td>
+&lt;td>Android&lt;/td>
+&lt;td>✅Ⓜ️&lt;/td>
+&lt;td>&lt;code>target&lt;/code> &lt;code>installer&lt;/code> &lt;code>apk&lt;/code>&lt;/td>
+&lt;td>&lt;a href="https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_android.apk" target="_blank" rel="noopener">apk&lt;/a>&lt;/td>
+&lt;td>-&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>IOS&lt;/td>
-&lt;td>N/A&lt;/td>
-&lt;td>target platform&lt;/td>
+&lt;td>⛔&lt;/td>
+&lt;td>&lt;code>target&lt;/code>&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>x-code or CI/CD&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_windows.zip" target="_blank" rel="noopener">Windows&lt;/a>&lt;/td>
-&lt;td>&lt;code>portable&lt;/code> as &lt;code>exe&lt;/code> in &lt;code>zip&lt;/code>&lt;/td>
-&lt;td>for testing, main development operating system&lt;/td>
+&lt;td>Windows&lt;/td>
+&lt;td>✅Ⓜ️&lt;/td>
+&lt;td>&lt;code>testing&lt;/code> &lt;code>portable&lt;/code> &lt;code>exe&lt;/code>&lt;/td>
+&lt;td>&lt;a href="https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_windows.zip" target="_blank" rel="noopener">zip&lt;/a>&lt;/td>
+&lt;td>-&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_mac.zip" target="_blank" rel="noopener">MacOS&lt;/a>&lt;/td>
-&lt;td>&lt;code>unknown&lt;/code> as &lt;code>zip&lt;/code>&lt;/td>
-&lt;td>for testing, untested / reported&lt;/td>
+&lt;td>MacOS&lt;/td>
+&lt;td>✅❌&lt;/td>
+&lt;td>&lt;code>testing&lt;/code> &lt;code>portable&lt;/code> &lt;code>64&lt;/code>&lt;/td>
+&lt;td>&lt;a href="https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_mac.zip" target="_blank" rel="noopener">zip&lt;/a>&lt;/td>
+&lt;td>req notarized&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_linux.zip" target="_blank" rel="noopener">Linux&lt;/a>&lt;/td>
-&lt;td>&lt;code>portable&lt;/code> as &lt;code>x86_64&lt;/code> in &lt;code>zip&lt;/code>&lt;/td>
-&lt;td>for testing, untested / reported&lt;/td>
+&lt;td>Linux&lt;/td>
+&lt;td>✅Ⓜ️&lt;/td>
+&lt;td>&lt;code>testing&lt;/code> &lt;code>portable&lt;/code> &lt;code>x86_64&lt;/code>&lt;/td>
+&lt;td>&lt;a href="https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_linux.zip" target="_blank" rel="noopener">zip&lt;/a>&lt;/td>
+&lt;td>-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>PWA&lt;/td>
+&lt;td>⛔&lt;/td>
+&lt;td>&lt;code>testing&lt;/code> &lt;code>HTML5&lt;/code>&lt;/td>
+&lt;td>&lt;a href="https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_windows.zip" target="_blank" rel="noopener">website&lt;/a>&lt;/td>
+&lt;td>cross-origin required&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
+&lt;p>&lt;a href="../../../information/documentation/project_status/" >&lt;strong>status definition ▶️&lt;/strong>&lt;/a> &lt;code>🟢In Progress&lt;/code> &lt;code>⭕On Hold&lt;/code> &lt;code>❌Canceled&lt;/code> &lt;code>✅Completed&lt;/code> &lt;code>🟡Delayed&lt;/code> &lt;code>⛔Blocked&lt;/code> &lt;code>⚪Reopened&lt;/code> &lt;code>Ⓜ️Monitoring&lt;/code>
 &lt;/div>
-&lt;/details>
-&lt;details class="last-of-type:mb-0 rounded-lg bg-neutral-50 dark:bg-neutral-800 p-2 mt-4 group" >
-&lt;summary class="flex items-center cursor-pointer select-none list-none p-1 rounded transition-colors hover:bg-gray-100 dark:hover:bg-neutral-800 before:mr-1 before:inline-block before:transition-transform before:content-[''] dark:before:invert rtl:before:rotate-180 group-open:before:rotate-90">
-&lt;strong class="text-lg">Report&lt;/strong>
-&lt;/summary>
-&lt;div class="p-2 overflow-hidden">
-&lt;p>from developing AISE we create &amp;amp; introduce some new and refined component &amp;amp; class we can share and utilize in the future&lt;/p>
+&lt;div
+class="tabs-panel rounded pt-6 hidden data-[state=selected]:block"
+id="tabs-panel-3"
+role="tabpanel"
+>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -110,43 +161,35 @@ Article work in progress.
 &lt;tbody>
 &lt;tr>
 &lt;td>&lt;code>stable_horde_api&lt;/code>&lt;/td>
-&lt;td>&lt;code>resources&lt;/code>&lt;/td>
+&lt;td>&lt;code>new&lt;/code> &lt;code>resources&lt;/code>&lt;/td>
 &lt;td>stable horde APIs wrapper with helper class, it has &lt;code>resume&lt;/code> method that will try to retrieve the last known &lt;code>task&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;code>texture_showcase&lt;/code>&lt;/td>
-&lt;td>&lt;code>.tscn&lt;/code>&lt;/td>
+&lt;td>&lt;code>new&lt;/code> &lt;code>.tscn&lt;/code>&lt;/td>
 &lt;td>iterate &amp;amp; animate part / position from atlas texture.&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;code>texture_dock&lt;/code>&lt;/td>
-&lt;td>&lt;code>HTTPRequest&lt;/code>&lt;/td>
+&lt;td>&lt;code>new&lt;/code> &lt;code>HTTPRequest&lt;/code>&lt;/td>
 &lt;td>optimize, download, cached image from internet in batch and assign it to the requested node.&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;code>google_translate_api&lt;/code>&lt;/td>
-&lt;td>&lt;code>HTTPRequest&lt;/code>&lt;/td>
+&lt;td>&lt;code>new&lt;/code> &lt;code>HTTPRequest&lt;/code>&lt;/td>
 &lt;td>google translate APIs Wrapper, contain necessary helper.&lt;/td>
 &lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>name&lt;/th>
-&lt;th>description&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
 &lt;tr>
 &lt;td>&lt;code>file_panel&lt;/code>&lt;/td>
-&lt;td>cleaned up, &amp;amp; add touchscreen support&lt;/td>
+&lt;td>&lt;code>.tscn&lt;/code>&lt;/td>
+&lt;td>add touchscreen support&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;code>theme&lt;/code>&lt;/td>
-&lt;td>cleaned up, add shadow, consistency adjustment&lt;/td>
+&lt;td>&lt;code>resources&lt;/code>&lt;/td>
+&lt;td>add shadow, consistency adjustment&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
 &lt;/div>
-&lt;/details></description></item></channel></rss>
+&lt;/div></description></item></channel></rss>

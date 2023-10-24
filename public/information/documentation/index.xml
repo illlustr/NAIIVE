@@ -1,0 +1,47 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NAIIVE – Documentation</title><link>https://naiiveprojects.github.io/information/documentation/</link><description>Recent content in Documentation on NAIIVE</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 23 Oct 2023 20:54:44 +0700</lastBuildDate><atom:link href="https://naiiveprojects.github.io/information/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Glossary</title><link>https://naiiveprojects.github.io/information/documentation/glossary/</link><pubDate>Mon, 23 Oct 2023 20:54:44 +0700</pubDate><guid>https://naiiveprojects.github.io/information/documentation/glossary/</guid><description>
+&lt;ul>
+&lt;li>&lt;strong>Decentralize&lt;/strong>: distributing control or decision-making authority away from a central entity, promoting transparency, and reducing single points of failure.&lt;/li>
+&lt;li>&lt;strong>streamline&lt;/strong> refers to the act of simplifying and improving a process or system by eliminating unnecessary steps.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;ul>
+&lt;li>&lt;strong>executable&lt;/strong>: file or program that can be run or executed on a computer or electronic device.&lt;/li>
+&lt;li>&lt;strong>Git&lt;/strong>: system that allows its user to track changes, collaborate with others, and manage software development projects efficiently. Most Known Service: &lt;em>&lt;strong>GitHub&lt;/strong>&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Source code&lt;/strong>: Assets, resource, and human-readable text-based document written in specific programming language that serves as blueprint for how a computer program should function.&lt;/li>
+&lt;li>&lt;strong>Open-source&lt;/strong>: refers to software or projects where the &lt;code>source code&lt;/code> is made available to the public. This means that &lt;strong>anyone can view, modify, and distribute it.&lt;/strong> It&amp;rsquo;s like having access to the recipe for a dish, you can not only cook it but also add your own ingredients.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;ul>
+&lt;li>&lt;strong>IoT&lt;/strong>: (Internet of Things) is a network of physical objects that can &lt;strong>collect and exchange data over the internet.&lt;/strong> It enables everyday items to communicate, share data, and make autonomous decisions.&lt;/li>
+&lt;li>&lt;strong>PWA&lt;/strong>: (Progressive Web Application) type of application software delivered and build for web, It is intended to work on any platform with a standards-compliant browser. you can install PWA like standard application via browser.&lt;/li>
+&lt;/ul></description></item><item><title>Project Status</title><link>https://naiiveprojects.github.io/information/documentation/project_status/</link><pubDate>Mon, 23 Oct 2023 20:54:44 +0700</pubDate><guid>https://naiiveprojects.github.io/information/documentation/project_status/</guid><description>
+&lt;!--
+🆘♻️❎🆗#️⃣*️⃣🔁🔀🔄️🔣🟥🟧🟨🟩🟦👁️‍🗨️🏴‍☠️🏙️🧯🌠⚡🔥🌊📢⚔️✨🎭🎒⚗️🧪💡💼🗃️📖
+`📘Not Started` `🔣Planning` `❎Needs Feedback` `📖Documentation`
+`📉Testing` `📊Refactoring` `📈Alpha/Beta Testing` `🌠Release Candidate`
+-->
+&lt;ul>
+&lt;li>&lt;strong>Not Started&lt;/strong>: initial status when a project has been defined but work hasn&amp;rsquo;t begun yet.&lt;/li>
+&lt;li>&lt;strong>Planning&lt;/strong>: This stage involves creating a project plan, defining requirements, and preparing for development.&lt;/li>
+&lt;li>&lt;strong>Needs Feedback&lt;/strong>: The project is waiting for feedback or approval from stakeholders.&lt;/li>
+&lt;li>&lt;strong>Documentation&lt;/strong>: Focusing on creating or updating project documentation.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;ul>
+&lt;li>&lt;strong>Testing&lt;/strong>: The project is in the testing phase, which can include unit testing, integration testing, and user acceptance testing.&lt;/li>
+&lt;li>&lt;strong>Refactoring&lt;/strong>: The project is being refactored to improve maintainability or performance.&lt;/li>
+&lt;li>&lt;strong>Alpha/Beta Testing&lt;/strong>: The software is being tested by a select group of users before general release.&lt;/li>
+&lt;li>&lt;strong>Release Candidate&lt;/strong>: The software is in its final stage of testing before being released to the public.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;ul>
+&lt;li>&lt;strong>In Progress&lt;/strong>: The development work is actively underway.&lt;/li>
+&lt;li>&lt;strong>On Hold&lt;/strong>: The project has been temporarily suspended but may resume in the future.&lt;/li>
+&lt;li>&lt;strong>Canceled&lt;/strong>: The project has been officially canceled, and no further work will be done on it.&lt;/li>
+&lt;li>&lt;strong>Completed&lt;/strong>: The project has been finished successfully and meets all the requirements.&lt;/li>
+&lt;li>&lt;strong>Delayed&lt;/strong>: The project is behind schedule, need catching up.&lt;/li>
+&lt;li>&lt;strong>Blocked&lt;/strong>: Work on the project is blocked by an issue or dependency.&lt;/li>
+&lt;li>&lt;strong>Reopened&lt;/strong>: The project was considered completed but has been reopened due to issues or new requirements.&lt;/li>
+&lt;li>&lt;strong>Monitoring&lt;/strong>: The project is live, and monitoring and maintenance activities are ongoing.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;code>🟢In Progress&lt;/code> &lt;code>⭕On Hold&lt;/code> &lt;code>❌Canceled&lt;/code> &lt;code>✅Completed&lt;/code> &lt;code>🟡Delayed&lt;/code> &lt;code>⛔Blocked&lt;/code> &lt;code>⚪Reopened&lt;/code> &lt;code>Ⓜ️Monitoring&lt;/code>&lt;/p></description></item></channel></rss>
