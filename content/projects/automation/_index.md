@@ -9,9 +9,9 @@ sidebar:
 
 <br>
 
-{{< hextra/hero-badge link="../../services/automation/getting_started" >}}
+{{< naiive/badge link="../../services/automation/getting_started" >}}
 Request from services ▶️
-{{< /hextra/hero-badge >}}
+{{< /naiive/badge >}}
 
 <br>
 

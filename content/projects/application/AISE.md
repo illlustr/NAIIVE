@@ -53,11 +53,11 @@ AISE use [AI Horde](https://stablehorde.net/) a crowd sourced distributed cluste
 |----------|--------|------|-----|------|
 | Itch.io | ✅ | `marketplace` | [website](https://naiive.itch.io/aise) | - |
 | Android | ✅Ⓜ️ | `target` `installer` `apk` | [apk](https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_android.apk) | - |
-| IOS | ⛔ | `target` | - | x-code or CI/CD |
+| IOS | ⛔ | `target` | - |  req x-code or CI/CD |
 | Windows | ✅Ⓜ️ | `testing` `portable` `exe` | [zip](https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_windows.zip) | - |
 | MacOS | ✅❌ | `testing` `portable` `64` | [zip](https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_mac.zip) | req notarized |
 | Linux | ✅Ⓜ️ | `testing` `portable` `x86_64` | [zip](https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_linux.zip) | - |
-| PWA | ⛔ | `testing` `HTML5` | [website](https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_windows.zip) | cross-origin required |
+| PWA | ⛔ | `testing` `HTML5` | [page](https://naiiveprojects.github.io/AISE) | req cross-origin |
 
 [**status definition ▶️**](../../../information/documentation/project_status/) `🟢In Progress` `⭕On Hold` `❌Canceled` `✅Completed` `🟡Delayed` `⛔Blocked` `⚪Reopened` `Ⓜ️Monitoring`
 
