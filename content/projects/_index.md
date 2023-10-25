@@ -18,8 +18,8 @@ Explore a wide range of contents that we've poured our ❤️ into
 
 <br>
 
-{{< hextra/hero-badge link="../../services/" >}}
+{{< naiive/badge link="../../services/" >}}
 Request project ▶️
-{{< /hextra/hero-badge >}}
+{{< /naiive/badge >}}
 
 <br>

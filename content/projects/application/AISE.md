@@ -5,6 +5,8 @@ prev: projects/application
 tags: ["Software", "Mobile"]
 ---
 
+{{< tabs items="Motive,Features,Status,Result" >}}{{< tab >}}
+
 AISE is a software built using [gd.x](https://github.com/naiiveprojects/gd.x/), offering users a suite of tools for image creation and modification. designed as a mobile application, its inception aimed to integrate cutting-edge artificial intelligence technology.
 
 ## Motivation
@@ -25,9 +27,7 @@ This practice is understandable because developers incur significant expenses in
 
 AISE use [AI Horde](https://stablehorde.net/) a crowd sourced distributed cluster of Image generation workers and text generation workers. if you like consider joining the horde yourself!
 
-## Detail
-
-{{% details title="Features" closed="true" %}}
+{{< /tab >}}{{< tab >}}
 
 - [Stable Diffusion](https://github.com/Stability-AI/StableDiffusion) Served by [AI Horde](https://stablehorde.net/)
   - Models
@@ -47,35 +47,29 @@ AISE use [AI Horde](https://stablehorde.net/) a crowd sourced distributed cluste
 - Text Translation [Google Translate API](https://cloud.google.com/translate/docs/reference/rest/)
 - Image Optimization [Resmush API](https://resmush.it/)
 
-{{% /details %}}
+{{< /tab >}}{{< tab >}}
 
-{{% details title="Resources" closed="true" %}}
+| platform | status | type | resource | note |
+|----------|--------|------|-----|------|
+| Itch.io | ✅ | `marketplace` | [website](https://naiive.itch.io/aise) | - |
+| Android | ✅Ⓜ️ | `target` `installer` `apk` | [apk](https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_android.apk) | - |
+| IOS | ⛔ | `target` | - |  req x-code or CI/CD |
+| Windows | ✅Ⓜ️ | `testing` `portable` `exe` | [zip](https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_windows.zip) | - |
+| MacOS | ✅❌ | `testing` `portable` `64` | [zip](https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_mac.zip) | req notarized |
+| Linux | ✅Ⓜ️ | `testing` `portable` `x86_64` | [zip](https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_linux.zip) | - |
+| PWA | ⛔ | `testing` `HTML5` | [page](https://naiiveprojects.github.io/AISE) | req cross-origin |
 
-| url | type | description |
-|-----|------|-------------|
-| [Itch.io](https://naiive.itch.io/aise) | `page`, `HTML5` | executable & more user friendly explanation |
-| [Android](https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_android.apk) | `installer` as `apk` | target platform |
-| IOS | N/A | target platform |
-| [Windows](https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_windows.zip) | `portable` as `exe` in `zip` | for testing, main development operating system |
-| [MacOS](https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_mac.zip) | `unknown` as `zip` | for testing, untested / reported |
-| [Linux](https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_linux.zip) | `portable` as `x86_64` in `zip` | for testing, untested / reported |
+[**status definition ▶️**](../../../information/documentation/project_status/) `🟢In Progress` `⭕On Hold` `❌Canceled` `✅Completed` `🟡Delayed` `⛔Blocked` `⚪Reopened` `Ⓜ️Monitoring`
 
-{{% /details %}}
-
-{{% details title="Report" closed="true" %}}
-
-from developing AISE we create & introduce some new and refined component & class we can share and utilize in the future
+{{< /tab >}}{{< tab >}}
 
 | name | type | description |
 |------|------|-------------|
-| `stable_horde_api` | `resources` | stable horde APIs wrapper with helper class, it has `resume` method that will try to retrieve the last known `task` |
-| `texture_showcase` | `.tscn` | iterate & animate part / position from atlas texture. |
-| `texture_dock` | `HTTPRequest` | optimize, download, cached image from internet in batch and assign it to the requested node. |
-| `google_translate_api` | `HTTPRequest` | google translate APIs Wrapper, contain necessary helper. |
+| `stable_horde_api` | `new` `resources` | stable horde APIs wrapper with helper class, it has `resume` method that will try to retrieve the last known `task` |
+| `texture_showcase` | `new` `.tscn` | iterate & animate part / position from atlas texture. |
+| `texture_dock` | `new` `HTTPRequest` | optimize, download, cached image from internet in batch and assign it to the requested node. |
+| `google_translate_api` | `new` `HTTPRequest` | google translate APIs Wrapper, contain necessary helper. |
+| `file_panel` | `.tscn` | add touchscreen support |
+| `theme` | `resources` | add shadow, consistency adjustment |
 
-| name | description |
-|------|-------------|
-| `file_panel` | cleaned up, & add touchscreen support |
-| `theme` | cleaned up, add shadow, consistency adjustment |
-
-{{% /details %}}
+{{< /tab >}}{{< /tabs >}}

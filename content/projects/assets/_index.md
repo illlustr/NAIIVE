@@ -9,13 +9,9 @@ sidebar:
 
 <br>
 
-{{< hextra/hero-badge link="../../services/assets/" >}}
+{{< naiive/badge link="../../services/assets/" >}}
 Request from services ▶️
-{{< /hextra/hero-badge >}}
-
-{{< hextra/hero-badge link="https://github.com/naiiveprojects/" >}}
-Github ↗️
-{{< /hextra/hero-badge >}}
+{{< /naiive/badge >}}
 
 <br>
 

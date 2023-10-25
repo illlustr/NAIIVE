@@ -28,8 +28,8 @@ In comparison to other service providers, we provide a more cost-effective and d
 
 <br>
 
-{{< hextra/hero-badge link="../../projects/" >}}
+{{< naiive/badge link="../../projects/" >}}
 Explore projects ▶️
-{{< /hextra/hero-badge >}}
+{{< /naiive/badge >}}
 
 <br>

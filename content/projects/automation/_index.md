@@ -9,16 +9,12 @@ sidebar:
 
 <br>
 
-{{< hextra/hero-badge link="../../services/automation/getting_started" >}}
+{{< naiive/badge link="../../services/automation/getting_started" >}}
 Request from services ▶️
-{{< /hextra/hero-badge >}}
-
-{{< hextra/hero-badge link="https://github.com/naiiveprojects/" >}}
-Github ↗️
-{{< /hextra/hero-badge >}}
+{{< /naiive/badge >}}
 
 <br>
 
 {{< cards >}}
-  {{< card link="https://illl.itch.io/exe-cute" title="Exe-Cute" icon="terminal"  subtitle="Image optimization, executable editor & compressor, media player" >}}
+  {{< card link="https://illl.itch.io/exe-cute" title="Exe-Cute! ⌝" icon="terminal"  subtitle="Image optimization, executable editor & compressor, media player" >}}
 {{< /cards >}}
