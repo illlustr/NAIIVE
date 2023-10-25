@@ -25,9 +25,9 @@ Adapt & leverage the latest technology.
 {{< hextra/hero-button text=" ⌍ Get Started ⌎ " link="projects" icon="chip" >}}
 </div>
 
-{{< hextra/hero-badge link="../../services/" >}}
+{{< naiive/badge link="../../services/" >}}
 explore services
-{{< /hextra/hero-badge >}}
+{{< /naiive/badge >}}
 
 <div class="mt-6 mb-6 .hero-center-title text-center">
 {{< hextra/hero-headline >}}
@@ -42,21 +42,25 @@ explore services
     title="Assets"
     icon="sparkles"
     subtitle="Involves creative talent to help for technical, conceptual, and details for ideas."
+    link="../../services/assets/"
   >}}
   {{< hextra/feature-card
     title="Automation"
     icon="chip"
     subtitle="Streamline, optimize, and reduce repetitive or complex tasks."
+    link="../../services/automation/"
   >}}
   {{< hextra/feature-card
     title="Application"
     icon="device-tablet"
     subtitle="Get the apps you desire or request one, from simple utilities to complex solutions."
+    link="../../services/application/"
   >}}
   {{< hextra/feature-card
     title="Video Game"
     icon="puzzle"
     subtitle="Get or request structured gameplay, Whether for entertainment or used as an educational tool."
+    link="../../services/video_game/"
   >}}
   {{< hextra/feature-card
     title="Multi-platform"
@@ -77,6 +81,7 @@ explore services
     title="Transparent"
     icon="eye"
     subtitle="Easily track project progress, including tasks completed, duration, detailed information, and discussions."
+    link="https://github.com/orgs/naiiveprojects/projects"
   >}}
   {{< hextra/feature-card
     title="Flexible"

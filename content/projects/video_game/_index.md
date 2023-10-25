@@ -9,9 +9,9 @@ sidebar:
 
 <br>
 
-{{< hextra/hero-badge link="../../services/video_game/" >}}
+{{< naiive/badge link="../../services/video_game/" >}}
 Request from services ▶️
-{{< /hextra/hero-badge >}}
+{{< /naiive/badge >}}
 
 <br>
 

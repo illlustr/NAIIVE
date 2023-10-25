@@ -9,9 +9,9 @@ sidebar:
 
 <br>
 
-{{< hextra/hero-badge link="../../projects/assets/" >}}
+{{< naiive/badge link="../../projects/assets/" >}}
 Get from projects ▶️
-{{< /hextra/hero-badge >}}
+{{< /naiive/badge >}}
 
 <br>
 
