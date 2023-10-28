@@ -20,6 +20,10 @@ languages:
     languageName: English
     weight: 1
     title: NAIIVE
+  id:
+    languageName: Indonesia
+    weight: 2
+    title: NAIIVE
 
 # import hextra as module
 module:
@@ -38,16 +42,20 @@ markup:
 
 menu:
   main:
-    - name: Projects
+    - identifier: Projects
+      name: Projects
       pageRef: /projects
       weight: 1
-    - name: Services
+    - identifier: Services
+      name: Services
       pageRef: /services
       weight: 2
-    - name: Blog
+    - identifier: Blog
+      name: Blog
       pageRef: /blog
       weight: 3
-    - name: Information
+    - identifier: Information
+      name: Information
       pageRef: /information
       weight: 4
   
@@ -56,7 +64,8 @@ menu:
       params:
         type: separator
       weight: 1
-    - name: "Discussions ↗"
+    - identifier: "Discussions ↗"
+      name: "Discussions ↗"
       url: "https://github.com/orgs/naiiveprojects/discussions"
       weight: 9
 
@@ -69,7 +78,7 @@ params:
   theme:
     # light | dark | system
     default: dark
-    displayToggle: false
+    displayToggle: true
 
   navbar:
     displayTitle: false
@@ -79,7 +88,7 @@ params:
       dark: images/logo/white.png
       link: /
       width: 40
-      height: 20
+      # height: 20
     width: normal # full (100%), wide (90rem), normal (1280px)
 
   page:
@@ -116,5 +125,3 @@ params:
       emitMetadata: 0
       inputPosition: top
       # lang: en
-      dataLoading: lazy
-      crossorigin: anonymous
