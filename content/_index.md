@@ -5,37 +5,33 @@ layout: hextra-home
 
 <div class="mt-6 mb-6 .hero-center-title text-center">
 {{< hextra/hero-headline >}}
-⌁
-{{< /hextra/hero-headline >}}
-</div>
 
-<div class="mt-6 mb-6 .hero-center-title text-center">
-{{< hextra/hero-headline >}}
+⌁
+
+<br>
+
 Adapt & leverage the latest technology.
+
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="mb-12 text-center">
 {{< hextra/hero-subtitle >}}
-  We ⨝ help you adapt to new situations, leverage new possibilities, and expand new frontiers.
+We ⨝ help you adapt to new situations, leverage new possibilities, and expand new frontiers.
 {{< /hextra/hero-subtitle >}}
 </div>
 
-<div class="mb-6 items-center">
+<br>
+
 {{< hextra/hero-button text=" ⌍ Get Started ⌎ " link="projects" icon="chip" >}}
-</div>
+
+<br>
 
 {{< naiive/badge link="../../services/" >}}
 explore services
 {{< /naiive/badge >}}
 
-<div class="mt-6 mb-6 .hero-center-title text-center">
-{{< hextra/hero-headline >}}
-
-{{< /hextra/hero-headline >}}
-</div>
-
-<br>
+<br><br><br>
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
@@ -94,6 +90,32 @@ explore services
 
 <div class="mt-6 mb-6 .hero-center-title text-center">
 {{< hextra/hero-headline >}}
-⌀
+‡
+{{< /hextra/hero-headline >}}
+</div>
+
+<div class="text-center items-center mt-6 mb-6 w-full mx-auto flex">
+  <br>
+  <form method="post" action="https://forms.un-static.com/forms/e3307fb1fd40833badd8a0401d415bc21826d03a" class="mx-auto">
+    <div class="form-group row">
+      <div class="col-8">
+        <div class="input-group-addon">
+          <i class="fa fa-envelope"></i>
+        </div>
+        <input id="email" name="email" placeholder="E-mail address" type="text" required="required" class="form-control text-center mx-auto shadow-sm text-sm rounded-full block w-full p-2 text-gray-600 dark:text-gray-400 bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800 border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600 transition-all ease-in duration-200">
+      </div>
+    </div>
+    <br>
+    <div class="form-group row">
+      <div class="offset-8 col-4">
+        <button name="submit" type="submit" class="inline-flex items-center rounded-full gap-2 px-3 py-1 text-xs text-gray-600 dark:text-gray-400 bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800 border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600 transition-all ease-in duration-200">🔔 Get the latest offer</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div class="mt-6 mb-6 .hero-center-title text-center">
+{{< hextra/hero-headline >}}
+🜅
 {{< /hextra/hero-headline >}}
 </div>
