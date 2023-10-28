@@ -16,5 +16,5 @@ Request from services ▶️
 <br>
 
 {{< cards >}}
-  {{< card link="https://illl.itch.io/exe-cute" title="Exe-Cute! ⌝" icon="terminal"  subtitle="Image optimization, executable editor & compressor, media player" >}}
+  {{< card link="https://illl.itch.io/exe-cute" title="Exe-Cute!" icon="terminal"  subtitle="Image optimization, executable editor & compressor, media player ↗️" >}}
 {{< /cards >}}

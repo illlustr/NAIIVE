@@ -7,6 +7,6 @@ title: Information
 {{< hextra/hero-headline >}}
 ⨝
 
-Information
+—
 {{< /hextra/hero-headline >}}
 </div>

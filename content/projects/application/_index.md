@@ -16,7 +16,7 @@ Request from services ▶️
 <br>
 
 {{< cards >}}
-  {{< card link="https://github.com/naiiveprojects/gd.x" title="gd.x ⌝" icon="cube"  subtitle="game engine" >}}
+  {{< card link="https://github.com/naiiveprojects/gd.x" title="gd.x" icon="cube"  subtitle="game engine ↗️" >}}
   {{< card link="./aise" title="AISE" icon="photograph"  subtitle="image generator & manipulator" >}}
   {{< card link="" title="Motive" icon="chat-alt-2"  subtitle="🟢 **In Progress |** NAIIVE hub" >}}
 {{< /cards >}}
