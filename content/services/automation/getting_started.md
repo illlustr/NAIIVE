@@ -1,4 +1,5 @@
 ---
+weight: 1
 title: Getting Started
 type: docs
 prev: services/automation/
