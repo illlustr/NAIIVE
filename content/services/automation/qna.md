@@ -3,6 +3,7 @@ weight: 4
 title: QnA
 type: docs
 prev: services/automation/workflow
+next: services/automation/getting_started
 ---
 
 {{< callout type="info" >}}
