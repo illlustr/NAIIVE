@@ -10,23 +10,391 @@
 &lt;/div></description></item><item><title>Predefined</title><link>https://naiiveprojects.github.io/services/application/predefined/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://naiiveprojects.github.io/services/application/predefined/</guid><description>
 &lt;div class="hextra-cards mt-4 gap-4 grid not-prose" style="--rows: 3;">
 &lt;a
-class="hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900"
-href="./virtual_tour">&lt;span class="flex font-semibold items-start gap-2 pt-4 px-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>&lt;/svg>Virtual Tour
-&lt;/span>&lt;div class="line-clamp-3 text-sm font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2">A panoramic view of an existing or conceptual place&lt;/div>&lt;/a>
+class="hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900"href="./virtual_tour" >&lt;span class="flex font-semibold items-start gap-2 pt-4 px-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>&lt;/svg>Virtual Tour&lt;/span>&lt;div class="line-clamp-3 text-sm font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2">A panoramic view of an existing or conceptual place&lt;/div>&lt;/a>
 &lt;/div></description></item><item><title>Request</title><link>https://naiiveprojects.github.io/services/application/request/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://naiiveprojects.github.io/services/application/request/</guid><description>
+&lt;div class="overflow-x-auto mt-6 flex rounded-lg border py-2 ltr:pr-4 rtl:pl-4 contrast-more:border-current contrast-more:dark:border-current border-orange-100 bg-orange-50 text-orange-800 dark:border-orange-400/30 dark:bg-orange-400/20 dark:text-orange-300">
+&lt;div class="select-none text-xl ltr:pl-3 ltr:pr-2 rtl:pr-3 rtl:pl-2" style='font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";'>📌&lt;/div>
+&lt;div class="w-full min-w-0 leading-7">
+&lt;div class="mt-6 leading-7 first:mt-0">
+&lt;p>The submission of this form is subject to review.&lt;/p>
+&lt;p>Please note that it does not guarantee the provision of services, If you want to confirm whether your request can be fulfilled before filling out this form, please contact our &lt;a href="mailto:naiive@email.com" >&lt;strong>support team&lt;/strong>&lt;/a> or start a &lt;a href="https://github.com/orgs/naiiveprojects/discussions" target="_blank" rel="noopener">&lt;strong>discussion&lt;/strong>&lt;/a>.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="overflow-x-auto mt-6 flex rounded-lg border py-2 ltr:pr-4 rtl:pl-4 contrast-more:border-current contrast-more:dark:border-current border-blue-200 bg-blue-100 text-blue-900 dark:border-blue-200/30 dark:bg-blue-900/30 dark:text-blue-200">
+&lt;div class="select-none text-xl ltr:pl-3 ltr:pr-2 rtl:pr-3 rtl:pl-2" style='font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";'>ℹ️&lt;/div>
+&lt;div class="w-full min-w-0 leading-7">
+&lt;div class="mt-6 leading-7 first:mt-0">
+we recommend not to fill out the form in too much detail, we will do follow up to ask for more details when the project is approved.
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;br>
+&lt;details class="inline-flex items-center rounded-lg gap-2 px-3 py-1
+text-gray-600 dark:text-gray-400 bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
+border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
+transition-all ease-in duration-200"
+>
+&lt;summary>&lt;b>Terms and Conditions&lt;/b>&lt;/summary>
+&lt;p>By submitting this form, you agree to the following terms and conditions:
+&lt;ul>
+&lt;li>You agree to provide accurate and truthful information in this form.&lt;/li>
+&lt;li>You understand that the information you provide will be used to process your service request.&lt;/li>
+&lt;li>You agree to our &lt;a href="./../../../information/legal/privacy_policy" target="_blank" rel="noopener noreferrer">&lt;b>privacy policy&lt;/b>&lt;/a> and how your data will be handled.&lt;/li>
+&lt;li>You understand that the submission of this form does not guarantee the provision of services and is subject to review.&lt;/li>
+&lt;/ul>
+&lt;p>Please review our full &lt;a href="./../../../information/legal/term_and_condition" target="_blank" rel="noopener noreferrer">&lt;b>terms and conditions&lt;/b>&lt;/a> and &lt;a href="./../../../information/legal/privacy_policy" target="_blank" rel="noopener noreferrer">&lt;b>privacy policy&lt;/b>&lt;/a> on our website for more details. If you have any questions or concerns, please contact our customer support.
+&lt;/p>
+&lt;/details>
+&lt;form method="post" action="https://forms.un-static.com/forms/39f4424e9df34efb6c37ec44be5c0b8127fa1680">
+&lt;br> &lt;!-- Contact Information -->
+&lt;label for="name">
+&lt;b>* Name&lt;/b>
+&lt;/label>
+&lt;input
+required
+type="text"
+id="name"
+name="name"
+class="shadow-sm rounded-lg block w-full p-2
+bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
+border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
+transition-all ease-in duration-200;"
+>
+&lt;br>
+&lt;label for="email">
+&lt;b>* Email&lt;/b>
+&lt;/label>
+&lt;input
+required
+type="email"
+id="email"
+name="email"
+minlenght="10"
+class="mx-auto shadow-sm rounded-lg block w-full p-2
+bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
+border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
+transition-all ease-in duration-200;"
+>
+&lt;br>
+&lt;label for="company" class="text-gray-600 dark:text-gray-400">
+&lt;b>Company Name&lt;/b>
+&lt;/label>
+&lt;input
+required
+type="text"
+id="company"
+name="company"
+placeholder="additional"
+class="shadow-sm rounded-lg block w-full p-2
+bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
+border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
+transition-all ease-in duration-200;"
+>
+&lt;br> &lt;!-- project -->
+&lt;label for="project_name" class="text-gray-600 dark:text-gray-400">
+&lt;b>Project Name&lt;/b>
+&lt;/label>
+&lt;input
+type="text"
+id="project_name"
+name="project_name"
+placeholder="additional"
+class="shadow-sm rounded-lg block w-full p-2
+bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
+border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
+transition-all ease-in duration-200;"
+>
+&lt;br>
+&lt;label for="project_overview">
+&lt;b>* Project Overview&lt;/b>
+&lt;/label>
+&lt;textarea
+required
+id="project_overview"
+name="project_overview"
+rows="3"
+placeholder="▼ example
+Mobile application for Image generator &amp; manipulator featuring latest AI technology"
+class="mx-auto shadow-sm rounded-lg block w-full p-2
+bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
+border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
+transition-all ease-in duration-200;"
+>&lt;/textarea>
+&lt;br> &lt;!-- Project Goals and Objectives -->
+&lt;label for="project_goal">
+&lt;b>* Project Goals and Objectives&lt;/b>
+&lt;/label>
+&lt;textarea
+required
+id="project_goal"
+name="project_goal"
+rows="3"
+placeholder="▼ example
+generate or manipulate image using text, sketch, or external image"
+class="mx-auto shadow-sm rounded-lg block w-full p-2
+bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
+border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
+transition-all ease-in duration-200;"
+>&lt;/textarea>
+&lt;br> &lt;!-- Features and Functionality -->
+&lt;label for="project_features">
+&lt;b>* Project Features and Functionality&lt;/b>
+&lt;/label>
+&lt;textarea
+required
+id="project_features"
+name="project_features"
+rows="8"
+placeholder="▼ example
+* must have
+- Gallery, where all generated image stored
+- Discovery, where user can copy other users configuration to generate image
+* nice to have
+- Text Translation like google translate
+- Announcement feature that sync with internet"
+class="mx-auto shadow-sm rounded-lg block w-full p-2
+bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
+border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
+transition-all ease-in duration-200;"
+>&lt;/textarea>
+&lt;br>
+&lt;div class="flex mx-auto w-full gap-2">
+&lt;div class="mx-auto w-full">
+&lt;label for="development_platform">
+&lt;b>* Development Platform&lt;/b>
+&lt;/label>
+&lt;select
+required
+id="development_platform"
+name="development_platform"
+class="mx-auto shadow-sm rounded-lg block w-full p-2
+bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
+border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
+transition-all ease-in duration-200;"
+>
+&lt;option value="Windows">Windows&lt;/option>
+&lt;option value="MacOS">MacOS&lt;/option>
+&lt;option value="Linux">Linux&lt;/option>
+&lt;option value="Android">Android / Chromebook&lt;/option>
+&lt;/select>
+&lt;/div>
+&lt;div class="mx-auto w-full">
+&lt;label for="initial_platform">
+&lt;b>* Base Target Platform&lt;/b>
+&lt;/label>
+&lt;select
+required
+id="initial_platform"
+name="initial_platform"
+class="mx-auto shadow-sm rounded-lg block w-full p-2
+bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
+border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
+transition-all ease-in duration-200;"
+>
+&lt;option value="Windows">Windows&lt;/option>
+&lt;option value="MacOS">MacOS&lt;/option>
+&lt;option value="Linux">Linux&lt;/option>
+&lt;option value="PWA">Web (PWA)&lt;/option>
+&lt;option value="Chromebook">Chromebook&lt;/option>
+&lt;option value="Android">Android&lt;/option>
+&lt;option value="IOS">IOS&lt;/option>
+&lt;option value="AR">Augmented Reality&lt;/option>
+&lt;option value="VR">Virtual Reality&lt;/option>
+&lt;/select>
+&lt;/div>
+&lt;/div>
+&lt;br> &lt;!-- Check boxes | target_platforms -->
+&lt;label for="target_platforms">
+&lt;b>* Target Platforms&lt;/b>
+&lt;/label>
+&lt;div class="flex mx-auto w-full gap-2">
+&lt;div class="mx-auto w-full gap-2">
+&lt;input type="checkbox" id="target-windows" name="target-windows">
+&lt;label for="target-windows" class="text-gray-600 dark:text-gray-400">Windows&lt;/label>
+&lt;br>
+&lt;input type="checkbox" id="target-MacOS" name="target-MacOS">
+&lt;label for="target-MacOS" class="text-gray-600 dark:text-gray-400">MacOS&lt;/label>
+&lt;br>
+&lt;input type="checkbox" id="target-Linux" name="target-Linux">
+&lt;label for="target-Linux" class="text-gray-600 dark:text-gray-400">Linux&lt;/label>
+&lt;br>
+&lt;input type="checkbox" id="target-Chromebook" name="target-Chromebook">
+&lt;label for="target-Chromebook" class="text-gray-600 dark:text-gray-400">Chromebook&lt;/label>
+&lt;br>
+&lt;input type="checkbox" id="target-Android" name="target-Android">
+&lt;label for="target-Android" class="text-gray-600 dark:text-gray-400">Android&lt;/label>
+&lt;br>
+&lt;input type="checkbox" id="target-IOS" name="target-IOS">
+&lt;label for="target-IOS" class="text-gray-600 dark:text-gray-400">IOS&lt;/label>
+&lt;/div>
+&lt;div class="mx-auto w-full gap-2">
+&lt;input type="checkbox" id="target-Web" name="target-Web">
+&lt;label for="target-Web" class="text-gray-600 dark:text-gray-400">Web (PWA)&lt;/label>
+&lt;br>
+&lt;input type="checkbox" id="target-AR" name="target-AR">
+&lt;label for="target-AR" class="text-gray-600 dark:text-gray-400">Augmented Reality&lt;/label>
+&lt;br>
+&lt;input type="checkbox" id="target-VR" name="target-VR">
+&lt;label for="target-VR" class="text-gray-600 dark:text-gray-400">Virtual Reality&lt;/label>
+&lt;br>
+&lt;input type="checkbox" id="target-Switch" name="target-Switch">
+&lt;label for="target-Switch" class="text-gray-600 dark:text-gray-400">Nintendo Switch&lt;/label>
+&lt;br>
+&lt;input type="checkbox" id="target-Playstation" name="target-Playstation">
+&lt;label for="target-Playstation" class="text-gray-600 dark:text-gray-400">Playstation&lt;/label>
+&lt;br>
+&lt;input type="checkbox" id="target-XBox" name="target-XBox">
+&lt;label for="target-XBox" class="text-gray-600 dark:text-gray-400">XBox&lt;/label>
+&lt;/div>
+&lt;/div>
+&lt;br>
+&lt;div class="flex mx-auto w-full gap-2">
+&lt;div class="mx-auto w-full">
+&lt;label for="maintenace">
+&lt;b>* Maintenance and Support&lt;/b>
+&lt;/label>
+&lt;select
+required
+id="maintenace"
+name="maintenace"
+class="mx-auto shadow-sm rounded-lg block w-full p-2
+bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
+border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
+transition-all ease-in duration-200;"
+>
+&lt;option value="None">None&lt;/option>
+&lt;option value="Partial">Partial&lt;/option>
+&lt;option value="Full">Full&lt;/option>
+&lt;/select>
+&lt;/div>
+&lt;div class="mx-auto w-full">
+&lt;!-- Spin boxes | budget -->
+&lt;label for="budget" class="text-gray-600 dark:text-gray-400">
+&lt;b>Budget (USD)&lt;/b>
+&lt;/label>
+&lt;input
+type="number"
+id="budget"
+name="budget"
+placeholder="20"
+min="20"
+class="mx-auto shadow-sm rounded-lg block w-full p-2
+bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
+border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
+transition-all ease-in duration-200;"
+>
+&lt;/div>
+&lt;/div>
+&lt;br>
+&lt;div class="flex mx-auto w-full gap-2">
+&lt;div class="mx-auto w-full">
+&lt;!-- date -->
+&lt;label for="completion-date" class="text-gray-600 dark:text-gray-400">
+&lt;b>Expected Completion Date&lt;/b>
+&lt;/label>
+&lt;input
+type="date"
+id="completion-date"
+name="completion-date"
+class="shadow-sm rounded-lg block w-full p-2
+bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
+border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
+transition-all ease-in duration-200;"
+>
+&lt;/div>
+&lt;div class="mx-auto w-full">
+&lt;label for="file_attachments" class="text-gray-600 dark:text-gray-400">
+&lt;b>Attach Files (if any)&lt;/b>
+&lt;/label>
+&lt;input
+multiple
+type="file"
+id="file_attachments"
+name="file_attachments"
+class="mx-auto shadow-sm rounded-lg block w-full p-2
+bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
+border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
+transition-all ease-in duration-200;"
+>
+&lt;/div>
+&lt;/div>
+&lt;br> &lt;!-- comments -->
+&lt;label for="comments" class="text-gray-600 dark:text-gray-400">
+&lt;b>Additional Comments&lt;/b>
+&lt;/label>
+&lt;textarea
+id="comments"
+name="comments"
+rows="3"
+class="mx-auto shadow-sm rounded-lg block w-full p-2
+bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
+border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
+transition-all ease-in duration-200;"
+>&lt;/textarea>
+&lt;br>
+&lt;div class="text-center">
+&lt;label for="agree_terms">
+&lt;input type="checkbox" id="agree_terms" name="agree_terms" required>
+I agree to the &lt;b>Terms and Conditions&lt;/b>
+&lt;/label>
+&lt;br>
+&lt;br>
+&lt;div
+class="g-recaptcha"
+data-sitekey="6LcxLrAoAAAAAF2mIoTAJjUutoTM-I-UyQWeAmT-"
+data-callback="recaptchaCallback"
+style="margin:auto; max-width:305px; display: none;"
+>&lt;/div>
+&lt;br>
+&lt;input
+type="submit"
+id="submit"
+value="Submit Application Request ▷"
+class="btn btn-default hidden font-medium cursor-pointer px-4 py-1.5 rounded-lg text-center text-white inline-block
+bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-4 focus:ring-primary-300
+dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800
+transition-all ease-in duration-200"
+>
+&lt;/div>
+&lt;/form>
+&lt;script src="https://www.google.com/recaptcha/api.js" async defer>&lt;/script>
+&lt;script>
+document.getElementById("agree_terms").addEventListener("change", function () {
+var recaptcha = document.querySelector(".g-recaptcha");
+if (this.checked) {
+recaptcha.style.display = "block";
+} else {
+recaptcha.style.display = "none";
+}
+});
+function recaptchaCallback() {
+var btnSubmit = document.getElementById("submit");
+if ( btnSubmit.classList.contains("hidden") ) {
+btnSubmit.classList.remove("hidden");
+btnSubmitclassList.add("show");
+}
+}
+&lt;/script>
+&lt;br>
+&lt;hr>
+&lt;ul>
+&lt;li>&lt;strong>( * )&lt;/strong>: Required&lt;/li>
+&lt;li>&lt;strong>Development Platform&lt;/strong>: to ensure compatibility of the technology is available for your platform.&lt;/li>
+&lt;li>&lt;strong>Base Target Platform&lt;/strong>: the main platform for testing during the development process.&lt;/li>
+&lt;li>&lt;strong>Maintenance and Support&lt;/strong>: this applies after the project is completed.
+&lt;ul>
+&lt;li>&lt;strong>None&lt;/strong>: We will not involved in maintenance and support.&lt;/li>
+&lt;li>&lt;strong>Partial&lt;/strong>: We will provide partial maintenance and support. (No routine)&lt;/li>
+&lt;li>&lt;strong>Full&lt;/strong>: We will provide full maintenance and support.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>QnA</title><link>https://naiiveprojects.github.io/services/application/qna/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://naiiveprojects.github.io/services/application/qna/</guid><description>
 &lt;div class="overflow-x-auto mt-6 flex rounded-lg border py-2 ltr:pr-4 rtl:pl-4 contrast-more:border-current contrast-more:dark:border-current border-blue-200 bg-blue-100 text-blue-900 dark:border-blue-200/30 dark:bg-blue-900/30 dark:text-blue-200">
 &lt;div class="select-none text-xl ltr:pl-3 ltr:pr-2 rtl:pr-3 rtl:pl-2" style='font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";'>ℹ️&lt;/div>
 &lt;div class="w-full min-w-0 leading-7">
 &lt;div class="mt-6 leading-7 first:mt-0">
 Article work in progress.
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="overflow-x-auto mt-6 flex rounded-lg border py-2 ltr:pr-4 rtl:pl-4 contrast-more:border-current contrast-more:dark:border-current border-yellow-100 bg-yellow-50 text-yellow-900 dark:border-yellow-200/30 dark:bg-yellow-700/30 dark:text-yellow-200">
-&lt;div class="select-none text-xl ltr:pl-3 ltr:pr-2 rtl:pr-3 rtl:pl-2" style='font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";'>⚠️&lt;/div>
-&lt;div class="w-full min-w-0 leading-7">
-&lt;div class="mt-6 leading-7 first:mt-0">
-Due to our current limitations, we will only accept the most feasible requests. For this reason, it is recommended that you engaging in direct interaction with our team first.
 &lt;/div>
 &lt;/div>
 &lt;/div>

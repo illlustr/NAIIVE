@@ -138,7 +138,7 @@ role="tabpanel"
 &lt;td>PWA&lt;/td>
 &lt;td>⛔&lt;/td>
 &lt;td>&lt;code>testing&lt;/code> &lt;code>HTML5&lt;/code>&lt;/td>
-&lt;td>&lt;a href="https://naiiveprojects.github.io/AISE" target="_blank" rel="noopener">page&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://naiiveprojects.github.io/PWA.AISE/" target="_blank" rel="noopener">page&lt;/a>&lt;/td>
 &lt;td>req cross-origin&lt;/td>
 &lt;/tr>
 &lt;/tbody>
