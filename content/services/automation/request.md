@@ -6,14 +6,8 @@ prev: services/automation/predefined
 next: services/automation/workflow
 ---
 
-{{< callout emoji="📌" >}}
-  The submission of this form is subject to review.
-  
-  Please note that it does not guarantee the provision of services, If you want to confirm whether your request can be fulfilled before filling out this form, please contact our [**support team**](mailto:naiive@email.com) or start a [**discussion**](https://github.com/orgs/naiiveprojects/discussions).
-{{< /callout >}}
-
 {{< callout type="info" >}}
-  we recommend not to fill out the form in too much detail, we will do follow up to ask for more details when the project is approved.
+  If you wish to confirm whether your request can be fulfilled before filling out this form, please contact our [**support team**](mailto:naiive@email.com) or initiate a [**discussion**](https://github.com/orgs/naiiveprojects/discussions).
 {{< /callout >}}
 
 <br>
@@ -31,8 +25,7 @@ transition-all ease-in duration-200"
         <li>You agree to our <a href="./../../../information/legal/privacy_policy" target="_blank" rel="noopener noreferrer"><b>privacy policy</b></a> and how your data will be handled.</li>
         <li>You understand that the submission of this form does not guarantee the provision of services and is subject to review.</li>
     </ul>
-    <p>Please review our full <a href="./../../../information/legal/term_and_condition" target="_blank" rel="noopener noreferrer"><b>terms and conditions</b></a> and <a href="./../../../information/legal/privacy_policy" target="_blank" rel="noopener noreferrer"><b>privacy policy</b></a> on our website for more details. If you have any questions or concerns, please contact our customer support.
-    </p>
+    <p>Please review our full <a href="./../../../information/legal/term_and_condition" target="_blank" rel="noopener noreferrer"><b>terms and conditions</b></a> and <a href="./../../../information/legal/privacy_policy" target="_blank" rel="noopener noreferrer"><b>privacy policy</b></a> on our website for more details. If you have any questions or concerns, please contact our <a href="mailto:naiive@email.com" target="_blank" rel="noopener noreferrer"><b>support team</b></a> or initiate a <a href="https://github.com/orgs/naiiveprojects/discussions" target="_blank" rel="noopener noreferrer"><b>discussion</b></a>.</p><br>
 </details>
 
 <!-- Form -->
