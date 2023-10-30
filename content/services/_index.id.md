@@ -1,35 +1,35 @@
 ---
 weight: 2
-title: Services
+title: Jasa
 type: docs
 comments: false
 sidebar:
   open: false
 ---
 
-Technology is no longer an expensive or inaccessible resource. Unfortunately, this accessibility primarily benefits individuals or companies already established in the field.
+Teknologi bukan lagi sumber daya yang mahal atau sulit diakses. Sayangnya, ketersediaan ini pada dasarnya hanya menguntungkan individu ataupun perusahaan yang sudah mapan di bidang tersebut.
 
-For the majority of individuals or businesses, technology remains unfamiliar and out of reach. Yet, it’s undeniable that technology play a crucial role in accelerating growth, enhancing efficiency, and ensuring survival.
+Bagi sebagian besar individu atau bisnis, teknologi tetap asing dan sulit dijangkau. Padahal tidak dapat disangkal lagi bahwa teknologi memainkan peran penting dalam mempercepat pertumbuhan, meningkatkan efisiensi, maupun memastikan keberlangsungan usaha.
 
-## Solution
+## Solusi
 
-We aim to bridge this gap by offering technology-related services solutions.
+Kami bertujuan untuk menjembatani kesenjangan ini dengan menawarkan solusi layanan terkait teknologi.
 
 {{< cards >}}
-  {{< card link="./assets" title="Assets" subtitle="digital resources" icon="sparkles" >}}
-  {{< card link="./automation" title="Automation" subtitle="optimize repetitive or complex tasks" icon="chip" >}}
-  {{< card link="./application" title="Application" subtitle="user-facing programs" icon="device-tablet" >}}
-  {{< card link="./video_game" title="Video Game" subtitle="interactive media" icon="puzzle" >}}
+  {{< card link="./assets" title="Seni" subtitle="sumber daya digital" icon="sparkles" >}}
+  {{< card link="./automation" title="Otomatisasi" subtitle="mengoptimalkan tugas-tugas berulang maupun kompleks" icon="chip" >}}
+  {{< card link="./application" title="Aplikasi" subtitle="user-facing programs" icon="device-tablet" >}}
+  {{< card link="./video_game" title="Video Game" subtitle="media interaktif" icon="puzzle" >}}
 {{< /cards >}}
 
-Through our services, we aspire to spare individuals or companies the need to hire a full-time development team for technology adaptation. This is further facilitated by our prebuilt solutions, which will significantly reduce development time and costs for clients.
+Melalui layanan kami, kami berharap dapat menekan individu ataupun perusahaan dari kebutuhan untuk mempekerjakan tim pengembangan untuk adaptasi teknologi. Hal ini dapat lebih di tekan lagi oleh solusi yang sudah kami sediakan, yang dapat secara signifikan mengurangi waktu dan biaya pengembangan.
 
-In comparison to other service providers, we provide a more cost-effective and dependable solution.
+Dibandingkan dengan penyedia layanan lain, kami menyediakan solusi yang lebih ekonomis dan dapat diandalkan.
 
 <br>
 
-{{< naiive/badge link="../../projects/" >}}
-Explore projects ▶️
+{{< naiive/badge link="./../projects" >}}
+Jelajahi proyek ▶️
 {{< /naiive/badge >}}
 
 <br>

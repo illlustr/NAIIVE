@@ -27,7 +27,7 @@ Kami ⨝ membantu anda beradaptasi dengan situasi, kemungkinan, juga batasan bar
 
 <br>
 
-{{< naiive/badge link="../../services/" >}}
+{{< naiive/badge link="services" >}}
 jelajahi layanan
 {{< /naiive/badge >}}
 

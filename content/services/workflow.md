@@ -1,14 +1,12 @@
 ---
-title: 'Jobs'
-prev: information/
+title: Workflow
 type: docs
+prev: services/
 ---
 
 {{< callout type="info" >}}
   Article work in progress.
 {{< /callout >}}
-
-<!--more-->
 
 <div style="text-align: center;"><br><br>
 

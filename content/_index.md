@@ -27,7 +27,7 @@ We ⨝ help you adapt to new situations, leverage new possibilities, and expand 
 
 <br>
 
-{{< naiive/badge link="../../services/" >}}
+{{< naiive/badge link="services" >}}
 explore services
 {{< /naiive/badge >}}
 
@@ -49,13 +49,13 @@ explore services
   {{< hextra/feature-card
     title="Application"
     icon="device-tablet"
-    subtitle="Get the apps you desire or request one, from simple utilities to complex solutions."
+    subtitle="Get the apps you desire, from simple utilities to complex solutions."
     link="../../services/application/"
   >}}
   {{< hextra/feature-card
     title="Video Game"
     icon="puzzle"
-    subtitle="Get or request structured gameplay, Whether for entertainment or used as an educational tool."
+    subtitle="Get structured gameplay, Whether for entertainment or used as an educational tool."
     link="../../services/video_game/"
   >}}
   {{< hextra/feature-card

@@ -28,7 +28,7 @@ In comparison to other service providers, we provide a more cost-effective and d
 
 <br>
 
-{{< naiive/badge link="../../projects/" >}}
+{{< naiive/badge link="./../projects" >}}
 Explore projects ▶️
 {{< /naiive/badge >}}
 
