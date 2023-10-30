@@ -68,6 +68,9 @@ menu:
       name: "Discussions ↗"
       url: "https://github.com/orgs/naiiveprojects/discussions"
       weight: 9
+    - name: "Support ↗"
+      url: "mailto:naiive@email.com"
+      weight: 10
 
 params:
   description: Adapt & leverage the latest technology.
