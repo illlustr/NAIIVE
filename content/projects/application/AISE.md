@@ -57,7 +57,7 @@ AISE use [AI Horde](https://stablehorde.net/) a crowd sourced distributed cluste
 | Windows | ✅Ⓜ️ | `testing` `portable` `exe` | [zip](https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_windows.zip) | - |
 | MacOS | ✅❌ | `testing` `portable` `64` | [zip](https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_mac.zip) | req notarized |
 | Linux | ✅Ⓜ️ | `testing` `portable` `x86_64` | [zip](https://github.com/naiiveprojects/res/blob/main/AISE/AISE_prod_linux.zip) | - |
-| PWA | ⛔ | `testing` `HTML5` | [page](https://naiiveprojects.github.io/AISE) | req cross-origin |
+| PWA | ⛔ | `testing` `HTML5` | [page](https://naiiveprojects.github.io/PWA.AISE/) | req cross-origin |
 
 [**status definition ▶️**](../../../information/documentation/project_status/) `🟢In Progress` `⭕On Hold` `❌Canceled` `✅Completed` `🟡Delayed` `⛔Blocked` `⚪Reopened` `Ⓜ️Monitoring`
 

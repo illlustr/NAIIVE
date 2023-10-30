@@ -1,7 +1,9 @@
 ---
+weight: 2
 title: Predefined
 type: docs
 prev: services/application/getting_started
+next: services/application/predefined/order
 ---
 
 {{< cards >}}

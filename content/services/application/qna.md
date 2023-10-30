@@ -1,8 +1,8 @@
 ---
-title: Procedures
+weight: 4
+title: QnA
 type: docs
 prev: services/application/request
-next: services/application/qna
 ---
 
 {{< callout type="info" >}}
