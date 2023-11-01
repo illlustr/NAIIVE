@@ -29,6 +29,14 @@ If you wish to confirm whether your request can be fulfilled before filling out 
 &lt;/div>
 &lt;/div>
 &lt;/div>
+&lt;div class="overflow-x-auto mt-6 flex rounded-lg border py-2 ltr:pr-4 rtl:pl-4 contrast-more:border-current contrast-more:dark:border-current border-orange-100 bg-orange-50 text-orange-800 dark:border-orange-400/30 dark:bg-orange-400/20 dark:text-orange-300">
+&lt;div class="select-none text-xl ltr:pl-3 ltr:pr-2 rtl:pr-3 rtl:pl-2" style='font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";'>🔣&lt;/div>
+&lt;div class="w-full min-w-0 leading-7">
+&lt;div class="mt-6 leading-7 first:mt-0">
+We officially support English and Indonesian languages, you can fill out the form in either of these languages.
+&lt;/div>
+&lt;/div>
+&lt;/div>
 &lt;br>
 &lt;details class="inline-flex items-center rounded-lg gap-2 px-3 py-1
 text-gray-600 dark:text-gray-400 bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
@@ -73,6 +81,20 @@ bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
 border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
 transition-all ease-in duration-200;"
 >
+&lt;br>
+&lt;label for="company" class="text-gray-600 dark:text-gray-400">
+&lt;b>Company Name&lt;/b>
+&lt;/label>
+&lt;input
+type="text"
+id="company"
+name="company"
+placeholder="↳ additional"
+class="shadow-sm rounded-lg block w-full p-2
+bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
+border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
+transition-all ease-in duration-200;"
+>
 &lt;br> &lt;!-- description -->
 &lt;label for="description">
 &lt;b>* Task / Goals / Objectives&lt;/b>
@@ -80,12 +102,28 @@ transition-all ease-in duration-200;"
 &lt;textarea
 id="description"
 name="description"
-rows="4" required
+rows="3" required
+placeholder="↳ example
+Consolidating data for analytics, and reports"
 class="mx-auto shadow-sm rounded-lg block w-full p-2
 bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
 border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
 transition-all ease-in duration-200;"
 >&lt;/textarea>
+&lt;br> &lt;!-- platform -->
+&lt;label for="email">
+&lt;b>* Platform&lt;/b>
+&lt;/label>
+&lt;input
+type="platform"
+id="platform"
+name="platform" required
+placeholder="↳ example : Windows, Linux, Embedded system"
+class="mx-auto shadow-sm rounded-lg block w-full p-2
+bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
+border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
+transition-all ease-in duration-200;"
+>
 &lt;br> &lt;!-- Check boxes | preferences -->
 &lt;label for="preferences" class="text-gray-600 dark:text-gray-400">
 &lt;b>Preferences&lt;/b>
@@ -135,12 +173,13 @@ transition-all ease-in duration-200;"
 &lt;br>
 &lt;!-- comments -->
 &lt;label for="comments" class="text-gray-600 dark:text-gray-400">
-&lt;b>Additional Comments&lt;/b>
+&lt;b>Comments&lt;/b>
 &lt;/label>
 &lt;textarea
 id="comments"
 name="comments"
-rows="4"
+rows="3"
+placeholder="↳ additional"
 class="mx-auto shadow-sm rounded-lg block w-full p-2
 bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
 border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600

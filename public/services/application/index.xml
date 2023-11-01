@@ -20,6 +20,14 @@ If you wish to confirm whether your request can be fulfilled before filling out 
 &lt;/div>
 &lt;/div>
 &lt;/div>
+&lt;div class="overflow-x-auto mt-6 flex rounded-lg border py-2 ltr:pr-4 rtl:pl-4 contrast-more:border-current contrast-more:dark:border-current border-orange-100 bg-orange-50 text-orange-800 dark:border-orange-400/30 dark:bg-orange-400/20 dark:text-orange-300">
+&lt;div class="select-none text-xl ltr:pl-3 ltr:pr-2 rtl:pr-3 rtl:pl-2" style='font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";'>🔣&lt;/div>
+&lt;div class="w-full min-w-0 leading-7">
+&lt;div class="mt-6 leading-7 first:mt-0">
+We officially support English and Indonesian languages, you can fill out the form in either of these languages.
+&lt;/div>
+&lt;/div>
+&lt;/div>
 &lt;br>
 &lt;details class="inline-flex items-center rounded-lg gap-2 px-3 py-1
 text-gray-600 dark:text-gray-400 bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
@@ -71,11 +79,10 @@ transition-all ease-in duration-200;"
 &lt;b>Company Name&lt;/b>
 &lt;/label>
 &lt;input
-required
 type="text"
 id="company"
 name="company"
-placeholder="additional"
+placeholder="↳ additional"
 class="shadow-sm rounded-lg block w-full p-2
 bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
 border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
@@ -89,7 +96,7 @@ transition-all ease-in duration-200;"
 type="text"
 id="project_name"
 name="project_name"
-placeholder="additional"
+placeholder="↳ additional"
 class="shadow-sm rounded-lg block w-full p-2
 bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
 border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
@@ -104,7 +111,7 @@ required
 id="project_overview"
 name="project_overview"
 rows="3"
-placeholder="▼ example
+placeholder="↳ example
 Mobile application for Image generator &amp; manipulator featuring latest AI technology"
 class="mx-auto shadow-sm rounded-lg block w-full p-2
 bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
@@ -120,7 +127,7 @@ required
 id="project_goal"
 name="project_goal"
 rows="3"
-placeholder="▼ example
+placeholder="↳ example
 generate or manipulate image using text, sketch, or external image"
 class="mx-auto shadow-sm rounded-lg block w-full p-2
 bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
@@ -136,7 +143,7 @@ required
 id="project_features"
 name="project_features"
 rows="8"
-placeholder="▼ example
+placeholder="↳ example
 * must have
 - Gallery, where all generated image stored
 - Discovery, where user can copy other users configuration to generate image
@@ -309,14 +316,29 @@ transition-all ease-in duration-200;"
 >
 &lt;/div>
 &lt;/div>
+&lt;br>
+&lt;label for="company" class="text-gray-600 dark:text-gray-400">
+&lt;b>Preferred Technology&lt;/b>
+&lt;/label>
+&lt;input
+type="text"
+id="Technology"
+name="Technology"
+placeholder="↳ additional | example : Android Studio, Kotlin, Stable Difussion, firebase"
+class="shadow-sm rounded-lg block w-full p-2
+bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
+border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
+transition-all ease-in duration-200;"
+>
 &lt;br> &lt;!-- comments -->
 &lt;label for="comments" class="text-gray-600 dark:text-gray-400">
-&lt;b>Additional Comments&lt;/b>
+&lt;b>Comments&lt;/b>
 &lt;/label>
 &lt;textarea
 id="comments"
 name="comments"
 rows="3"
+placeholder="↳ additional"
 class="mx-auto shadow-sm rounded-lg block w-full p-2
 bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
 border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
@@ -370,7 +392,7 @@ btnSubmitclassList.add("show");
 &lt;hr>
 &lt;ul>
 &lt;li>&lt;strong>( * )&lt;/strong>: Required&lt;/li>
-&lt;li>&lt;strong>Development Platform&lt;/strong>: to ensure compatibility of the technology is available for your platform.&lt;/li>
+&lt;li>&lt;strong>Development Platform&lt;/strong>: we will ensure the project assets &amp;amp; source code can be openned in this platform.&lt;/li>
 &lt;li>&lt;strong>Base Target Platform&lt;/strong>: the main platform for testing during the development process.&lt;/li>
 &lt;li>&lt;strong>Maintenance and Support&lt;/strong>: this applies after the project is completed.
 &lt;ul>
