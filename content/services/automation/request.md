@@ -10,6 +10,10 @@ next: services/automation/workflow
   If you wish to confirm whether your request can be fulfilled before filling out this form, please contact our [**support team**](mailto:naiive@email.com) or initiate a [**discussion**](https://github.com/orgs/naiiveprojects/discussions).
 {{< /callout >}}
 
+{{< callout emoji="🔣" >}}
+We officially support English and Indonesian languages, you can fill out the form in either of these languages.
+{{< /callout >}}
+
 <br>
 
 <details class="inline-flex items-center rounded-lg gap-2 px-3 py-1
@@ -56,6 +60,20 @@ bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
   border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
   transition-all ease-in duration-200;"
   >
+  <br>
+  <label for="company" class="text-gray-600 dark:text-gray-400">
+  <b>Company Name</b>
+  </label>
+  <input
+  type="text"
+  id="company"
+  name="company"
+  placeholder="↳ additional"
+  class="shadow-sm rounded-lg block w-full p-2
+  bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
+  border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
+  transition-all ease-in duration-200;"
+  >
   <br> <!-- description -->
   <label for="description">
   <b>* Task / Goals / Objectives</b>
@@ -63,12 +81,28 @@ bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
   <textarea
   id="description"
   name="description"
-  rows="4" required
+  rows="3" required
+  placeholder="↳ example
+  Consolidating data for analytics, and reports"
   class="mx-auto shadow-sm rounded-lg block w-full p-2
   bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
   border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
   transition-all ease-in duration-200;"
   ></textarea>
+  <br> <!-- platform -->
+  <label for="email">
+  <b>* Platform</b>
+  </label>
+  <input
+  type="platform"
+  id="platform"
+  name="platform" required
+  placeholder="↳ example : Windows, Linux, Embedded system"
+  class="mx-auto shadow-sm rounded-lg block w-full p-2
+  bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
+  border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
+  transition-all ease-in duration-200;"
+  >
   <br> <!-- Check boxes | preferences -->
   <label for="preferences" class="text-gray-600 dark:text-gray-400">
   <b>Preferences</b>
@@ -118,12 +152,13 @@ bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
   <br>
   <!-- comments -->
   <label for="comments" class="text-gray-600 dark:text-gray-400">
-  <b>Additional Comments</b>
+  <b>Comments</b>
   </label>
   <textarea
   id="comments"
   name="comments"
-  rows="4"
+  rows="3"
+  placeholder="↳ additional"
   class="mx-auto shadow-sm rounded-lg block w-full p-2
   bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
   border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600

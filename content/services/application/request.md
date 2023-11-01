@@ -10,6 +10,10 @@ next: services/application/qna
   If you wish to confirm whether your request can be fulfilled before filling out this form, please contact our [**support team**](mailto:naiive@email.com) or initiate a [**discussion**](https://github.com/orgs/naiiveprojects/discussions).
 {{< /callout >}}
 
+{{< callout emoji="🔣" >}}
+We officially support English and Indonesian languages, you can fill out the form in either of these languages.
+{{< /callout >}}
+
 <br>
 
 <details class="inline-flex items-center rounded-lg gap-2 px-3 py-1
@@ -63,11 +67,10 @@ transition-all ease-in duration-200"
     <b>Company Name</b>
     </label>
     <input
-    required
     type="text"
     id="company"
     name="company"
-    placeholder="additional"
+    placeholder="↳ additional"
     class="shadow-sm rounded-lg block w-full p-2
     bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
     border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
@@ -81,7 +84,7 @@ transition-all ease-in duration-200"
     type="text"
     id="project_name"
     name="project_name"
-    placeholder="additional"
+    placeholder="↳ additional"
     class="shadow-sm rounded-lg block w-full p-2
     bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
     border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
@@ -96,7 +99,7 @@ transition-all ease-in duration-200"
     id="project_overview"
     name="project_overview"
     rows="3"
-    placeholder="▼ example
+    placeholder="↳ example
     Mobile application for Image generator & manipulator featuring latest AI technology"
     class="mx-auto shadow-sm rounded-lg block w-full p-2
     bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
@@ -112,7 +115,7 @@ transition-all ease-in duration-200"
     id="project_goal"
     name="project_goal"
     rows="3"
-    placeholder="▼ example
+    placeholder="↳ example
     generate or manipulate image using text, sketch, or external image"
     class="mx-auto shadow-sm rounded-lg block w-full p-2
     bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
@@ -128,7 +131,7 @@ transition-all ease-in duration-200"
     id="project_features"
     name="project_features"
     rows="8"
-    placeholder="▼ example
+    placeholder="↳ example
     * must have
       - Gallery, where all generated image stored
       - Discovery, where user can copy other users configuration to generate image
@@ -301,14 +304,29 @@ transition-all ease-in duration-200"
         >
       </div>
     </div>
+    <br>
+    <label for="company" class="text-gray-600 dark:text-gray-400">
+    <b>Preferred Technology</b>
+    </label>
+    <input
+    type="text"
+    id="Technology"
+    name="Technology"
+    placeholder="↳ additional | example : Android Studio, Kotlin, Stable Difussion, firebase"
+    class="shadow-sm rounded-lg block w-full p-2
+    bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
+    border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
+    transition-all ease-in duration-200;"
+    >
     <br> <!-- comments -->
     <label for="comments" class="text-gray-600 dark:text-gray-400">
-    <b>Additional Comments</b>
+    <b>Comments</b>
     </label>
     <textarea
     id="comments"
     name="comments"
     rows="3"
+    placeholder="↳ additional"
     class="mx-auto shadow-sm rounded-lg block w-full p-2
     bg-gray-400 dark:bg-neutral-800 dark:border-neutral-800
     border hover:border-gray-400 dark:hover:text-gray-400 dark:hover:border-gray-600
@@ -366,7 +384,7 @@ transition-all ease-in duration-200"
 ---
 
 - **( * )**: Required
-- **Development Platform**: to ensure compatibility of the technology is available for your platform.
+- **Development Platform**: we will ensure the project assets & source code can be openned in this platform.
 - **Base Target Platform**: the main platform for testing during the development process.
 - **Maintenance and Support**: this applies after the project is completed.
   - **None**: We will not involved in maintenance and support.
