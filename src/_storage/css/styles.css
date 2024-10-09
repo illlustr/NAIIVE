@@ -1,0 +1,299 @@
+:root {
+    --color-background: #1b1b1b;
+    --color-text: #fff;
+    --color-text-invert: #333;
+    --color-fade: #ffffff7a;
+    --color-fade-invert: #3333337a;
+    
+    --light-theme-background: #f5f5f5;
+    --light-theme-text: #333;
+    --light-theme-invert: #fff;
+    --light-theme-fade: #3333337a;
+    --light-theme-fade-invert: #ffffff7a;
+
+    --layout-overlay-width: 90vw;
+    --layout-overlay-height: 90%;
+    --layout-overlay-margin-top: -48px;
+    --layout-overlay-margin-bottom: -48px;
+    --layout-container-width: 100%;
+    --layout-container-height: 100vh;
+    --layout-nav-height: 64px;
+    --layout-footer-height: 512px;
+    
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 32px;
+    --spacing-xlarge: 48px;
+    
+    --font-size-base: 16px;
+    --font-size-large: 28px;
+    --font-size-xlarge: 24px;
+    
+    --transition-speed: 0.3s;
+}
+
+.light-theme {
+    --color-background: var(--light-theme-background);
+    --color-text: var(--light-theme-text);
+    --color-text-invert: var(--light-theme-invert);
+    --color-fade: var(--light-theme-fade);
+    --color-fade-invert: var(--light-theme-fade-invert);
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background-color var(--transition-speed), color var(--transition-speed);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+main {
+    height: 100vh;
+    transition: transform 0.5s ease;
+}
+
+.main-part {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: var(--spacing-xlarge);
+    gap: var(--spacing-large);
+    box-sizing: border-box;
+}
+
+.main-full {
+    min-width: var(--layout-container-width);
+    min-height: var(--layout-container-height);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: var(--spacing-xlarge);
+    gap: var(--spacing-large);
+    box-sizing: border-box;
+}
+
+
+a, button {
+    pointer-events: visible;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button {
+    padding: var(--spacing-small) var(--spacing-medium);
+    border: none;
+    font-weight: bold;
+    background-color: var(--color-text);
+    color: var(--color-background);
+    transition: background-color var(--transition-speed), color var(--transition-speed);
+}
+
+mark {
+    background-color: var(--color-text);
+    color: var(--color-background);
+    padding: var(--spacing-small);
+    margin: var(--spacing-small);
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
+    gap: var(--spacing-large);
+    width: 70vw;
+    align-items: center;
+}
+
+.card {
+    padding-left: var(--spacing-medium);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 2px solid var(--color-fade);
+    transform-style: preserve-3d;
+    transform: rotateX(20deg) rotateY(20deg);
+    color: var(--color-text);
+    transition: transform 0.5s ease, border-color 0.5s ease;
+    line-height: 1;
+}
+
+.card::before, .card::after {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+    pointer-events: none;
+}
+
+.card::before {
+    transform: translateZ(-35px);
+    border: 2px solid var(--color-fade);
+}
+
+.card::after {
+    transform: translateZ(35px);
+    border: 0.5px solid var(--color-fade);
+}
+
+.card:hover {
+    transform: rotateX(0deg) rotateY(0deg) scale(1);
+}
+
+
+.overlay {
+    position: fixed;
+    width: var(--layout-overlay-width);
+    height: var(--layout-overlay-height);
+    margin-top: var(--layout-overlay-margin-top);
+    margin-bottom: var(--layout-overlay-margin-bottom);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -44%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    mix-blend-mode: exclusion;
+    z-index: 100;
+    pointer-events: none;
+    color: #ffffff;
+}
+
+.overlay header {
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    img {
+        height: 28px;
+        width: 28px;
+    }
+}
+
+.overlay footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    height: var(--layout-footer-height);
+}
+
+.overlay footer a, .overlay footer p {
+    position: absolute;
+    bottom: 0;
+    width: 512px;
+    height: 16px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.overlay footer a {
+    right: 0;
+    transform-origin: right bottom;
+    transform: rotate(-90deg) translateX(100%) translateY(-40%);
+    pointer-events: fill;
+}
+
+.overlay footer p {
+    left: 0;
+    transform-origin: left bottom;
+    transform: rotate(90deg) translateX(-97%) translateY(-40%);
+    text-align: end;
+}
+
+
+.side-text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: var(--spacing-medium);
+    padding-right: var(--spacing-medium);
+    color: white;
+    mix-blend-mode:exclusion;
+    font-size: 18px;
+    line-height: 1.6;
+    width: 64px;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.hero-grid {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-grow: 1;
+    position: absolute;
+    margin: 0 auto;
+    z-index: 0;
+}
+
+.hero-line {
+    width: 8px;
+    height: 2px;
+    background: var(--color-text);
+    position: absolute;
+    transform-origin: center;
+    transition: transform 0.5s ease;
+}
+
+.theme-button {
+    color: white;
+    background-color: transparent;
+    font-size: small;
+    opacity: 0.5;
+    transition: opacity var(--transition-speed);
+    border-style: none;
+    pointer-events: fill;
+}
+
+.theme-button.active {
+    opacity: 1;
+}
+
+.side-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: width 0.5s ease;
+    padding-top: 60px;
+    z-index: 999;
+    align-items: center;
+}
+
+.side-menu a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.side-menu a:hover {
+    background-color: #575757;
+}
+
+
+body.menu-open .main {
+    transform: translateX(-256px);
+}
+
+body.menu-open {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
