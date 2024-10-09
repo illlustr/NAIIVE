@@ -41,7 +41,7 @@ async function sad() {
     }
 }
 
-window.onload = sad;
+window.addEventListener('DOMContentLoaded', sad);
 
 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░ Title: Simply Awful Design
 // ░░█▀█░█▀█░█░░░█░░░█░█░█▀▀░░ Act: replace 😭 element with T-T template

@@ -4,7 +4,7 @@
     --color-text-invert: #333;
     --color-fade: #ffffff7a;
     --color-fade-invert: #3333337a;
-    
+
     --light-theme-background: #f5f5f5;
     --light-theme-text: #333;
     --light-theme-invert: #fff;
@@ -13,23 +13,23 @@
 
     --layout-overlay-width: 90vw;
     --layout-overlay-height: 90%;
-    --layout-overlay-margin-top: -48px;
-    --layout-overlay-margin-bottom: -48px;
+    --layout-overlay-margin-top: -64px;
+    --layout-overlay-margin-bottom: -64px;
     --layout-container-width: 100%;
     --layout-container-height: 100vh;
     --layout-nav-height: 64px;
     --layout-footer-height: 512px;
-    
+
     --spacing-small: 8px;
     --spacing-medium: 16px;
     --spacing-large: 32px;
     --spacing-xlarge: 48px;
-    
+
     --font-size-base: 16px;
-    --font-size-large: 28px;
-    --font-size-xlarge: 24px;
-    
-    --transition-speed: 0.3s;
+    --font-size-large: 24px;
+    --font-size-xlarge: 28px;
+
+    --transition-speed: 0.6s;
 }
 
 .light-theme {
@@ -55,7 +55,8 @@ main {
     transition: transform 0.5s ease;
 }
 
-.main-part {
+.main-part,
+.main-full {
     display: grid;
     justify-content: center;
     align-items: center;
@@ -67,14 +68,7 @@ main {
 .main-full {
     min-width: var(--layout-container-width);
     min-height: var(--layout-container-height);
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    padding: var(--spacing-xlarge);
-    gap: var(--spacing-large);
-    box-sizing: border-box;
 }
-
 
 a, button {
     pointer-events: visible;
@@ -82,10 +76,22 @@ a, button {
     cursor: pointer;
 }
 
-button {
+a {
+    display: inline-block;
     padding: var(--spacing-small) var(--spacing-medium);
+    transition: transform var(--transition-speed);
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+
+a:active {
+    transform: scale(0.8);
+}
+
+button {
     border: none;
-    font-weight: bold;
     background-color: var(--color-text);
     color: var(--color-background);
     transition: background-color var(--transition-speed), color var(--transition-speed);
@@ -113,20 +119,21 @@ mark {
     justify-content: space-between;
     width: 100%;
     border: 2px solid var(--color-fade);
-    transform-style: preserve-3d;
-    transform: rotateX(20deg) rotateY(20deg);
     color: var(--color-text);
     transition: transform 0.5s ease, border-color 0.5s ease;
     line-height: 1;
+    transform: rotateX(20deg) rotateY(20deg);
+    transform-style: preserve-3d;
+    position: relative;
 }
 
 .card::before, .card::after {
+    content: '';
+    position: absolute;
     width: 100%;
     height: 100%;
     left: 0;
     top: 0;
-    content: '';
-    position: absolute;
     box-sizing: border-box;
     transform-style: preserve-3d;
     pointer-events: none;
@@ -146,7 +153,6 @@ mark {
     transform: rotateX(0deg) rotateY(0deg) scale(1);
 }
 
-
 .overlay {
     position: fixed;
     width: var(--layout-overlay-width);
@@ -155,61 +161,43 @@ mark {
     margin-bottom: var(--layout-overlay-margin-bottom);
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -44%);
+    transform: translate(-50%, -43%);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     mix-blend-mode: exclusion;
     z-index: 100;
     pointer-events: none;
+}
+
+.overlay a {
+    font-size: large;
     color: #ffffff;
 }
 
-.overlay header {
+.overlay .top {
     top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    img {
-        height: 28px;
-        width: 28px;
-    }
 }
 
-.overlay footer {
-    position: absolute;
+.overlay .top img {
+    height: 32px;
+    width: 32px;
+}
+
+.overlay .bottom {
     bottom: 0;
-    left: 0;
-    right: 0;
     display: flex;
     justify-content: space-between;
-    height: var(--layout-footer-height);
 }
 
-.overlay footer a, .overlay footer p {
-    position: absolute;
-    bottom: 0;
-    width: 512px;
-    height: 16px;
-    text-decoration: none;
-    color: #ffffff;
+.overlay .bottom a {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
 }
-
-.overlay footer a {
-    right: 0;
-    transform-origin: right bottom;
-    transform: rotate(-90deg) translateX(100%) translateY(-40%);
-    pointer-events: fill;
-}
-
-.overlay footer p {
-    left: 0;
-    transform-origin: left bottom;
-    transform: rotate(90deg) translateX(-97%) translateY(-40%);
-    text-align: end;
-}
-
 
 .side-text {
     writing-mode: vertical-rl;
@@ -220,7 +208,7 @@ mark {
     padding-left: var(--spacing-medium);
     padding-right: var(--spacing-medium);
     color: white;
-    mix-blend-mode:exclusion;
+    mix-blend-mode: exclusion;
     font-size: 18px;
     line-height: 1.6;
     width: 64px;
@@ -231,7 +219,7 @@ mark {
 .hero-grid {
     width: 100%;
     height: 100%;
-    position:absolute;
+    position: absolute;
     overflow: hidden;
 }
 
@@ -245,45 +233,62 @@ mark {
 }
 
 .theme-button {
-    opacity: 0.5;
+    opacity: 0.4;
     transition: opacity var(--transition-speed);
     pointer-events: fill;
+    background-color: transparent;
+    color: #ffffff;
 }
 
 .theme-button.active {
     opacity: 1;
 }
 
-.menu {
-    height: 100%;
+.left-menu {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
     position: fixed;
-    right: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: width 0.5s ease;
-    z-index: 999;
+    height: 100%;
+    width: 100%;
+    left: 0;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+    z-index: 999;
+    visibility: hidden;
+    transition: width 0.5s ease, visibility 0s 0.5s;
 }
 
-.menu a {
-    padding: 10px 15px;
+.left-menu-container {
+    height: 100%;
+    width: 0;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    transition: width 0.5s ease;
+    overflow: hidden;
+}
+
+.left-menu-container a {
+    padding: 8px 16px;
     text-decoration: none;
-    font-size: 25px;
-    color: #fff;
-    display: block;
-    transition: opacity 0.3s;
+    color: #ffffffd7;
 }
 
-.menu a:hover {
-    background-color: #575757;
+.left-menu-container a:hover {
+    color: #ffffff;
 }
 
-
-body.menu-open main {
-    transform: translateX(-256px);
+body.left-menu-open .left-menu-container {
+    visibility: visible;
 }
 
-body.menu-open {
-    background-color: rgba(0, 0, 0, 0.4);
+body.left-menu-open .left-menu-container {
+    width: 48px;
+}
+
+body.left-menu-open main {
+    transform: translateX(48px);
 }
