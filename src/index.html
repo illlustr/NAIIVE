@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>NA\\VE</title>
-
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
@@ -25,34 +25,41 @@
     <link rel="stylesheet" href="_storage/css/styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     
-    <script type="module" src="_sad/T-T.js" defer></script>
     <script src="_storage/js/script.js" defer></script>
+    <script src="_storage/js/menu.js" defer></script>
+    <script type="module" src="_sad/T-T.js" defer></script>
 </head>
 <body>
 
-    <div class="side-menu" id="sideMenu">
-        <p>
-            <img src="_storage/img/naiive3_blank.webp" alt="NAIIVE" style="height: 32px;">
-        </p>
-        
-        
-        <a href="#home">\\</a>
-        <a href="#about">\\Project</a>
-        <a href="#about">\\Service</a>
-        <a href="#services">\\Post</a>
-        <a href="#about">\\Merch</a>
-        <a href="#about">\\Information</a>
-        
-        <button id="autoMode" class="theme-button"><i class='bx bxs-adjust-alt'></i> Auto</button>
-        <button id="lightMode" class="theme-button active"><i class='bx bxs-sun'></i> Light</button>
-        <button id="darkMode" class="theme-button"><i class='bx bxs-moon'></i> Dark</button>
-
-        <a href="javascript:void(0)" onclick="toggleMenu()">//</a>
+    <div 😭="overlay"></div>
+    
+    <div class="menu" id="menu">
+        <div style="flex-grow: 1;" href="javascript:void(0)" onclick="closeMenu()"></div>
+        <div>
+            <a href="#home">\\ Home</a>
+            <a href="#about">\\ Project</a>
+            <a href="#about">\\ Service</a>
+            <a href="#services">\\ Post</a>
+            <a href="#about">\\ Merch</a>
+            <a href="#about">\\ Info</a>
+            <a href="javascript:void(0)" onclick="closeMenu()"></a>
+        </div>
+        <div>
+            <button id="autoMode" class="theme-button">
+                <i class='bx bxs-adjust-alt'></i> Auto
+            </button>
+            <button id="lightMode" class="theme-button active">
+                <i class='bx bxs-sun'></i> Light
+            </button>
+            <button id="darkMode" class="theme-button">
+                <i class='bx bxs-moon'></i> Dark
+            </button>
+        </div>
+        <div style="flex-grow: 1;" href="javascript:void(0)" onclick="closeMenu()"></div>
     </div>
 
-    <div 😭="overlay"></div>
 
-    <main>
+    <main id="main">
         <div class="hero-grid"></div> 
 
         <div class="main-full">
@@ -63,6 +70,18 @@
         </div>
 
         <div class="main-full">
+            <div>
+                <div class="diamond">
+                    <h1>At a Glance.</h1>
+                    <p>
+                        We are passionate, independent creatives who love to express ourselves across a wide range of artistic fields and media.<br>
+                        driven by a desire to help and inspire others - blending art, technology, and innovation together.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-full" style="background-color: #2580ff85;">
             <div style="display: grid; gap: 32px;">
                 <h1><i class='bx bx-shocked projects-icon' style="font-size: 32px;"></i> Explore.</h1>
                 <div class="grid-container">
@@ -109,20 +128,11 @@
                         ||./posts/post-1.html
                     </nav>
                 </div>
-                <b><i class='bx bx-dizzy projects-icon'></i> Project & Service.</b>
-                
+                <b>- Project & Service -</b>
             </div>
         </div>
 
-        <div class="main-part" style="background-color: #2580ff85;">
-            <h1>At a Glance.</h1>
-            <p>
-                We are passionate, independent creatives who love to express ourselves across a wide range of artistic fields and media.<br>
-                driven by a desire to help and inspire others - blending art, technology, and innovation together.
-            </p>
-        </div>
-
-        <footer>
+        <footer class="main-part">
             <p>© 2023 NAIIVE. All rights reserved.</p>
         </footer>
 

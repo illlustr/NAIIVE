@@ -231,11 +231,8 @@ mark {
 .hero-grid {
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-grow: 1;
-    position: absolute;
-    margin: 0 auto;
-    z-index: 0;
+    position:absolute;
+    overflow: hidden;
 }
 
 .hero-line {
@@ -248,12 +245,8 @@ mark {
 }
 
 .theme-button {
-    color: white;
-    background-color: transparent;
-    font-size: small;
     opacity: 0.5;
     transition: opacity var(--transition-speed);
-    border-style: none;
     pointer-events: fill;
 }
 
@@ -261,39 +254,36 @@ mark {
     opacity: 1;
 }
 
-.side-menu {
+.menu {
     height: 100%;
-    width: 0;
     position: fixed;
-    top: 0;
     right: 0;
     background-color: #111;
     overflow-x: hidden;
     transition: width 0.5s ease;
-    padding-top: 60px;
     z-index: 999;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
-.side-menu a {
+.menu a {
     padding: 10px 15px;
     text-decoration: none;
     font-size: 25px;
     color: #fff;
     display: block;
-    transition: background-color 0.3s;
+    transition: opacity 0.3s;
 }
 
-.side-menu a:hover {
+.menu a:hover {
     background-color: #575757;
 }
 
 
-body.menu-open .main {
+body.menu-open main {
     transform: translateX(-256px);
 }
 
 body.menu-open {
     background-color: rgba(0, 0, 0, 0.4);
 }
-
