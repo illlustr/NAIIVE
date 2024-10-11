@@ -1,0 +1,105 @@
+.theme-button {
+    opacity: 0.4;
+    transition: opacity 0.5s;
+    pointer-events: fill;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.theme-button.active {
+    opacity: 1;
+}
+
+.menu-left {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 999;
+    visibility: hidden;
+    transition: width 0.5s ease, visibility 0s 0.5s;
+}
+
+.menu-left-container {
+    height: 100%;
+    width: 0;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    transition: width 0.5s ease;
+    overflow: hidden;
+}
+
+.menu-left-container a {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #ffffffd7;
+}
+
+.menu-left-container a:hover {
+    color: #ffffff;
+}
+
+body.menu-left-open .menu-left-container {
+    visibility: visible;
+}
+
+body.menu-left-open .menu-left-container {
+    width: 42px;
+}
+
+body.menu-left-open main {
+    transform: translateX(42px);
+    overflow: hidden;
+}
+
+.menu-right {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    display: flex;
+    overflow: hidden;
+    z-index: 999;
+    visibility: hidden;
+    transition: width 0.5s ease, visibility 0s 0.5s;
+}
+
+.menu-right-container {
+    height: 100%;
+    width: 0;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    transition: width 0.5s ease;
+    overflow: hidden;
+}
+
+.menu-right-container a {
+    text-decoration: none;
+    color: #ffffffd7;
+}
+
+.menu-right-container a:hover {
+    color: #ffffff;
+}
+
+body.menu-right-open .menu-right-container {
+    visibility: visible;
+}
+
+body.menu-right-open .menu-right-container {
+    width: 256px;
+}
+
+body.menu-right-open main {
+    transform: translateX(-256px);
+    overflow: hidden;
+}

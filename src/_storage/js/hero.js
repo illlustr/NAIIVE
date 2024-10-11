@@ -79,14 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     generateLines();
-    window.addEventListener('resize', debounce(generateLines, 100));
+    window.addEventListener('resize', generateLines);
 });
 
-const debounce = (func, delay) => {
-    let timeout;
-    return (...args) => {
-        clearTimeout(timeout);
-        timeout = setTimeout(() => func(...args), delay);
-    };
-};
 // HERO LINE LOGIC END //

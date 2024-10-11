@@ -1,23 +1,44 @@
 // MENU LEFT START //
-function leftMenu() {
-    let menu = document.getElementById("leftMenu");
+function menuLeft() {
+    let menu = document.getElementById("menuLeft");
     if (!menu) {
         console.error("element does not exist.");
         return;
     }
     
-    if (document.body.classList.contains("left-menu-open")) {
+    if (document.body.classList.contains("menu-left-open")) {
         menu.style.width = "0";
-        document.body.classList.remove("left-menu-open");
+        document.body.classList.remove("menu-left-open");
         setTimeout(() => {
             menu.style.visibility = "hidden";
         }, 500); 
     } else {
         menu.style.visibility = "visible"; 
         setTimeout(() => {
-            menu.style.width = "100%"; 
+            menu.style.width = "100vw"; 
         }, 10);
-        document.body.classList.add("left-menu-open");
+        document.body.classList.add("menu-left-open");
+    }
+}
+function menuRight() {
+    let menu = document.getElementById("menuRight");
+    if (!menu) {
+        console.error("element does not exist.");
+        return;
+    }
+    
+    if (document.body.classList.contains("menu-right-open")) {
+        menu.style.width = "0";
+        document.body.classList.remove("menu-right-open");
+        setTimeout(() => {
+            menu.style.visibility = "hidden";
+        }, 500); 
+    } else {
+        menu.style.visibility = "visible"; 
+        setTimeout(() => {
+            menu.style.width = "100vw"; 
+        }, 10);
+        document.body.classList.add("menu-right-open");
     }
 }
 // MENU LEFT END //

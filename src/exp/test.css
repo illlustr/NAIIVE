@@ -1,0 +1,236 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  .house {
+    position: relative;
+    height: 100vh;
+    width: 300p;
+    min-width: calc(300px);
+    max-width: calc(600px);
+    min-height: calc(250px);
+    max-height: calc(430px);
+    background-color: #fff;
+    resize: both;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    container: whole-house / size;
+  }
+  
+  .roof {
+    width: calc(100% - 6px);
+    height: 10px;
+    border: 3px solid #525252;
+      display: flex;
+    justify-content: flex-end;
+  }
+  .roof-2 {
+    width: calc(100% - 15px);
+    height: 5px;
+    border: 3px solid #525252;
+    border-top: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .roof-side {
+    width: 33.33%;
+    border-left: 3px solid #525252;
+    height: 100%;
+    background-color: #dedede;
+  }
+  
+  .walls {
+    display: flex;
+    height: calc(100% - 15px);
+    border: 3px solid #525252;
+    border-top: 0;
+    width: calc(100% - 30px);
+    background: linear-gradient(to right, #fff 66.66%, #f0f0f0 66.66%);
+  }
+  
+  .house-front {
+    width: 66.66%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 3px solid #525252;
+    container: house / size;
+  }
+  
+  .house-side {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    container: house / size;
+  }
+  
+  .floor {
+    display: flex;
+    flex: 1 0 0;
+    padding-top: 30px;
+    width: calc(100% - 60px);
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .house-side .floor {
+    width: calc(100% - 30px);
+    gap: 15px;
+  }
+  
+  .window {
+    border: 3px solid #525252;
+    width: 100%;
+    height: 75px;
+    position: relative;
+    background: linear-gradient(
+      to right,
+      #c4c4c4 7.5px,
+      #525252 7.5px,
+      #525252 10.5px,
+      #f7f7f7 10.5px
+    );
+  }
+  .window::after,
+  .window::before {
+    content: "";
+    width: calc(100% - 30px - 10.5px);
+    border-bottom: 3px solid #525252;
+    position: absolute;
+    top: calc(50% - 1.5px);
+    left: calc(10.5px + 15px);
+  }
+  .window::before {
+    content: "";
+    width: 0;
+    height: calc(100% - 30px);
+    border-right: 3px solid #525252;
+    position: absolute;
+    left: calc(10.5px + ((100% - 10.5px) / 2) - 1.5px);
+    top: 15px;
+  }
+  .house-side .window {
+      background: linear-gradient(
+      to left,
+      #c4c4c4 7.5px,
+      #525252 7.5px,
+      #525252 10.5px,
+      #f7f7f7 10.5px
+    );
+  }
+  .house-side .window::after,
+  .house-side .window::before {
+    width: calc(100% - 15px - 10.5px);
+    left: 7.5px;
+  }
+  .house-side .window::before {
+    width: 0;
+    left: calc(((100% - 10.5px) / 2) - 1.5px);
+  }
+  
+  .door {
+    margin-top: auto;
+    width: 70px;
+    max-height: 100px;
+    height: calc(100% - 6px);
+    border-width: 3px 3px 0 3px;
+    border-style: solid;
+    border-color: #525252;
+    background-color: #dedede;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  
+  .door-side {
+    height: 100%;
+    border-right: 3px solid #525252;
+    width: 10%;
+    background-color: #bfbfbf;
+  }
+  
+  .door-handle {
+    width: 6px;
+    height: 6px;
+    border-width: 3px 0 3px 3px;
+    border-style: solid;
+    border-color: #525252;
+  }
+  
+  .window-floor .window:nth-child(2),
+  .window-floor .window:nth-child(3) {
+    display: none;
+  }
+  .ground-floor .window {
+    height: 60px;
+  }
+  .house-front .ground-floor .window {
+    display: none;
+  }
+  .house-side .ground-floor .window:nth-child(2) {
+    display: none;
+  }
+  .second-floor {
+    display: none;
+  }
+  
+  @container house (min-width: 150px) {
+    .house-side .window-floor .window:nth-child(2) {
+      display: block;
+    }
+    .house-side .ground-floor .window:nth-child(2) {
+      display: block;
+    }
+  }
+  @container house (min-width: 250px) {
+    .window-floor .window:nth-child(2) {
+      display: block;
+    }
+  }
+  @container house (min-width: 350px) {
+    .window-floor .window:nth-child(3) {
+      display: block;
+    }
+    .ground-floor .window {
+      display: block !important;
+    }
+  }
+  @container house (min-width: 500px) {
+    .window-floor .window:nth-child(2) {
+      width: 70px;
+      flex-shrink: 0;
+    }
+  }
+  @container house (min-height: 350px) {
+    .second-floor {
+      display: flex;
+    }
+  }
+  
+  .scale {
+    color: red;
+    position: absolute;
+    right: -13px;
+    font-size: 12px;
+    line-height: 1;
+    height: 10px;
+    top: calc(100% - 40px);
+    transform: rotateZ(-90deg);
+  }
+  @container whole-house (min-width: 301px) {
+    .scale {
+      display: none;
+    }
+  }

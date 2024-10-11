@@ -1,19 +1,16 @@
 <div class="overlay">
     <div class="top">
-        <a onclick="leftMenu()"><img src="_storage/img/naiive3_blank.webp" alt="NAIIVE"></a>
-        <a style="font-size: 32px;" onclick="leftMenu()"><i class='bx bxs-left-arrow'></i></a>
+        <a onclick="menuLeft()"><img src="_storage/img/naiive3_blank.webp" alt="NAIIVE"></a>
+        <a onclick="menuLeft()" class='bx bxs-down-arrow' style="font-size: 20px;"></a>
     </div>
-
     <div class="bottom">
-        <a onclick="leftMenu()">
-            <i class='bx bxs-square'></i>
-            Home
-            <i class='bx bx-left-arrow'></i>
+        <a onclick="menuLeft()" style="display: flex;">
+            <p class='bx bxs-left-arrow'> .</p>
+            <p T-T="0">Homepage</p>
         </a>
-        <a>
-            <i class='bx bx-up-arrow'></i>
-            switch
-            <i class='bx bx-down-arrow'></i>
+        <a onclick="menuRight()" style="display: flex;">
+            <p class='bx bxs-right-arrow'> .</p>
+            <p>index</p>
         </a>
     </div>
 </div>

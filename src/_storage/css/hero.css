@@ -1,0 +1,12 @@
+.side-text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    display: flex;
+    align-items: center;
+    color: white;
+    mix-blend-mode: exclusion;
+    font-size: 18px;
+    pointer-events: none;
+    justify-self: center;
+    position: absolute;
+}
