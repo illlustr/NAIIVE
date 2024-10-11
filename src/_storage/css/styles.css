@@ -11,15 +11,9 @@
     --light-theme-fade: #3333337a;
     --light-theme-fade-invert: #ffffff7a;
 
-    --layout-overlay-width: 98%;
-    --layout-overlay-height: 100%;
-    --layout-overlay-margin-top: -64px;
-    --layout-overlay-margin-bottom: -64px;
     --layout-container-width: 100%;
     --layout-container-height: 100vh;
-    --layout-nav-height: 64px;
-    --layout-footer-height: 512px;
-
+    
     --spacing-small: 8px;
     --spacing-medium: 16px;
     --spacing-large: 32px;
@@ -122,45 +116,6 @@ mark {
     padding: var(--spacing-small);
     margin: var(--spacing-small);
     box-sizing: border-box;
-}
-
-.overlay {
-    position: fixed;
-    width: var(--layout-overlay-width);
-    height: var(--layout-overlay-height);
-    display: flex;
-    padding: 5% 2%;
-    flex-direction: column;
-    justify-content: space-between;
-    scale: 1;
-    mix-blend-mode: exclusion;
-    pointer-events: none;
-    transition: scale var(--transition-speed);
-    z-index: 10;
-    a {
-        color: #ffffff;
-    }
-    .top {
-        top: 0;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0;
-
-        img {
-            height: 32px;
-            width: 32px;
-        }
-    }
-    .bottom {
-        bottom: 0;
-        display: flex;
-        justify-content: space-between;
-        a {
-            writing-mode: vertical-rl;
-            transform: rotate(180deg);
-        }
-    }
 }
 
 .grid-container {

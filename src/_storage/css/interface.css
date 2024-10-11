@@ -1,14 +1,43 @@
-.theme-button {
-    opacity: 0.4;
-    transition: opacity 0.5s;
-    pointer-events: fill;
-    background-color: transparent;
-    color: #ffffff;
+.overlay {
+    position: fixed;
+    width: 98%;
+    height: 100%;
+    display: flex;
+    padding: 5% 2%;
+    flex-direction: column;
+    justify-content: space-between;
+    scale: 1;
+    mix-blend-mode: exclusion;
+    pointer-events: none;
+    transition: scale 1s;
+    z-index: 10;
+    a {
+        color: #ffffff;
+    }
+    .top {
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+
+        img {
+            height: 32px;
+            width: 32px;
+        }
+    }
+    .bottom {
+        bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        a {
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+        }
+    }
 }
 
-.theme-button.active {
-    opacity: 1;
-}
+
 
 .menu-left {
     writing-mode: vertical-lr;
@@ -102,4 +131,17 @@ body.menu-right-open .menu-right-container {
 body.menu-right-open main {
     transform: translateX(-256px);
     overflow: hidden;
+}
+
+
+.theme-button {
+    opacity: 0.4;
+    transition: opacity 0.5s;
+    pointer-events: fill;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.theme-button.active {
+    opacity: 1;
 }
