@@ -1,35 +1,83 @@
-const catched = {};
-async function cat(ch) {
-    if (catched[ch]) { return catched[ch]; }
-    const sad = import.meta.url; const promises = fetch(`${sad.substring(0, sad.lastIndexOf('/'))}/${ch}.html`).then((response) => {
-        if (!response.ok) { throw new Error(`😭 Error catching = ${ch}.html`); } return response.text();
-    });
-    catched[ch] = promises; return promises;
+const cache = new Map();
+
+const FIXED = '||';
+const DYNAMIC = '|+';
+const SPLIT = '|\\';
+
+async function catching(template) {
+    if (cache.has(template)) {
+        return cache.get(template);
+    }
+    
+    const response = await fetch(`${import.meta.url.substring(0, import.meta.url.lastIndexOf('/'))}/${template}.html`);
+    
+    if (!response.ok) {
+        throw new Error(`Error fetching template: ${template}.html (Status: ${response.status})`);
+    }
+    
+    const result = await response.text();
+    cache.set(template, result);
+    return result;
 }
-function turn(th, is) {
-    const dom = new DOMParser(); const doc = dom.parseFromString(is, 'text/html');
-    th.forEach((i, s) => {
-        const id = doc.querySelector(`[T-T="${s}"]`);
-        if (id) {
-            const up = i.trim().replace(/\n/g, '');
-            switch (id.tagName) {
-                case 'IMG': id.src = up; break;
-                case 'A': id.href = up; id.innerHTML = up; break;
-                case 'BUTTON': id.setAttribute('onclick', `window.open('${up}'); return true;`); break;
-                default: id.innerHTML = up; 
+
+function update(element, value) {
+    if (element.tagName === 'IMG') {
+        element.src = value;
+    } else if (['A', 'BUTTON'].includes(element.tagName)) {
+        const [href, innerHTML] = value.split('~').map(item => item?.trim() || '');
+        if (href) {
+            if (element.tagName === 'BUTTON') {
+                element.setAttribute('onclick', `window.open('${href}', '_blank'); return false;`);
+            } else {
+                element.href = href;
             }
         }
-    }); return doc.body.innerHTML;
+        if (innerHTML) {
+            element.innerHTML = innerHTML;
+        }
+    } else {
+        element.innerHTML = value;
+    }
 }
-async function sad() {
-    const pains = document.querySelectorAll('[😭]');
-    const promises = Array.from(pains).map(async (pain) => {
-        const th = pain.innerHTML.trim().split('||');
-        const is = await cat(pain.getAttribute('😭'));
-        pain.outerHTML = turn(th, is);
-    }); await Promise.all(promises);
+
+function populate(fixed, dynamic, template) {
+    const doc = new DOMParser().parseFromString(template, 'text/html');
+
+    fixed.forEach((value, id) => {
+        const element = doc.querySelector(`[T-T="${id}"]`);
+        if (element) {
+            update(element, value.trim().replace(/\n/g, ''));
+        }
+    });
+
+    const holder = doc.querySelector(`[T-T="+"]`);
+    if (holder && dynamic.length > 0) {
+        dynamic.forEach(value => {
+            const newElement = holder.cloneNode(true);
+            update(newElement, value.trim().replace(/\n/g, ''));
+            holder.parentNode.insertBefore(newElement, holder);
+        });
+        holder.remove();
+    }
+    return doc.body.innerHTML;
 }
-window.addEventListener('DOMContentLoaded', sad);
+
+async function initialize() {
+    const elements = document.querySelectorAll('[😭]');
+    const promises = Array.from(elements).map(async (element) => {
+        const values = element.innerHTML.trim();
+        const [fc, dc] = values.split(SPLIT).map(item => item.trim());
+        const fixed = fc.split(FIXED).map(item => item.trim()).filter(Boolean);
+        const dynamic = dc ? dc.split(DYNAMIC).map(item => item.trim()).filter(Boolean) : [];
+        const page = element.getAttribute('😭');
+        const template = await catching(page);
+        element.outerHTML = populate(fixed, dynamic, template);
+    });
+
+    await Promise.all(promises);
+}
+window.addEventListener('DOMContentLoaded', initialize);
+
 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░ Title: Simply Awful Design
 // ░░█▀█░█▀█░█░░░█░░░█░█░█▀▀░░ Act: replace 😭 element with T-T template
 // ░░█░█░█▀█░░▀▄░░▀▄░▀▄▀░█▀▀░░ Cast[ user device ]
