@@ -1,4 +1,4 @@
-// MENU LEFT START //
+// MENU START //
 function menuLeft() {
     let menu = document.getElementById("menuLeft");
     if (!menu) {
@@ -41,7 +41,7 @@ function menuRight() {
         document.body.classList.add("menu-right-open");
     }
 }
-// MENU LEFT END //
+// MENU END //
 
 // THEME START //
 function loadTheme() {
@@ -72,3 +72,16 @@ function setActiveButton(buttonId) {
 }
 document.addEventListener('DOMContentLoaded', loadTheme);
 // THEME END //
+
+let prevState = window.scrollY;
+window.onscroll = function () {
+    let currentState = window.scrollY;
+    if (prevState > currentState) {
+        document.querySelector(".overlay").
+            style.scale = "1";
+    } else {
+        document.querySelector(".overlay").
+            style.scale = "2";
+    }
+    prevState = currentState;
+}

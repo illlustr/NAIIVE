@@ -44,16 +44,6 @@ body, html {
     
 }
 
-body {
-    margin-bottom: 250px;
-    overflow-x: hidden;
-    box-sizing: border-box;
-}
-
-main {
-    transition: transform 0.5s ease;
-}
-
 .main-part,
 .main-full {
     display: grid;
@@ -70,37 +60,9 @@ main {
     min-height: var(--layout-container-height);
 }
 
-
-footer {
-    color: var(--color-text);
-    width: 100%;
-    height: 300px;
-    position: fixed;
-    bottom: 0;
-    z-index: -1;
-}
-
-.bxf {
-    font-family: Arial, Helvetica;
-}
-
-a, button {
-    pointer-events: visible;
-    cursor: pointer;
-}
-
 a {
-    display: inline-block;
     padding: var(--spacing-small) var(--spacing-medium);
     transition: transform var(--transition-speed);
-}
-
-a:hover {
-    transform: scale(1.2);
-}
-
-a:active {
-    transform: scale(0.8);
 }
 
 button {
@@ -141,18 +103,6 @@ mark {
     position: relative;
 }
 
-.card::before, .card::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    box-sizing: border-box;
-    transform-style: preserve-3d;
-    pointer-events: none;
-}
-
 .card::before {
     transform: translateZ(-35px);
     border: 2px solid var(--color-fade);
@@ -166,37 +116,6 @@ mark {
 .card:hover {
     transform: rotateX(0deg) rotateY(0deg);
     right: 0;
-}
-
-.text-card {
-    display: flex;
-    flex-grow: 1;
-    gap: 0;
-    padding: 0;
-    h2 {
-        writing-mode: vertical-rl;
-        transform: rotate(180deg);
-        text-align: center;
-        clear: left;
-    }
-}
-
-.hero-grid {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    overflow: hidden;
-    z-index: 0;
-    opacity: 50%;
-}
-
-.hero-line {
-    width: 8px;
-    height: 2px;
-    background: var(--color-text);
-    position: absolute;
-    transform-origin: center;
-    transition: transform var(--transition-speed);
 }
 
 * {

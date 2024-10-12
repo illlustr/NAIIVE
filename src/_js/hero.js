@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
         line.dataset.currentAngle = newAngle;
 
         const distance = Math.hypot(mouseX - lineX, mouseY - lineY) / 8;
-        line.style.transform = `rotate(${newAngle}deg) scale(${Math.max(0.5, Math.min(distance, Math.random() * 64))})`;
+        line.style.transform = `rotate(${newAngle}deg) scale(${Math.max(0.5, Math.min(distance, Math.random() * 80))})`;
     };
 
     const RandomMouseClick = () => {
