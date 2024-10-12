@@ -1,0 +1,269 @@
+:root {
+    --color-background: #1b1b1b;
+    --color-text: #fff;
+    --color-text-invert: #333;
+    --color-fade: #ffffff7a;
+    --color-fade-invert: #3333337a;
+
+    --light-theme-background: #eaeaea;
+    --light-theme-text: #333;
+    --light-theme-invert: #fff;
+    --light-theme-fade: #3333337a;
+    --light-theme-fade-invert: #ffffff7a;
+
+    --layout-container-width: 100%;
+    --layout-container-height: 100vh;
+
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 32px;
+    --spacing-xlarge: 16px 64px;
+
+    --font-size-base: 16px;
+    --font-size-large: 24px;
+    --font-size-xlarge: 28px;
+
+    --transition-speed: 0.6s;
+}
+.light-theme {
+    --color-background: var(--light-theme-background);
+    --color-text: var(--light-theme-text);
+    --color-text-invert: var(--light-theme-invert);
+    --color-fade: var(--light-theme-fade);
+    --color-fade-invert: var(--light-theme-fade-invert);
+}
+* {
+    box-sizing: border-box;
+}
+body, html {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background-color var(--transition-speed), color var(--transition-speed);
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+body {
+    margin-bottom: 250px;
+    overflow-x: hidden;
+}
+main {
+    transition: transform 0.5s ease;
+}
+footer {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    width: 100%;
+    height: 512px;
+    padding: var(--spacing-xlarge);
+    padding-top: 356px;
+    display: flex;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
+}
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    max-height: 100vh;
+    max-width: 100vw;
+    padding: 40px 24px;
+    display: flex;
+    scale: 1;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: space-between;
+    pointer-events: none;
+    mix-blend-mode: exclusion;
+    transition: scale 0.6s;
+    a {
+        color: #fff;
+        padding: 0;
+        pointer-events:fill;
+        text-decoration: none;
+    }
+    .top {
+        display: flex;
+        justify-content: space-between;
+        img {
+            height: 32px;
+            width: 32px;
+        }
+    }
+    .bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        a {
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+        }
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+}
+.main-part,
+.main-full {
+    display: grid;
+    align-items: center;
+    padding: var(--spacing-xlarge);
+    overflow: hidden;
+    justify-items: center;
+}
+.main-full {
+    min-width: var(--layout-container-width);
+    min-height: var(--layout-container-height);
+    transition: border-radius 0.3s ease;
+}
+a, button {
+    pointer-events: visible;
+    cursor: pointer;
+    display: inline-block;
+}
+a {
+    padding: var(--spacing-small) var(--spacing-medium);
+    transition: transform var(--transition-speed);
+}
+a:hover {
+    transform: scale(1.1);
+}
+button {
+    border: none;
+    background-color: var(--color-text);
+    color: var(--color-background);
+    transition: background-color var(--transition-speed), color var(--transition-speed);
+}
+.menu-left, .menu-right, .menu-up {
+    position: fixed;
+    height: 100%;
+    max-height: 100%;
+    width: 100%;
+    z-index: 999;
+    visibility: hidden;
+    overflow: hidden;
+    display: flex;
+    transition: width 0.5s ease, visibility 0s 0.5s;
+}
+.menu-left {
+    left: 0;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    flex-direction: column;
+}
+.menu-right {
+    right: 0;
+}
+.menu-up {
+    right: 0;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    flex-direction: column;
+}
+.menu-left-container, .menu-right-container, .menu-up-container {
+    height: 100%;
+    width: 0;
+    background-color: #000;
+    display: flex;
+    justify-content: space-evenly;
+    transition: width 0.5s ease;
+    overflow: hidden;
+    a {
+        padding: 8px 16px;
+        text-decoration: none;
+        color: #ffffffd7;
+    }
+    a:hover {
+        color: #fff;
+    }
+}
+.menu-left-container, .menu-up-container {
+    align-items: center;
+    text-align: center;
+}
+.menu-right-container {
+    flex-direction: column;
+}
+
+body.menu-left-open .menu-left-container {
+    visibility: visible;
+    width: 42px;
+}
+body.menu-left-open main {
+    transform: translateX(42px);
+    overflow: hidden;
+}
+body.menu-right-open .menu-right-container {
+    visibility: visible;
+    width: 256px;
+}
+body.menu-up-open .menu-up-container {
+    visibility: visible;
+    width: 48px;
+}
+
+body.menu-up-open main {
+    transform: translateX(-48px);
+    overflow: hidden;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
+    gap: var(--spacing-large);
+    width: 70vw;
+    align-items: center;
+}
+.card {
+    padding-left: var(--spacing-medium);
+    border: 2px solid var(--color-fade);
+    color: var(--color-text);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    right: 0;
+    line-height: 1;
+    position: relative;
+    transform: rotateX(20deg) rotateY(20deg);
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease, right 0.5s ease;
+}
+.card::before,
+.card::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+.card::before {
+    transform: translateZ(-35px);
+    border: 2px solid var(--color-fade);
+}
+.card::after {
+    transform: translateZ(35px);
+    border: 0.5px solid var(--color-fade);
+}
+.card:hover {
+    transform: rotateX(0deg) rotateY(0deg);
+    right: 0;
+}
+.theme-button {
+    opacity: 0.4;
+    transition: opacity 0.5s;
+    pointer-events: fill;
+    background-color: transparent;
+    color: #fff;
+}
+.theme-button.active {
+    opacity: 1;
+}
+.hero-line {
+    background: var(--color-text);
+}

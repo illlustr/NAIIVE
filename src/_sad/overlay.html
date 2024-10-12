@@ -1,16 +1,17 @@
 <div class="overlay">
     <div class="top">
         <a onclick="menuLeft()"><img src="_storage/img/naiive3_blank.webp" alt="NAIIVE"></a>
-        <a onclick="menuLeft()" class='bx bxs-down-arrow bx-flashing' style="font-size: 18px;"></a>
+        <a onclick="menuUp()" class='bx bxs-down-arrow' style="font-size: 24px;"></a>
     </div>
     <div class="bottom">
-        <a onclick="menuLeft()" style="display: flex;">
-            <p class='bx bxs-left-arrow bx-flashing'> .</p>
-            <p T-T="0">Homepage</p>
-        </a>
-        <a onclick="menuRight()" style="display: flex;">
-            <p class='bx bxs-right-arrow bx-flashing'> .</p>
-            <p>Map</p>
-        </a>
+        <div class="container">
+            <a onclick="menuLeft()" T-T="0">Page</a>
+            <a onclick="menuLeft()" class='bx bxs-left-arrow'></a>
+        </div>
+        <div class="container">
+            <a onclick="menuRight()">Map</a>
+            <a onclick="menuRight()" class='bx bxs-right-arrow'></a>
+        </div>
+
     </div>
 </div>

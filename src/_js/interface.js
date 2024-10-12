@@ -1,10 +1,7 @@
 // MENU START //
 function menuLeft() {
     let menu = document.getElementById("menuLeft");
-    if (!menu) {
-        console.error("element does not exist.");
-        return;
-    }
+    if (!menu) { return; }
     
     if (document.body.classList.contains("menu-left-open")) {
         menu.style.width = "0";
@@ -22,10 +19,7 @@ function menuLeft() {
 }
 function menuRight() {
     let menu = document.getElementById("menuRight");
-    if (!menu) {
-        console.error("element does not exist.");
-        return;
-    }
+    if (!menu) { return; }
     
     if (document.body.classList.contains("menu-right-open")) {
         menu.style.width = "0";
@@ -41,6 +35,24 @@ function menuRight() {
         document.body.classList.add("menu-right-open");
     }
 }
+function menuUp() {
+    let menu = document.getElementById("menuUp");
+    if (!menu) { return; }
+    
+    if (document.body.classList.contains("menu-up-open")) {
+        menu.style.width = "0";
+        document.body.classList.remove("menu-up-open");
+        setTimeout(() => {
+            menu.style.visibility = "hidden";
+        }, 500); 
+    } else {
+        menu.style.visibility = "visible"; 
+        setTimeout(() => {
+            menu.style.width = "100vw"; 
+        }, 10);
+        document.body.classList.add("menu-up-open");
+    }
+}
 // MENU END //
 
 // THEME START //
@@ -49,6 +61,7 @@ function loadTheme() {
     setTheme(savedTheme);
 }
 function setTheme(theme) {
+    menuUp()
     document.body.className = ''; 
     if (theme === 'dark') {
         document.body.classList.add('dark-theme');
@@ -62,6 +75,7 @@ function setTheme(theme) {
         setActiveButton('autoMode');
     }
     localStorage.setItem('theme', theme);
+    
 }
 function setActiveButton(buttonId) {
     const buttons = ['darkMode', 'lightMode', 'autoMode'];
@@ -72,7 +86,7 @@ function setActiveButton(buttonId) {
 }
 document.addEventListener('DOMContentLoaded', loadTheme);
 // THEME END //
-
+/*
 let prevState = window.scrollY;
 window.onscroll = function () {
     let currentState = window.scrollY;
@@ -85,3 +99,4 @@ window.onscroll = function () {
     }
     prevState = currentState;
 }
+*/

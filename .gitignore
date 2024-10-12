@@ -7,3 +7,4 @@ resources/
 
 # Directories
 .backup/
+.firebase/

@@ -22,8 +22,20 @@
 .hero-line {
     width: 8px;
     height: 2px;
-    background: #7b7b7b82;
     position: absolute;
     transform-origin: center;
     transition: transform 0.3s;
+    z-index: 0;
+}
+
+.hero-text {
+    color: white;
+    mix-blend-mode: difference;
+    z-index: 1;
+    pointer-events: none;
+    padding: 0;
+    margin: 0;
+    h1 {
+        line-height: 1;
+    }
 }

@@ -1,25 +1,19 @@
 const cache = new Map();
-
 const FIXED = '||';
 const DYNAMIC = '|+';
 const SPLIT = '|\\';
-
 async function catching(template) {
     if (cache.has(template)) {
         return cache.get(template);
     }
-    
     const response = await fetch(`${import.meta.url.substring(0, import.meta.url.lastIndexOf('/'))}/${template}.html`);
-    
     if (!response.ok) {
         throw new Error(`Error fetching template: ${template}.html (Status: ${response.status})`);
     }
-    
     const result = await response.text();
     cache.set(template, result);
     return result;
 }
-
 function update(element, value) {
     if (element.tagName === 'IMG') {
         element.src = value;
@@ -39,17 +33,14 @@ function update(element, value) {
         element.innerHTML = value;
     }
 }
-
 function populate(fixed, dynamic, template) {
     const doc = new DOMParser().parseFromString(template, 'text/html');
-
     fixed.forEach((value, id) => {
         const element = doc.querySelector(`[T-T="${id}"]`);
         if (element) {
             update(element, value.trim().replace(/\n/g, ''));
         }
     });
-
     const holder = doc.querySelector(`[T-T="+"]`);
     if (holder && dynamic.length > 0) {
         dynamic.forEach(value => {
@@ -61,8 +52,7 @@ function populate(fixed, dynamic, template) {
     }
     return doc.body.innerHTML;
 }
-
-async function initialize() {
+async function init() {
     const elements = document.querySelectorAll('[😭]');
     const promises = Array.from(elements).map(async (element) => {
         const values = element.innerHTML.trim();
@@ -76,8 +66,7 @@ async function initialize() {
 
     await Promise.all(promises);
 }
-window.addEventListener('DOMContentLoaded', initialize);
-
+window.addEventListener('DOMContentLoaded', init);
 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░ Title: Simply Awful Design
 // ░░█▀█░█▀█░█░░░█░░░█░█░█▀▀░░ Act: replace 😭 element with T-T template
 // ░░█░█░█▀█░░▀▄░░▀▄░▀▄▀░█▀▀░░ Cast[ user device ]
