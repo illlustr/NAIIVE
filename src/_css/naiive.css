@@ -265,3 +265,18 @@ body.menu-up-open main {
 .hero-line {
     background: var(--color-text);
 }
+.hero-text {
+    pointer-events: none;
+    line-height: 1;
+}
+.hero-text .mark {
+    color: var(--color-text-invert);
+    background-color: var(--color-text);
+    padding:  2px 6px;
+}
+.hero-text h1 {
+    color: transparent;
+    background: linear-gradient(45deg, #3333ff, #00ccff, #00ff9d);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
