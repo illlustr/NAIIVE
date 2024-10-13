@@ -36,7 +36,6 @@
     box-sizing: border-box;
 }
 body, html {
-    background-color: var(--color-background);
     color: var(--color-text);
     font-family: Arial, Helvetica, sans-serif;
     transition: background-color var(--transition-speed), color var(--transition-speed);
@@ -44,25 +43,52 @@ body, html {
     padding: 0;
     gap: 0;
     overflow-x: hidden;
+    background: var(--color-background);
 }
 body {
-    margin-bottom: 250px;
+    margin-bottom: 64px;
 }
 main {
-    transition: transform 0.5s ease;
+    transform-origin: bottom bottom;
+    transition: transform 0.5s ease, padding 0.5s ease, border-radius 0.5s ease;
+    overflow: hidden;
+}
+.main-part,
+.main-full {
+    display: grid;
+    align-items: center;
+    padding: var(--spacing-xlarge);
+    overflow: hidden;
+    justify-items: center;
+}
+.main-full {
+    min-width: var(--layout-container-width);
+    min-height: var(--layout-container-height);
+    transition: border-radius 0.3s ease;
 }
 footer {
     background-color: var(--color-background);
+    height: 80px;
     color: var(--color-text);
-    width: 100%;
-    height: 512px;
     padding: var(--spacing-xlarge);
-    padding-top: 356px;
     display: flex;
-    text-align: center;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+    gap: var(--spacing-small);
     position: fixed;
     bottom: 0;
     z-index: -1;
+    overflow: hidden;
+    width: 100%;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-grow: 1;
+    width: 100%;
 }
 .overlay {
     position: fixed;
@@ -107,19 +133,6 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 4px;
-}
-.main-part,
-.main-full {
-    display: grid;
-    align-items: center;
-    padding: var(--spacing-xlarge);
-    overflow: hidden;
-    justify-items: center;
-}
-.main-full {
-    min-width: var(--layout-container-width);
-    min-height: var(--layout-container-height);
-    transition: border-radius 0.3s ease;
 }
 a, .btn {
     pointer-events: visible;
@@ -222,7 +235,6 @@ body.menu-up-open main {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    right: 0;
     line-height: 1;
     position: relative;
     transform: rotateX(20deg) rotateY(20deg);
@@ -239,18 +251,19 @@ body.menu-up-open main {
     top: 0;
     box-sizing: border-box;
     pointer-events: none;
+    opacity: 50%;
+    border: 2px solid var(--color-fade);
 }
 .card::before {
     transform: translateZ(-35px);
-    border: 2px solid var(--color-fade);
+    
 }
 .card::after {
-    transform: translateZ(35px);
-    border: 0.5px solid var(--color-fade);
+    transform: translateZ(35px);    
 }
 .card:hover {
     transform: rotateX(0deg) rotateY(0deg);
-    right: 0;
+
 }
 .theme-button {
     opacity: 0.4;
