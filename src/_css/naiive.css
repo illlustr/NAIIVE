@@ -43,10 +43,10 @@ body, html {
     margin: 0;
     padding: 0;
     gap: 0;
+    overflow-x: hidden;
 }
 body {
     margin-bottom: 250px;
-    overflow-x: hidden;
 }
 main {
     transition: transform 0.5s ease;
@@ -79,34 +79,34 @@ footer {
     pointer-events: none;
     mix-blend-mode: exclusion;
     transition: scale 0.6s;
-    a {
-        color: #fff;
-        padding: 0;
-        pointer-events:fill;
-        text-decoration: none;
-    }
-    .top {
-        display: flex;
-        justify-content: space-between;
-        img {
-            height: 32px;
-            width: 32px;
-        }
-    }
-    .bottom {
-        display: flex;
-        justify-content: space-between;
-        align-items: end;
-        a {
-            writing-mode: vertical-rl;
-            transform: rotate(180deg);
-        }
-    }
-    .container {
-        display: flex;
-        flex-direction: column;
-        gap: 4px;
-    }
+}
+.overlay a {
+    color: #fff;
+    padding: 0;
+    pointer-events:fill;
+    text-decoration: none;
+}
+.overlay .top {
+    display: flex;
+    justify-content: space-between;
+}
+.overlay .top img {
+    height: 32px;
+    width: 32px;
+}
+.overlay .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.overlay .bottom a {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+.overlay .container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
 .main-part,
 .main-full {
@@ -121,7 +121,7 @@ footer {
     min-height: var(--layout-container-height);
     transition: border-radius 0.3s ease;
 }
-a, button {
+a, .btn {
     pointer-events: visible;
     cursor: pointer;
     display: inline-block;
@@ -133,7 +133,7 @@ a {
 a:hover {
     transform: scale(1.1);
 }
-button {
+.btn {
     border: none;
     background-color: var(--color-text);
     color: var(--color-background);
@@ -173,14 +173,11 @@ button {
     justify-content: space-evenly;
     transition: width 0.5s ease;
     overflow: hidden;
-    a {
-        padding: 8px 16px;
-        text-decoration: none;
-        color: #ffffffd7;
-    }
-    a:hover {
-        color: #fff;
-    }
+}
+.menu-left-container a, .menu-right-container a, .menu-up-container a {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #ffffff;
 }
 .menu-left-container, .menu-up-container {
     align-items: center;
@@ -241,6 +238,7 @@ body.menu-up-open main {
     left: 0;
     top: 0;
     box-sizing: border-box;
+    pointer-events: none;
 }
 .card::before {
     transform: translateZ(-35px);
