@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synth with Integrated Piano</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="synth-container">
+
+    <div class="controls">
+        <label>
+
+            <input type="range" id="waveform" min="0" max="3" step="1">
+        </label>
+        <label>
+
+            <input type="range" id="oscillation" min="1" max="10" step="1">
+        </label>
+    </div>
+
+    <canvas id="waveformCanvas" width="300" height="100"></canvas>
+
+    <div class="piano">
+        <div class="key" data-note="C4"></div>
+        <div class="key black" data-note="C#4"></div>
+        <div class="key" data-note="D4"></div>
+        <div class="key black" data-note="D#4"></div>
+        <div class="key" data-note="E4"></div>
+        <div class="key" data-note="F4"></div>
+        <div class="key black" data-note="F#4"></div>
+        <div class="key" data-note="G4"></div>
+        <div class="key black" data-note="G#4"></div>
+        <div class="key" data-note="A4"></div>
+        <div class="key black" data-note="A#4"></div>
+        <div class="key" data-note="B4"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
